@@ -1,0 +1,777 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "mJU3w7LiKHPBKUALsVD2dj",
+      "projectApiToken": "GT24HRD9RxSWFDvjnVZqFbmBB6yHOiDbRufo8PCsHnCtbw0Hrl4jrpIUOF2rJGM5izyI25D8wUXrrk2UHA",
+      "projectName": "Mavia Sun",
+      "version": "latest",
+      "cssFilePath": "plasmic/mavia_sun/plasmic_mavia_sun.module.css",
+      "components": [
+        {
+          "id": "hTwIlTuynqdQp",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "mJU3w7LiKHPBKUALsVD2dj",
+          "renderModuleFilePath": "plasmic/mavia_sun/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/mavia_sun/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "kodhyUpj2vfND",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "mJU3w7LiKHPBKUALsVD2dj",
+          "renderModuleFilePath": "plasmic/mavia_sun/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/mavia_sun/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "eiUEUByxhG4rD",
+          "name": "Testimonial",
+          "type": "managed",
+          "projectId": "mJU3w7LiKHPBKUALsVD2dj",
+          "renderModuleFilePath": "plasmic/mavia_sun/PlasmicTestimonial.tsx",
+          "importSpec": {
+            "modulePath": "Testimonial.tsx"
+          },
+          "cssFilePath": "plasmic/mavia_sun/PlasmicTestimonial.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "J57A6jCLGpdNw",
+          "name": "CtaBlock",
+          "type": "managed",
+          "projectId": "mJU3w7LiKHPBKUALsVD2dj",
+          "renderModuleFilePath": "plasmic/mavia_sun/PlasmicCtaBlock.tsx",
+          "importSpec": {
+            "modulePath": "CtaBlock.tsx"
+          },
+          "cssFilePath": "plasmic/mavia_sun/PlasmicCtaBlock.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "vxnSGiRcBqvaI",
+          "name": "BlogPosts",
+          "type": "managed",
+          "projectId": "mJU3w7LiKHPBKUALsVD2dj",
+          "renderModuleFilePath": "plasmic/mavia_sun/PlasmicBlogPosts.tsx",
+          "importSpec": {
+            "modulePath": "BlogPosts.tsx"
+          },
+          "cssFilePath": "plasmic/mavia_sun/PlasmicBlogPosts.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ouQsDoISBjQ4g",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "mJU3w7LiKHPBKUALsVD2dj",
+          "renderModuleFilePath": "plasmic/mavia_sun/PlasmicTextInput.tsx",
+          "importSpec": {
+            "modulePath": "TextInput.tsx"
+          },
+          "cssFilePath": "plasmic/mavia_sun/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "2_-2Pb2z0Dz8AC",
+          "name": "Select",
+          "type": "managed",
+          "projectId": "mJU3w7LiKHPBKUALsVD2dj",
+          "renderModuleFilePath": "plasmic/mavia_sun/PlasmicSelect.tsx",
+          "importSpec": {
+            "modulePath": "Select.tsx"
+          },
+          "cssFilePath": "plasmic/mavia_sun/PlasmicSelect.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select"
+        },
+        {
+          "id": "ek7Sa1QCHjTP_l",
+          "name": "Select__Option",
+          "type": "managed",
+          "projectId": "mJU3w7LiKHPBKUALsVD2dj",
+          "renderModuleFilePath": "plasmic/mavia_sun/PlasmicSelect__Option.tsx",
+          "importSpec": {
+            "modulePath": "Select__Option.tsx"
+          },
+          "cssFilePath": "plasmic/mavia_sun/PlasmicSelect__Option.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option"
+        },
+        {
+          "id": "zSm-JUN5OUqScE",
+          "name": "Select__OptionGroup",
+          "type": "managed",
+          "projectId": "mJU3w7LiKHPBKUALsVD2dj",
+          "renderModuleFilePath": "plasmic/mavia_sun/PlasmicSelect__OptionGroup.tsx",
+          "importSpec": {
+            "modulePath": "Select__OptionGroup.tsx"
+          },
+          "cssFilePath": "plasmic/mavia_sun/PlasmicSelect__OptionGroup.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option-group"
+        },
+        {
+          "id": "856NuP2C2v6FDF",
+          "name": "Select__Overlay",
+          "type": "managed",
+          "projectId": "mJU3w7LiKHPBKUALsVD2dj",
+          "renderModuleFilePath": "plasmic/mavia_sun/PlasmicSelect__Overlay.tsx",
+          "importSpec": {
+            "modulePath": "Select__Overlay.tsx"
+          },
+          "cssFilePath": "plasmic/mavia_sun/PlasmicSelect__Overlay.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "triggered-overlay"
+        },
+        {
+          "id": "P_gi-6Q3M_FifT",
+          "name": "Checkbox",
+          "type": "managed",
+          "projectId": "mJU3w7LiKHPBKUALsVD2dj",
+          "renderModuleFilePath": "plasmic/mavia_sun/PlasmicCheckbox.tsx",
+          "importSpec": {
+            "modulePath": "Checkbox.tsx"
+          },
+          "cssFilePath": "plasmic/mavia_sun/PlasmicCheckbox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "checkbox"
+        },
+        {
+          "id": "ClkWjwrU0-vYn8",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "mJU3w7LiKHPBKUALsVD2dj",
+          "renderModuleFilePath": "plasmic/mavia_sun/PlasmicHeader.tsx",
+          "importSpec": {
+            "modulePath": "Header.tsx"
+          },
+          "cssFilePath": "plasmic/mavia_sun/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ayAaR3NYyZ-kRT",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "mJU3w7LiKHPBKUALsVD2dj",
+          "renderModuleFilePath": "plasmic/mavia_sun/PlasmicFooter.tsx",
+          "importSpec": {
+            "modulePath": "Footer.tsx"
+          },
+          "cssFilePath": "plasmic/mavia_sun/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ptkmiNbGzpy1yv",
+          "name": "Header2",
+          "type": "managed",
+          "projectId": "mJU3w7LiKHPBKUALsVD2dj",
+          "renderModuleFilePath": "plasmic/mavia_sun/PlasmicHeader2.tsx",
+          "importSpec": {
+            "modulePath": "Header2.tsx"
+          },
+          "cssFilePath": "plasmic/mavia_sun/PlasmicHeader2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "gib5IgK6rWAYJZ",
+          "name": "HeroSection",
+          "type": "managed",
+          "projectId": "mJU3w7LiKHPBKUALsVD2dj",
+          "renderModuleFilePath": "plasmic/mavia_sun/PlasmicHeroSection.tsx",
+          "importSpec": {
+            "modulePath": "HeroSection.tsx"
+          },
+          "cssFilePath": "plasmic/mavia_sun/PlasmicHeroSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "GPII4fC9bhF",
+          "name": "BlogPost",
+          "type": "managed",
+          "projectId": "mJU3w7LiKHPBKUALsVD2dj",
+          "renderModuleFilePath": "plasmic/mavia_sun/PlasmicBlogPost.tsx",
+          "importSpec": {
+            "modulePath": "BlogPost.tsx"
+          },
+          "cssFilePath": "plasmic/mavia_sun/PlasmicBlogPost.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "ZNnQiOQA-EMqaf",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/mavia_sun/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "CzXEhqLtaA5P__",
+          "name": "ArrowRightsvgIcon",
+          "moduleFilePath": "plasmic/mavia_sun/icons/PlasmicIcon__ArrowRightsvg.tsx"
+        },
+        {
+          "id": "68acRc5zAJNd4_",
+          "name": "TwitterIconsvgIcon",
+          "moduleFilePath": "plasmic/mavia_sun/icons/PlasmicIcon__TwitterIconsvg.tsx"
+        },
+        {
+          "id": "ujVjvHs027m15K",
+          "name": "LinkedinIconsvgIcon",
+          "moduleFilePath": "plasmic/mavia_sun/icons/PlasmicIcon__LinkedinIconsvg.tsx"
+        },
+        {
+          "id": "ltZwmlp6-hQBYM",
+          "name": "GithubIconsvgIcon",
+          "moduleFilePath": "plasmic/mavia_sun/icons/PlasmicIcon__GithubIconsvg.tsx"
+        },
+        {
+          "id": "KXR4GuP4o6y6tG",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/mavia_sun/icons/PlasmicIcon__Searchsvg.tsx"
+        },
+        {
+          "id": "xTl1q2WjETbC-g",
+          "name": "ChevronDownsvgIcon",
+          "moduleFilePath": "plasmic/mavia_sun/icons/PlasmicIcon__ChevronDownsvg.tsx"
+        },
+        {
+          "id": "B3viFwcDwwy5ZZ",
+          "name": "ChevronUpsvgIcon",
+          "moduleFilePath": "plasmic/mavia_sun/icons/PlasmicIcon__ChevronUpsvg.tsx"
+        },
+        {
+          "id": "_G08W1CDnp4xhK",
+          "name": "SquaresvgIcon",
+          "moduleFilePath": "plasmic/mavia_sun/icons/PlasmicIcon__Squaresvg.tsx"
+        },
+        {
+          "id": "gi4NB_N0BJDEwy",
+          "name": "SquareCheckFilledsvgIcon",
+          "moduleFilePath": "plasmic/mavia_sun/icons/PlasmicIcon__SquareCheckFilledsvg.tsx"
+        },
+        {
+          "id": "2-H_z_KvG17Ece",
+          "name": "SquareMinussvgIcon",
+          "moduleFilePath": "plasmic/mavia_sun/icons/PlasmicIcon__SquareMinussvg.tsx"
+        },
+        {
+          "id": "fWPYZaM-mj8JHU",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/mavia_sun/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "Ap601f2wXMr97n",
+          "name": "Icon17Icon",
+          "moduleFilePath": "plasmic/mavia_sun/icons/PlasmicIcon__Icon17.tsx"
+        },
+        {
+          "id": "I7qqoYuK1J8WF_",
+          "name": "Icon16Icon",
+          "moduleFilePath": "plasmic/mavia_sun/icons/PlasmicIcon__Icon16.tsx"
+        },
+        {
+          "id": "0_rFUzPiFhHxDK",
+          "name": "Icon14Icon",
+          "moduleFilePath": "plasmic/mavia_sun/icons/PlasmicIcon__Icon14.tsx"
+        },
+        {
+          "id": "Cewv2Dk6uirjD-",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/mavia_sun/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "e_IPgIyOvB",
+          "name": "LogoDarksvgIcon",
+          "moduleFilePath": "plasmic/mavia_sun/icons/PlasmicIcon__LogoDarksvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "O3bYPhPCU3_hci",
+          "name": "3_thumb.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/_3Thumbjpg.jpeg"
+        },
+        {
+          "id": "zVxztqP1lRBWYQ",
+          "name": "9_thumb.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/_9Thumbjpg.jpeg"
+        },
+        {
+          "id": "m48ue1C1glQ4mM",
+          "name": "10_thumb.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/_10Thumbjpg.jpeg"
+        },
+        {
+          "id": "UmoG4WFMsBCXhF",
+          "name": "review1.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/review1Jpg.jpeg"
+        },
+        {
+          "id": "1iIgFCPtz-JyO-",
+          "name": "feature1.png",
+          "filePath": "../public/plasmic/mavia_sun/images/feature1Png.png"
+        },
+        {
+          "id": "3ZdZvO7bLY1MiE",
+          "name": "feature2.png",
+          "filePath": "../public/plasmic/mavia_sun/images/feature2Png.png"
+        },
+        {
+          "id": "ia_-XLnuWjkaeT",
+          "name": "feature3.png",
+          "filePath": "../public/plasmic/mavia_sun/images/feature3Png.png"
+        },
+        {
+          "id": "vbdqJXxx8HXtcD",
+          "name": "hero.png",
+          "filePath": "../public/plasmic/mavia_sun/images/heropng.png"
+        },
+        {
+          "id": "NnRUEu9KoQF84G",
+          "name": "logo.svg",
+          "filePath": "../public/plasmic/mavia_sun/images/logosvg.svg"
+        },
+        {
+          "id": "DDE3MDxIwijG3i",
+          "name": "logo-alt.svg",
+          "filePath": "../public/plasmic/mavia_sun/images/logoAltsvg.svg"
+        },
+        {
+          "id": "AkNp_NRxvnv6VW",
+          "name": "about.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/aboutjpg.jpeg"
+        },
+        {
+          "id": "yiO91b71CqFsr0",
+          "name": "11.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/_11Jpg.jpeg"
+        },
+        {
+          "id": "H8hQWMwCzhAEL4",
+          "name": "img1.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/img1Jpg.jpeg"
+        },
+        {
+          "id": "w9Ozgf1doYdC1J",
+          "name": "img2.png",
+          "filePath": "../public/plasmic/mavia_sun/images/img2Png.png"
+        },
+        {
+          "id": "kv3uDr1w1FoRhB",
+          "name": "1_mk1-6aYaf_Bes1E3Imhc0A.jpeg",
+          "filePath": "../public/plasmic/mavia_sun/images/_1Mk16AYafBes1E3Imhc0Ajpeg.jpeg"
+        },
+        {
+          "id": "kkXWFQHGmcONhE",
+          "name": "istockphoto-1306171737-170667a.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/istockphoto1306171737170667Ajpg.jpeg"
+        },
+        {
+          "id": "BZzJJJykvT7EhE",
+          "name": "moon_flag_aldrin_apollo11_600x500.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/moonFlagAldrinApollo11600X500Jpg.jpeg"
+        },
+        {
+          "id": "HtOOf8zUjwujH2",
+          "name": "yiguNG.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/yiguNGjpg.jpeg"
+        },
+        {
+          "id": "wN9nQGFhBN6bqo",
+          "name": "download.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/downloadjpg.jpeg"
+        },
+        {
+          "id": "5VQGTB9w-WX3Az",
+          "name": "Lanier_MP_9003_In_Office_Beauty_Shot_6-862x575.jpeg",
+          "filePath": "../public/plasmic/mavia_sun/images/lanierMp9003InOfficeBeautyShot6862X575Jpeg.jpeg"
+        },
+        {
+          "id": "ZcyNaQWUhIlViZ",
+          "name": "yiguNG.jpg 2",
+          "filePath": "../public/plasmic/mavia_sun/images/yiguNGjpg2.jpeg"
+        },
+        {
+          "id": "Cktxdl8YrLGu8R",
+          "name": "img1.jpg 2",
+          "filePath": "../public/plasmic/mavia_sun/images/img1Jpg2.jpeg"
+        },
+        {
+          "id": "Yx0Oc1wM6wvFX6",
+          "name": "download.jpg 2",
+          "filePath": "../public/plasmic/mavia_sun/images/downloadjpg2.jpeg"
+        },
+        {
+          "id": "Aap9kNeefQ7ItM",
+          "name": "moon_flag_aldrin_apollo11_600x500.jpg 2",
+          "filePath": "../public/plasmic/mavia_sun/images/moonFlagAldrinApollo11600X500Jpg2.jpeg"
+        },
+        {
+          "id": "VcW9ybunxH5GmD",
+          "name": "istockphoto-1306171737-170667a.jpg 2",
+          "filePath": "../public/plasmic/mavia_sun/images/istockphoto1306171737170667Ajpg2.jpeg"
+        },
+        {
+          "id": "q1CZp309-WZ3Hh",
+          "name": "img2.png 2",
+          "filePath": "../public/plasmic/mavia_sun/images/img2Png2.png"
+        },
+        {
+          "id": "ZFUO7KdU3wPLrZ",
+          "name": "1_mk1-6aYaf_Bes1E3Imhc0A.jpeg 2",
+          "filePath": "../public/plasmic/mavia_sun/images/_1Mk16AYafBes1E3Imhc0Ajpeg2.jpeg"
+        },
+        {
+          "id": "0dcLufKOxPM9EP",
+          "name": "11.jpg 2",
+          "filePath": "../public/plasmic/mavia_sun/images/_11Jpg2.jpeg"
+        },
+        {
+          "id": "go1QPfVIticoGd",
+          "name": "about.jpg 2",
+          "filePath": "../public/plasmic/mavia_sun/images/aboutjpg2.jpeg"
+        },
+        {
+          "id": "c5M3qV0Y9OIWaD",
+          "name": "logo.svg 2",
+          "filePath": "../public/plasmic/mavia_sun/images/logosvg2.svg"
+        },
+        {
+          "id": "hAElYCpZ52znDk",
+          "name": "logo.svg 3",
+          "filePath": "../public/plasmic/mavia_sun/images/logosvg3.svg"
+        },
+        {
+          "id": "dm5zJhyiwbF1jf",
+          "name": "istockphoto-1149316189-612x612.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/istockphoto1149316189612X612Jpg.jpeg"
+        },
+        {
+          "id": "pwjQSwlZgUleM9",
+          "name": "website-maintenance-services-elementsofts.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/websiteMaintenanceServicesElementsoftsjpg.jpeg"
+        },
+        {
+          "id": "ROydUBV-jQ2tze",
+          "name": "fakurian-design-pPTw_RTkvXQ-unsplash.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/fakurianDesignPPTwRTkvXqUnsplashjpg.jpeg"
+        },
+        {
+          "id": "ZFfNr084iwTHFU",
+          "name": "fakurian-design-LfbhDPH3-qY-unsplash.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/fakurianDesignLfbhDph3QYUnsplashjpg.jpeg"
+        },
+        {
+          "id": "V4AnPzMAk0fyD5",
+          "name": "log-azimuth.svg",
+          "filePath": "../public/plasmic/mavia_sun/images/logAzimuthsvg.svg"
+        },
+        {
+          "id": "LTmAQFaWQrcXn2",
+          "name": "about-img.png",
+          "filePath": "../public/plasmic/mavia_sun/images/aboutImgpng.png"
+        },
+        {
+          "id": "-oo39vJ147T2xq",
+          "name": "parallax-01.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/parallax01Jpg.jpeg"
+        },
+        {
+          "id": "VsIm5BwFKL2-2G",
+          "name": "case7.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/case7Jpg.jpeg"
+        },
+        {
+          "id": "RJVea8rw-eY44o",
+          "name": "about-2.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/about2Jpg.jpeg"
+        },
+        {
+          "id": "YnQlsuPMregkNf",
+          "name": "about-img (1).png",
+          "filePath": "../public/plasmic/mavia_sun/images/aboutImg1Png.png"
+        },
+        {
+          "id": "bakIMYJHveQ4d1",
+          "name": "about-img2.png",
+          "filePath": "../public/plasmic/mavia_sun/images/aboutImg2Png.png"
+        },
+        {
+          "id": "WwGd1MYNrm2i9P",
+          "name": "about-video-img2.png",
+          "filePath": "../public/plasmic/mavia_sun/images/aboutVideoImg2Png.png"
+        },
+        {
+          "id": "S1kTHy7Ys7Xj7X",
+          "name": "work-team1.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/workTeam1Jpg.jpeg"
+        },
+        {
+          "id": "SGAQrZz9vlbpaB",
+          "name": "download.jpg 3",
+          "filePath": "../public/plasmic/mavia_sun/images/downloadjpg3.jpeg"
+        },
+        {
+          "id": "4nfLMIac1nLVIA",
+          "name": "images.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/imagesjpg.jpeg"
+        },
+        {
+          "id": "6MpJWpmHYETf4A",
+          "name": "download (1).jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/download1Jpg.jpeg"
+        },
+        {
+          "id": "qXNBx2NDWlIVf-",
+          "name": "small.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/smalljpg.jpeg"
+        },
+        {
+          "id": "q2rPcv7vkSwUJG",
+          "name": "thumb_avatar_1583758683.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/thumbAvatar1583758683Jpg.jpeg"
+        },
+        {
+          "id": "eQime8jLuRNNxZ",
+          "name": "Shannon-160x160-circle.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/shannon160X160Circlejpg.jpeg"
+        },
+        {
+          "id": "CnltMlxTWB4HKp",
+          "name": "me.png",
+          "filePath": "../public/plasmic/mavia_sun/images/mepng.png"
+        },
+        {
+          "id": "0lZZsfF-qEyKWP",
+          "name": "blog01-390x290.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/blog01390X290Jpg.jpeg"
+        },
+        {
+          "id": "21Jn-ayzrIg7y8",
+          "name": "blog4-390x290.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/blog4390X290Jpg.jpeg"
+        },
+        {
+          "id": "EY5aoDna6lVK7Z",
+          "name": "blog-2-390x290.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/blog2390X290Jpg.jpeg"
+        },
+        {
+          "id": "nB26uqFxj9hARf",
+          "name": "log-azimuth.svg 2",
+          "filePath": "../public/plasmic/mavia_sun/images/logAzimuthsvg2.svg"
+        },
+        {
+          "id": "58k7YtK458DENm",
+          "name": "log-azimuth.svg 3",
+          "filePath": "../public/plasmic/mavia_sun/images/logAzimuthsvg3.svg"
+        },
+        {
+          "id": "iD_TYTpmHnKMWI",
+          "name": "log-azimuth-logo.svg",
+          "filePath": "../public/plasmic/mavia_sun/images/logAzimuthLogosvg.svg"
+        },
+        {
+          "id": "dc3adTKT8Irh5F",
+          "name": "blog-2-390x290.jpg 2",
+          "filePath": "../public/plasmic/mavia_sun/images/blog2390X290Jpg2.jpeg"
+        },
+        {
+          "id": "uZsO2nJ6q44k9A",
+          "name": "blog4-390x290.jpg 2",
+          "filePath": "../public/plasmic/mavia_sun/images/blog4390X290Jpg2.jpeg"
+        },
+        {
+          "id": "GiTCv3U_v_b0uI",
+          "name": "blog01-390x290.jpg 2",
+          "filePath": "../public/plasmic/mavia_sun/images/blog01390X290Jpg2.jpeg"
+        },
+        {
+          "id": "hnGq9hXqIPnzTc",
+          "name": "home-thumb-04-640x432.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/homeThumb04640X432Jpg.jpeg"
+        },
+        {
+          "id": "tvh-iUtm_bowVB",
+          "name": "reading-925589_1920.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/reading9255891920Jpg.jpeg"
+        },
+        {
+          "id": "7cXd0RVyBb5gQn",
+          "name": "slider05.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/slider05Jpg.jpeg"
+        },
+        {
+          "id": "3IGy1W8R7hyEfv",
+          "name": "about-video-img2.png 2",
+          "filePath": "../public/plasmic/mavia_sun/images/aboutVideoImg2Png2.png"
+        },
+        {
+          "id": "WpEJcq1r5GO8IW",
+          "name": "xps-ocAuPlfZXEc-unsplash.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/xpsOcAuPlfZxEcUnsplashjpg.jpeg"
+        },
+        {
+          "id": "svVy0gyOho6-7z",
+          "name": "microsoft-edge-4QKqDeAZf-c-unsplash.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/microsoftEdge4QKqDeAZfCUnsplashjpg.jpeg"
+        },
+        {
+          "id": "FfaTS66_93mC6N",
+          "name": "microsoft-edge-FAaz8lkinzs-unsplash.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/microsoftEdgeFAaz8LkinzsUnsplashjpg.jpeg"
+        },
+        {
+          "id": "QcLGy8bm5Oelje",
+          "name": "stephen-phillips-hostreviews-co-uk-3Mhgvrk4tjM-unsplash.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/stephenPhillipsHostreviewsCoUk3Mhgvrk4TjMUnsplashjpg.jpeg"
+        },
+        {
+          "id": "NNcNq2FJG3KSB3",
+          "name": "corinne-kutz-tMI2_-r5Nfo-unsplash.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/corinneKutzTMi2R5NfoUnsplashjpg.jpeg"
+        },
+        {
+          "id": "ekiYA2oYL56bj1",
+          "name": "neonbrand-3GZNPBLImWc-unsplash.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/neonbrand3GznpblImWcUnsplashjpg.jpeg"
+        },
+        {
+          "id": "QhXNQHY_i8XJAY",
+          "name": "tiffany-tertipes-nxcs8wwj9J0-unsplash.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/tiffanyTertipesNxcs8Wwj9J0Unsplashjpg.jpeg"
+        },
+        {
+          "id": "blG86q-eJ4p3la",
+          "name": "green-chameleon-s9CC2SKySJM-unsplash.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/greenChameleonS9Cc2SKySjmUnsplashjpg.jpeg"
+        },
+        {
+          "id": "nxdoHb3lPGtPb0",
+          "name": "william-hook-9e9PD9blAto-unsplash.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/williamHook9E9Pd9BlAtoUnsplashjpg.jpeg"
+        },
+        {
+          "id": "oll3rPWcxe4MGK",
+          "name": "brooke-cagle-WHWYBmtn3_0-unsplash.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/brookeCagleWhwyBmtn30Unsplashjpg.jpeg"
+        },
+        {
+          "id": "w3DCVcqSb",
+          "name": "hero_image.png",
+          "filePath": "../public/plasmic/mavia_sun/images/heroImagepng.png"
+        },
+        {
+          "id": "msjbX0LID",
+          "name": "base_1.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/base1Jpg.jpeg"
+        },
+        {
+          "id": "B8eGhDxS3",
+          "name": "base_2.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/base2Jpg.jpeg"
+        },
+        {
+          "id": "tBkGcr5n5",
+          "name": "base_3.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/base3Jpg.jpeg"
+        },
+        {
+          "id": "eXx5_U52K",
+          "name": "base_4.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/base4Jpg.jpeg"
+        },
+        {
+          "id": "wg-0Cuos4",
+          "name": "item_3.png",
+          "filePath": "../public/plasmic/mavia_sun/images/item3Png.png"
+        },
+        {
+          "id": "AyTF8HZcC",
+          "name": "item_5.png",
+          "filePath": "../public/plasmic/mavia_sun/images/item5Png.png"
+        },
+        {
+          "id": "p3mibJD21",
+          "name": "item_4.png",
+          "filePath": "../public/plasmic/mavia_sun/images/item4Png.png"
+        },
+        {
+          "id": "G7dT6k_WI",
+          "name": "3472.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/_3472Jpg.jpeg"
+        },
+        {
+          "id": "JcZBwpf-w",
+          "name": "vecteezy_abstract-modern-banner-design-blue-gradient-with-liquid-wave_6488976.jpg",
+          "filePath": "../public/plasmic/mavia_sun/images/vecteezyAbstractModernBannerDesignBlueGradientWithLiquidWave6488976Jpg.jpeg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "ohuKUq66y5rscr",
+        "name": "Screen",
+        "projectId": "mJU3w7LiKHPBKUALsVD2dj",
+        "contextFilePath": "plasmic/mavia_sun/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.175",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.175/dist/plasmic.schema.json"
+}
