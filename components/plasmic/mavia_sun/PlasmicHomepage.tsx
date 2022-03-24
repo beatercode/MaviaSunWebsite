@@ -367,12 +367,6 @@ function PlasmicHomepage__RenderFunc(props: {
                                     "mobileOnly"
                                   )
                                     ? ("110px" as const)
-                                    : hasVariant(
-                                        globalVariants,
-                                        "screen",
-                                        "ipadOnly"
-                                      )
-                                    ? ("300px" as const)
                                     : ("400px" as const)
                                 }
                                 displayMaxHeight={"none" as const}
@@ -386,12 +380,6 @@ function PlasmicHomepage__RenderFunc(props: {
                                     "mobileOnly"
                                   )
                                     ? ("110px" as const)
-                                    : hasVariant(
-                                        globalVariants,
-                                        "screen",
-                                        "ipadOnly"
-                                      )
-                                    ? ("300px" as const)
                                     : ("400px" as const)
                                 }
                                 loading={"lazy" as const}
@@ -439,12 +427,6 @@ function PlasmicHomepage__RenderFunc(props: {
                                     "mobileOnly"
                                   )
                                     ? ("110px" as const)
-                                    : hasVariant(
-                                        globalVariants,
-                                        "screen",
-                                        "ipadOnly"
-                                      )
-                                    ? ("300px" as const)
                                     : ("400px" as const)
                                 }
                                 displayMaxHeight={"none" as const}
@@ -458,12 +440,6 @@ function PlasmicHomepage__RenderFunc(props: {
                                     "mobileOnly"
                                   )
                                     ? ("110px" as const)
-                                    : hasVariant(
-                                        globalVariants,
-                                        "screen",
-                                        "ipadOnly"
-                                      )
-                                    ? ("300px" as const)
                                     : ("400px" as const)
                                 }
                                 loading={"lazy" as const}
@@ -616,7 +592,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h5__gVuiG
                           )}
                         >
-                          {"Tizi a caso"}
+                          {"Content Guys"}
                         </h5>
 
                         <div

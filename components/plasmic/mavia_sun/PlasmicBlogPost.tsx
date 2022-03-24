@@ -648,7 +648,11 @@ function PlasmicBlogPost__RenderFunc(props: {
                   <p.PlasmicImg
                     alt={""}
                     className={classNames(sty.img__xhMwj)}
-                    displayHeight={"100%" as const}
+                    displayHeight={
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? ("644px" as const)
+                        : ("100%" as const)
+                    }
                     displayMaxHeight={"none" as const}
                     displayMaxWidth={"100%" as const}
                     displayMinHeight={"0" as const}
@@ -719,7 +723,11 @@ function PlasmicBlogPost__RenderFunc(props: {
                   <p.PlasmicImg
                     alt={""}
                     className={classNames(sty.img__gbMyJ)}
-                    displayHeight={"100%" as const}
+                    displayHeight={
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? ("423px" as const)
+                        : ("100%" as const)
+                    }
                     displayMaxHeight={"none" as const}
                     displayMaxWidth={"100%" as const}
                     displayMinHeight={"0" as const}
