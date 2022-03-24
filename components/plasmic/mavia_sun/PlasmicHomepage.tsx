@@ -64,7 +64,7 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
-  header2?: p.Flex<typeof Header2>;
+  mainHeader?: p.Flex<typeof Header2>;
   h1?: p.Flex<"h1">;
   imageBox?: p.Flex<"div">;
   mainArticles?: p.Flex<typeof BlogPosts>;
@@ -130,9 +130,9 @@ function PlasmicHomepage__RenderFunc(props: {
             <div className={classNames(projectcss.all, sty.freeBox__pLeWm)}>
               <div className={classNames(projectcss.all, sty.freeBox__rk3Sg)}>
                 <Header2
-                  data-plasmic-name={"header2"}
-                  data-plasmic-override={overrides.header2}
-                  className={classNames("__wab_instance", sty.header2)}
+                  data-plasmic-name={"mainHeader"}
+                  data-plasmic-override={overrides.mainHeader}
+                  className={classNames("__wab_instance", sty.mainHeader)}
                 />
 
                 <div className={classNames(projectcss.all, sty.freeBox__unOuN)}>
@@ -178,7 +178,7 @@ function PlasmicHomepage__RenderFunc(props: {
                         >
                           {hasVariant(globalVariants, "screen", "mobileOnly")
                             ? "Esplora, Tilta, Shoppa"
-                            : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut ."}
+                            : "Esplora, Tilta, Shoppa"}
                         </div>
 
                         <Button
@@ -195,6 +195,7 @@ function PlasmicHomepage__RenderFunc(props: {
                               role={"img"}
                             />
                           }
+                          shape={"rounded" as const}
                         >
                           {"Get started"}
                         </Button>
@@ -244,7 +245,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.h2___54HrM
                     )}
                   >
-                    {"Value propositions headline."}
+                    {"Main values of our Team"}
                   </h2>
 
                   <div
@@ -255,7 +256,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     )}
                   >
                     {
-                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. \nLorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                      "Non male persuasystem 2.0. Sembra di parlare con un venditore, però per il resto ha del contenuto molto valido"
                     }
                   </div>
 
@@ -315,7 +316,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                 )}
                               >
                                 {
-                                  "Our team is constantly posting new content every day."
+                                  "Our team is constantly posting new content every day.\nBy the way, BeaterFit is the best adc euw on Wild Rift.\nNo matter what."
                                 }
                               </div>
 
@@ -359,19 +360,48 @@ function PlasmicHomepage__RenderFunc(props: {
                               <p.PlasmicImg
                                 alt={""}
                                 className={classNames(sty.img__cer72)}
-                                displayHeight={"400px" as const}
+                                displayHeight={
+                                  hasVariant(
+                                    globalVariants,
+                                    "screen",
+                                    "mobileOnly"
+                                  )
+                                    ? ("110px" as const)
+                                    : hasVariant(
+                                        globalVariants,
+                                        "screen",
+                                        "ipadOnly"
+                                      )
+                                    ? ("300px" as const)
+                                    : ("400px" as const)
+                                }
                                 displayMaxHeight={"none" as const}
                                 displayMaxWidth={"none" as const}
                                 displayMinHeight={"0" as const}
                                 displayMinWidth={"0" as const}
-                                displayWidth={"400px" as const}
+                                displayWidth={
+                                  hasVariant(
+                                    globalVariants,
+                                    "screen",
+                                    "mobileOnly"
+                                  )
+                                    ? ("110px" as const)
+                                    : hasVariant(
+                                        globalVariants,
+                                        "screen",
+                                        "ipadOnly"
+                                      )
+                                    ? ("300px" as const)
+                                    : ("400px" as const)
+                                }
                                 loading={"lazy" as const}
                                 src={{
-                                  src: "/plasmic/mavia_sun/images/corinneKutzTMi2R5NfoUnsplashjpg.jpeg",
-                                  fullWidth: 1920,
-                                  fullHeight: 1280,
+                                  src: "/plasmic/mavia_sun/images/logoRedpng.png",
+                                  fullWidth: 366,
+                                  fullHeight: 357,
                                   aspectRatio: undefined
                                 }}
+                                style={"" as const}
                               />
                             </div>
                           ) : null}
@@ -402,17 +432,45 @@ function PlasmicHomepage__RenderFunc(props: {
                               <p.PlasmicImg
                                 alt={""}
                                 className={classNames(sty.img__zutd5)}
-                                displayHeight={"400px" as const}
+                                displayHeight={
+                                  hasVariant(
+                                    globalVariants,
+                                    "screen",
+                                    "mobileOnly"
+                                  )
+                                    ? ("110px" as const)
+                                    : hasVariant(
+                                        globalVariants,
+                                        "screen",
+                                        "ipadOnly"
+                                      )
+                                    ? ("300px" as const)
+                                    : ("400px" as const)
+                                }
                                 displayMaxHeight={"none" as const}
                                 displayMaxWidth={"none" as const}
                                 displayMinHeight={"0" as const}
                                 displayMinWidth={"0" as const}
-                                displayWidth={"400px" as const}
+                                displayWidth={
+                                  hasVariant(
+                                    globalVariants,
+                                    "screen",
+                                    "mobileOnly"
+                                  )
+                                    ? ("110px" as const)
+                                    : hasVariant(
+                                        globalVariants,
+                                        "screen",
+                                        "ipadOnly"
+                                      )
+                                    ? ("300px" as const)
+                                    : ("400px" as const)
+                                }
                                 loading={"lazy" as const}
                                 src={{
-                                  src: "/plasmic/mavia_sun/images/tiffanyTertipesNxcs8Wwj9J0Unsplashjpg.jpeg",
-                                  fullWidth: 1920,
-                                  fullHeight: 1280,
+                                  src: "/plasmic/mavia_sun/images/logoRedpng.png",
+                                  fullWidth: 366,
+                                  fullHeight: 357,
                                   aspectRatio: undefined
                                 }}
                               />
@@ -448,7 +506,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                       sty.h3___2AZs7
                                     )}
                                   >
-                                    {"Some value proposition of your service."}
+                                    {"Altre cose per elevarci a best team"}
                                   </h3>
 
                                   <div
@@ -459,7 +517,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     )}
                                   >
                                     {
-                                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                                      "Cioè. Cazzo. Siamo dei mostri. Un sito di cristo che con il content adatto, non può che farci avere la prima posizione in classifica. \nEasy win."
                                     }
                                   </div>
 
@@ -718,7 +776,7 @@ function PlasmicHomepage__RenderFunc(props: {
 const PlasmicDescendants = {
   root: [
     "root",
-    "header2",
+    "mainHeader",
     "h1",
     "imageBox",
     "mainArticles",
@@ -735,7 +793,7 @@ const PlasmicDescendants = {
     "heroSection",
     "footer"
   ],
-  header2: ["header2"],
+  mainHeader: ["mainHeader"],
   h1: ["h1"],
   imageBox: ["imageBox"],
   mainArticles: ["mainArticles"],
@@ -772,7 +830,7 @@ type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  header2: typeof Header2;
+  mainHeader: typeof Header2;
   h1: "h1";
   imageBox: "div";
   mainArticles: typeof BlogPosts;
@@ -847,7 +905,7 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    header2: makeNodeComponent("header2"),
+    mainHeader: makeNodeComponent("mainHeader"),
     h1: makeNodeComponent("h1"),
     imageBox: makeNodeComponent("imageBox"),
     mainArticles: makeNodeComponent("mainArticles"),

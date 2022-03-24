@@ -48,16 +48,13 @@
   padding: 0px;
   margin: 0px 0px 2.5em;
 }
-.columns > :nth-child(3n + 1) {
-  width: calc((100% - 3 * 0px) * 4 / 12);
+.columns > :nth-child(2n + 1) {
+  width: calc((100% - 2 * 0px) * 6 / 12);
 }
-.columns > :nth-child(3n + 2) {
-  width: calc((100% - 3 * 0px) * 4 / 12);
+.columns > :nth-child(2n + 2) {
+  width: calc((100% - 2 * 0px) * 6 / 12);
 }
-.columns > :nth-child(3n + 3) {
-  width: calc((100% - 3 * 0px) * 4 / 12);
-}
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 600px) {
   .columns {
     width: 100%;
     height: auto;
@@ -67,7 +64,7 @@
     margin: 0px 0px 1.5em;
   }
 }
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 600px) {
   .columns > :nth-child(1n + 1) {
     width: calc((100% - 1 * 0px) * 12 / 12);
   }
@@ -118,7 +115,7 @@
   color: var(--token-4DHMt0QiPKjZuh);
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 600px) {
   .text__uaLa2 {
     margin-top: calc(0px + 17px) !important;
     margin-right: 0px;
@@ -139,9 +136,9 @@
   border-left-style: solid;
   border-left-color: var(--token-4DHMt0QiPKjZuh);
   min-width: 0;
-  padding: 0px 40px;
+  padding: 0px 40px 0px 429px;
 }
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 600px) {
   .column___9PQtA {
     padding: 0px 8px;
   }
@@ -153,7 +150,7 @@
   align-self: auto;
   margin: 0px 0px 0.75em;
 }
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 600px) {
   .link__nkshl {
     margin: 0px 0px 1.5em;
   }
@@ -163,25 +160,6 @@
   color: var(--token-4DHMt0QiPKjZuh);
   align-self: auto;
   margin: 0px 0px 0.75em;
-}
-.column___9W1Dn {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  justify-content: flex-start;
-  align-items: flex-start;
-  border-left-style: solid;
-  border-left-color: var(--token-4DHMt0QiPKjZuh);
-  min-width: 0;
-  padding: 0px 8px 0px 0px;
-}
-@media (min-width: 0px) and (max-width: 767px) {
-  .column___9W1Dn {
-    padding: 0px 8px;
-  }
 }
 .footerBottom {
   display: flex;
@@ -196,7 +174,7 @@
   padding: 0em 15px 25px;
   border-top: 1px solid #4c526766;
 }
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 600px) {
   .footerBottom {
     padding: 0em 15px 2em;
   }

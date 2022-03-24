@@ -199,7 +199,7 @@ function PlasmicBlogPosts__RenderFunc(props: {
             <p.PlasmicImg
               alt={""}
               className={classNames(sty.img__krmij)}
-              displayHeight={"230px" as const}
+              displayHeight={"285px" as const}
               displayMaxHeight={"none" as const}
               displayMaxWidth={"100%" as const}
               displayMinHeight={"0" as const}

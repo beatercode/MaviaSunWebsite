@@ -28,7 +28,7 @@
 .columns > :nth-child(1n + 1) {
   width: calc((100% - 1 * 0px) * 12 / 12);
 }
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 600px) {
   .columns {
     width: 100%;
     height: auto;
@@ -37,7 +37,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 600px) {
   .columns > :nth-child(1n + 1) {
     width: calc((100% - 1 * 0px) * 12 / 12);
   }
@@ -66,7 +66,7 @@
   text-align: center;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 600px) {
   .h2 {
     padding: 0px;
   }

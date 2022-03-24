@@ -100,6 +100,478 @@ function PlasmicBlogPost__RenderFunc(props: {
             className={classNames(projectcss.all, sty.columns__kRyiJ)}
           >
             <div className={classNames(projectcss.all, sty.column__e5O3T)}>
+              <h2
+                className={classNames(
+                  projectcss.all,
+                  projectcss.h2,
+                  projectcss.__wab_text,
+                  sty.h2___4Mdsx
+                )}
+              >
+                {hasVariant(globalVariants, "screen", "mobileOnly")
+                  ? "Twitter"
+                  : "Twitter"}
+              </h2>
+
+              <div className={classNames(projectcss.all, sty.columns__lZuVn)}>
+                <div className={classNames(projectcss.all, sty.column__beixP)}>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__vbUr)}
+                    displayHeight={"100%" as const}
+                    displayMaxHeight={"none" as const}
+                    displayMaxWidth={"100%" as const}
+                    displayMinHeight={"0" as const}
+                    displayMinWidth={"0" as const}
+                    displayWidth={"100%" as const}
+                    loading={"lazy" as const}
+                    src={{
+                      src: "/plasmic/mavia_sun/images/_1RpuANoIAgwdy2X3UGeAgjpeg.png",
+                      fullWidth: 1280,
+                      fullHeight: 720,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+
+                <div className={classNames(projectcss.all, sty.column__pspLl)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__liTu5)}
+                  >
+                    <h4
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h4,
+                        projectcss.__wab_text,
+                        sty.h4__omBmV
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "Customer Loyalty Programs That Stick"
+                        : "Blog heading dummy"}
+                    </h4>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__w6WqO
+                      )}
+                    >
+                      {
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
+                      }
+                    </div>
+
+                    <Button
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button___1XnFd
+                      )}
+                      color={"blue" as const}
+                      endIcon={
+                        <ArrowRightsvgIcon
+                          className={classNames(
+                            projectcss.all,
+                            sty.svg___8YPn8
+                          )}
+                          role={"img"}
+                        />
+                      }
+                      shape={"rounded" as const}
+                      showEndIcon={true}
+                    >
+                      {"Read post"}
+                    </Button>
+                  </div>
+                </div>
+              </div>
+
+              <div className={classNames(projectcss.all, sty.columns__eYdq3)}>
+                <div className={classNames(projectcss.all, sty.column__eVXy)}>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img___39ZWt)}
+                    displayHeight={"100%" as const}
+                    displayMaxHeight={"none" as const}
+                    displayMaxWidth={"100%" as const}
+                    displayMinHeight={"0" as const}
+                    displayMinWidth={"0" as const}
+                    displayWidth={"100%" as const}
+                    loading={"lazy" as const}
+                    src={{
+                      src: "/plasmic/mavia_sun/images/_16CMjpy3P7OsmuEgQrVakwjpeg.png",
+                      fullWidth: 1024,
+                      fullHeight: 576,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+
+                <div className={classNames(projectcss.all, sty.column__x3Oi5)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox___4CG22)}
+                  >
+                    <h4
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h4,
+                        projectcss.__wab_text,
+                        sty.h4___684DJ
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "Customer Loyalty Programs That Stick"
+                        : "Blog heading dummy"}
+                    </h4>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__bItzY
+                      )}
+                    >
+                      {
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
+                      }
+                    </div>
+
+                    <Button
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button__lEx61
+                      )}
+                      color={"blue" as const}
+                      endIcon={
+                        <ArrowRightsvgIcon
+                          className={classNames(
+                            projectcss.all,
+                            sty.svg___4Rjfi
+                          )}
+                          role={"img"}
+                        />
+                      }
+                      shape={"rounded" as const}
+                      showEndIcon={true}
+                    >
+                      {"Read post"}
+                    </Button>
+                  </div>
+                </div>
+              </div>
+
+              <div className={classNames(projectcss.all, sty.columns__zpHVw)}>
+                <div className={classNames(projectcss.all, sty.column__xccjF)}>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__c3Sy3)}
+                    displayHeight={"100%" as const}
+                    displayMaxHeight={"none" as const}
+                    displayMaxWidth={"100%" as const}
+                    displayMinHeight={"0" as const}
+                    displayMinWidth={"0" as const}
+                    displayWidth={"100%" as const}
+                    loading={"lazy" as const}
+                    src={{
+                      src: "/plasmic/mavia_sun/images/_1ElxyokWQdHaV6SbgmGygAjpeg.png",
+                      fullWidth: 1024,
+                      fullHeight: 540,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+
+                <div className={classNames(projectcss.all, sty.column___8VpyS)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__zv1ZI)}
+                  >
+                    <h4
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h4,
+                        projectcss.__wab_text,
+                        sty.h4__wruqw
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "Customer Loyalty Programs That Stick"
+                        : "Blog heading dummy"}
+                    </h4>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__tasi
+                      )}
+                    >
+                      {
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
+                      }
+                    </div>
+
+                    <Button
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button__pHjhr
+                      )}
+                      color={"blue" as const}
+                      endIcon={
+                        <ArrowRightsvgIcon
+                          className={classNames(projectcss.all, sty.svg__rxS9J)}
+                          role={"img"}
+                        />
+                      }
+                      shape={"rounded" as const}
+                      showEndIcon={true}
+                    >
+                      {"Read post"}
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className={classNames(projectcss.all, sty.column__nxKv)}>
+              <h2
+                className={classNames(
+                  projectcss.all,
+                  projectcss.h2,
+                  projectcss.__wab_text,
+                  sty.h2__hDlzg
+                )}
+              >
+                {hasVariant(globalVariants, "screen", "mobileOnly")
+                  ? "Medium"
+                  : "Medium"}
+              </h2>
+
+              <div className={classNames(projectcss.all, sty.columns___5Z9Rm)}>
+                <div className={classNames(projectcss.all, sty.column__yhNjU)}>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__bkSxF)}
+                    displayHeight={"100%" as const}
+                    displayMaxHeight={"none" as const}
+                    displayMaxWidth={"100%" as const}
+                    displayMinHeight={"0" as const}
+                    displayMinWidth={"0" as const}
+                    displayWidth={"100%" as const}
+                    loading={"lazy" as const}
+                    src={{
+                      src: "/plasmic/mavia_sun/images/_1ENwbBn30OuDnORapRRivewpng.png",
+                      fullWidth: 1024,
+                      fullHeight: 576,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+
+                <div className={classNames(projectcss.all, sty.column__hXmMo)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__xnuTu)}
+                  >
+                    <h4
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h4,
+                        projectcss.__wab_text,
+                        sty.h4__v0OFa
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "Customer Loyalty Programs That Stick"
+                        : "Blog heading dummy"}
+                    </h4>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___7ZhwN
+                      )}
+                    >
+                      {
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
+                      }
+                    </div>
+
+                    <Button
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button__gqVev
+                      )}
+                      color={"blue" as const}
+                      endIcon={
+                        <ArrowRightsvgIcon
+                          className={classNames(projectcss.all, sty.svg__ri3A6)}
+                          role={"img"}
+                        />
+                      }
+                      shape={"rounded" as const}
+                      showEndIcon={true}
+                    >
+                      {"Read post"}
+                    </Button>
+                  </div>
+                </div>
+              </div>
+
+              <div className={classNames(projectcss.all, sty.columns__lt7Ut)}>
+                <div className={classNames(projectcss.all, sty.column__gmZz6)}>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__eGmBp)}
+                    displayHeight={"100%" as const}
+                    displayMaxHeight={"none" as const}
+                    displayMaxWidth={"100%" as const}
+                    displayMinHeight={"0" as const}
+                    displayMinWidth={"0" as const}
+                    displayWidth={"100%" as const}
+                    loading={"lazy" as const}
+                    src={{
+                      src: "/plasmic/mavia_sun/images/_1Hun3L2XdnsmrCjVv459Fgjpeg.png",
+                      fullWidth: 1400,
+                      fullHeight: 787,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+
+                <div className={classNames(projectcss.all, sty.column__drwem)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__yq7Yv)}
+                  >
+                    <h4
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h4,
+                        projectcss.__wab_text,
+                        sty.h4__eBeOg
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "Customer Loyalty Programs That Stick"
+                        : "Blog heading dummy"}
+                    </h4>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___4SeNn
+                      )}
+                    >
+                      {
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
+                      }
+                    </div>
+
+                    <Button
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button__wat8U
+                      )}
+                      color={"blue" as const}
+                      endIcon={
+                        <ArrowRightsvgIcon
+                          className={classNames(projectcss.all, sty.svg__nqLtE)}
+                          role={"img"}
+                        />
+                      }
+                      shape={"rounded" as const}
+                      showEndIcon={true}
+                    >
+                      {"Read post"}
+                    </Button>
+                  </div>
+                </div>
+              </div>
+
+              <div className={classNames(projectcss.all, sty.columns__hn6K)}>
+                <div className={classNames(projectcss.all, sty.column__pdHs7)}>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__yMt9X)}
+                    displayHeight={"100%" as const}
+                    displayMaxHeight={"none" as const}
+                    displayMaxWidth={"100%" as const}
+                    displayMinHeight={"0" as const}
+                    displayMinWidth={"0" as const}
+                    displayWidth={"100%" as const}
+                    loading={"lazy" as const}
+                    src={{
+                      src: "/plasmic/mavia_sun/images/base1Jpg2.jpeg",
+                      fullWidth: 500,
+                      fullHeight: 327,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+
+                <div className={classNames(projectcss.all, sty.column__gkcjM)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__mVay)}
+                  >
+                    <h4
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h4,
+                        projectcss.__wab_text,
+                        sty.h4__msRiz
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "Customer Loyalty Programs That Stick"
+                        : "Blog heading dummy"}
+                    </h4>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___4QDe0
+                      )}
+                    >
+                      {
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
+                      }
+                    </div>
+
+                    <Button
+                      className={classNames("__wab_instance", sty.button__udSn)}
+                      color={"blue" as const}
+                      endIcon={
+                        <ArrowRightsvgIcon
+                          className={classNames(projectcss.all, sty.svg__c7Ngp)}
+                          role={"img"}
+                        />
+                      }
+                      shape={"rounded" as const}
+                      showEndIcon={true}
+                    >
+                      {"Read post"}
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className={classNames(projectcss.all, sty.column__w5Xl4)}>
+              <h2
+                className={classNames(
+                  projectcss.all,
+                  projectcss.h2,
+                  projectcss.__wab_text,
+                  sty.h2__zWdx
+                )}
+              >
+                {hasVariant(globalVariants, "screen", "mobileOnly")
+                  ? "Others"
+                  : "Other"}
+              </h2>
+
               <div className={classNames(projectcss.all, sty.columns__fq8D)}>
                 <div className={classNames(projectcss.all, sty.column___82Yls)}>
                   <p.PlasmicImg
@@ -113,9 +585,9 @@ function PlasmicBlogPost__RenderFunc(props: {
                     displayWidth={"100%" as const}
                     loading={"lazy" as const}
                     src={{
-                      src: "/plasmic/mavia_sun/images/istockphoto1306171737170667Ajpg2.jpeg",
-                      fullWidth: 509,
-                      fullHeight: 340,
+                      src: "/plasmic/mavia_sun/images/_1F4P43SsLnMrknYfg9Mqqgjpeg.png",
+                      fullWidth: 1280,
+                      fullHeight: 675,
                       aspectRatio: undefined
                     }}
                   />
@@ -170,14 +642,12 @@ function PlasmicBlogPost__RenderFunc(props: {
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div className={classNames(projectcss.all, sty.column__nxKv)}>
-              <div className={classNames(projectcss.all, sty.columns__ksb72)}>
-                <div className={classNames(projectcss.all, sty.column___1DwGi)}>
+              <div className={classNames(projectcss.all, sty.columns__qj3WC)}>
+                <div className={classNames(projectcss.all, sty.column__ekxZu)}>
                   <p.PlasmicImg
                     alt={""}
-                    className={classNames(sty.img__cTkOc)}
+                    className={classNames(sty.img__xhMwj)}
                     displayHeight={"100%" as const}
                     displayMaxHeight={"none" as const}
                     displayMaxWidth={"100%" as const}
@@ -186,24 +656,24 @@ function PlasmicBlogPost__RenderFunc(props: {
                     displayWidth={"100%" as const}
                     loading={"lazy" as const}
                     src={{
-                      src: "/plasmic/mavia_sun/images/istockphoto1306171737170667Ajpg2.jpeg",
-                      fullWidth: 509,
-                      fullHeight: 340,
+                      src: "/plasmic/mavia_sun/images/aboutImg2Png.png",
+                      fullWidth: 569,
+                      fullHeight: 614,
                       aspectRatio: undefined
                     }}
                   />
                 </div>
 
-                <div className={classNames(projectcss.all, sty.column___4XyiA)}>
+                <div className={classNames(projectcss.all, sty.column___79M7L)}>
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__jf0Gs)}
+                    className={classNames(projectcss.all, sty.freeBox__jzHtW)}
                   >
                     <h4
                       className={classNames(
                         projectcss.all,
                         projectcss.h4,
                         projectcss.__wab_text,
-                        sty.h4__c0Toj
+                        sty.h4__zKy2M
                       )}
                     >
                       {hasVariant(globalVariants, "screen", "mobileOnly")
@@ -215,7 +685,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__sIJz5
+                        sty.text__cg9Q3
                       )}
                     >
                       {
@@ -226,12 +696,83 @@ function PlasmicBlogPost__RenderFunc(props: {
                     <Button
                       className={classNames(
                         "__wab_instance",
-                        sty.button__nx3Gj
+                        sty.button__sPslY
                       )}
                       color={"blue" as const}
                       endIcon={
                         <ArrowRightsvgIcon
-                          className={classNames(projectcss.all, sty.svg__l1Im7)}
+                          className={classNames(projectcss.all, sty.svg__xtNcz)}
+                          role={"img"}
+                        />
+                      }
+                      shape={"rounded" as const}
+                      showEndIcon={true}
+                    >
+                      {"Read post"}
+                    </Button>
+                  </div>
+                </div>
+              </div>
+
+              <div className={classNames(projectcss.all, sty.columns__r1Cot)}>
+                <div className={classNames(projectcss.all, sty.column__k80Un)}>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__gbMyJ)}
+                    displayHeight={"100%" as const}
+                    displayMaxHeight={"none" as const}
+                    displayMaxWidth={"100%" as const}
+                    displayMinHeight={"0" as const}
+                    displayMinWidth={"0" as const}
+                    displayWidth={"100%" as const}
+                    loading={"lazy" as const}
+                    src={{
+                      src: "/plasmic/mavia_sun/images/istockphoto1149316189612X612Jpg.jpeg",
+                      fullWidth: 612,
+                      fullHeight: 481,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+
+                <div className={classNames(projectcss.all, sty.column__c3E92)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__kgM4Z)}
+                  >
+                    <h4
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h4,
+                        projectcss.__wab_text,
+                        sty.h4__erQdQ
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "Customer Loyalty Programs That Stick"
+                        : "Blog heading dummy"}
+                    </h4>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__oGfcS
+                      )}
+                    >
+                      {
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
+                      }
+                    </div>
+
+                    <Button
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button__e3LCv
+                      )}
+                      color={"blue" as const}
+                      endIcon={
+                        <ArrowRightsvgIcon
+                          className={classNames(projectcss.all, sty.svg__c99Rq)}
                           role={"img"}
                         />
                       }
@@ -244,513 +785,6 @@ function PlasmicBlogPost__RenderFunc(props: {
                 </div>
               </div>
             </div>
-
-            <div className={classNames(projectcss.all, sty.column__tj8BM)}>
-              <div className={classNames(projectcss.all, sty.columns__ymXSs)}>
-                <div className={classNames(projectcss.all, sty.column__qv83T)}>
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__kb7J)}
-                    displayHeight={"100%" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"100%" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/mavia_sun/images/fakurianDesignPPTwRTkvXqUnsplashjpg.jpeg",
-                      fullWidth: 1920,
-                      fullHeight: 1280,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-
-                <div className={classNames(projectcss.all, sty.column__kcj5Z)}>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__kdEor)}
-                  >
-                    <h4
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h4,
-                        projectcss.__wab_text,
-                        sty.h4__uHbf
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? "Customer Loyalty Programs That Stick"
-                        : "Blog heading dummy"}
-                    </h4>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__usZx2
-                      )}
-                    >
-                      {
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
-                      }
-                    </div>
-
-                    <Button
-                      className={classNames(
-                        "__wab_instance",
-                        sty.button__jVcxw
-                      )}
-                      color={"blue" as const}
-                      endIcon={
-                        <ArrowRightsvgIcon
-                          className={classNames(projectcss.all, sty.svg__mrmmK)}
-                          role={"img"}
-                        />
-                      }
-                      shape={"rounded" as const}
-                      showEndIcon={true}
-                    >
-                      {"Learn more"}
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className={classNames(projectcss.all, sty.column__kCDiX)}>
-              <div className={classNames(projectcss.all, sty.columns__wEpVh)}>
-                <div className={classNames(projectcss.all, sty.column__twMli)}>
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__nDzr)}
-                    displayHeight={"100%" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"100%" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/mavia_sun/images/fakurianDesignLfbhDph3QYUnsplashjpg.jpeg",
-                      fullWidth: 1920,
-                      fullHeight: 1080,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-
-                <div className={classNames(projectcss.all, sty.column__sy02W)}>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__mrCwc)}
-                  >
-                    <h4
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h4,
-                        projectcss.__wab_text,
-                        sty.h4__kmmYh
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? "Customer Loyalty Programs That Stick"
-                        : "Blog heading dummy"}
-                    </h4>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__yg7AG
-                      )}
-                    >
-                      {
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
-                      }
-                    </div>
-
-                    <Button
-                      className={classNames("__wab_instance", sty.button__t5F0)}
-                      color={"blue" as const}
-                      endIcon={
-                        <ArrowRightsvgIcon
-                          className={classNames(projectcss.all, sty.svg__ntLsi)}
-                          role={"img"}
-                        />
-                      }
-                      shape={"rounded" as const}
-                      showEndIcon={true}
-                    >
-                      {"Learn more"}
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className={classNames(projectcss.all, sty.column__gr5VI)}>
-              <div className={classNames(projectcss.all, sty.columns___9NxGi)}>
-                <div className={classNames(projectcss.all, sty.column__gxe6M)}>
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__lze3A)}
-                    displayHeight={"100%" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"100%" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/mavia_sun/images/xpsOcAuPlfZxEcUnsplashjpg.jpeg",
-                      fullWidth: 640,
-                      fullHeight: 360,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-
-                <div className={classNames(projectcss.all, sty.column__bqn60)}>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox___1ZNj5)}
-                  >
-                    <h4
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h4,
-                        projectcss.__wab_text,
-                        sty.h4__vqNmL
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? "Customer Loyalty Programs That Stick"
-                        : "Blog heading dummy"}
-                    </h4>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__hItp
-                      )}
-                    >
-                      {
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
-                      }
-                    </div>
-
-                    <Button
-                      className={classNames(
-                        "__wab_instance",
-                        sty.button___8AlEb
-                      )}
-                      color={"blue" as const}
-                      endIcon={
-                        <ArrowRightsvgIcon
-                          className={classNames(projectcss.all, sty.svg__im19T)}
-                          role={"img"}
-                        />
-                      }
-                      shape={"rounded" as const}
-                      showEndIcon={true}
-                    >
-                      {"Learn more"}
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className={classNames(projectcss.all, sty.column___6CTjQ)}>
-              <div className={classNames(projectcss.all, sty.columns__qbHQ)}>
-                <div className={classNames(projectcss.all, sty.column__zTnM6)}>
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__dm8Au)}
-                    displayHeight={"100%" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"100%" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/mavia_sun/images/corinneKutzTMi2R5NfoUnsplashjpg.jpeg",
-                      fullWidth: 1920,
-                      fullHeight: 1280,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-
-                <div className={classNames(projectcss.all, sty.column___21N8A)}>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__qWqPs)}
-                  >
-                    <h4
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h4,
-                        projectcss.__wab_text,
-                        sty.h4__hbPE
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? "Customer Loyalty Programs That Stick"
-                        : "Blog heading dummy"}
-                    </h4>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__arcQh
-                      )}
-                    >
-                      {
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
-                      }
-                    </div>
-
-                    <Button
-                      className={classNames(
-                        "__wab_instance",
-                        sty.button__vIq4T
-                      )}
-                      color={"blue" as const}
-                      endIcon={
-                        <ArrowRightsvgIcon
-                          className={classNames(projectcss.all, sty.svg__kEkhs)}
-                          role={"img"}
-                        />
-                      }
-                      shape={"rounded" as const}
-                      showEndIcon={true}
-                    >
-                      {"Learn more"}
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className={classNames(projectcss.all, sty.column__hMGiq)}>
-              <div className={classNames(projectcss.all, sty.columns__rvJcU)}>
-                <div className={classNames(projectcss.all, sty.column__csNW)}>
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__xSYry)}
-                    displayHeight={"100%" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"100%" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/mavia_sun/images/stephenPhillipsHostreviewsCoUk3Mhgvrk4TjMUnsplashjpg.jpeg",
-                      fullWidth: 1920,
-                      fullHeight: 1280,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-
-                <div className={classNames(projectcss.all, sty.column__zvwQ)}>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__d9IE3)}
-                  >
-                    <h4
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h4,
-                        projectcss.__wab_text,
-                        sty.h4__lldGl
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? "Customer Loyalty Programs That Stick"
-                        : "Blog heading dummy"}
-                    </h4>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__cdiXy
-                      )}
-                    >
-                      {
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
-                      }
-                    </div>
-
-                    <Button
-                      className={classNames("__wab_instance", sty.button__e8Ah)}
-                      color={"blue" as const}
-                      endIcon={
-                        <ArrowRightsvgIcon
-                          className={classNames(projectcss.all, sty.svg__kNs6W)}
-                          role={"img"}
-                        />
-                      }
-                      shape={"rounded" as const}
-                      showEndIcon={true}
-                    >
-                      {"Learn more"}
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className={classNames(projectcss.all, sty.column___1J2J)}>
-              <div className={classNames(projectcss.all, sty.columns___2BNmy)}>
-                <div className={classNames(projectcss.all, sty.column___0Ct0U)}>
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__lNHo)}
-                    displayHeight={"100%" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"100%" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/mavia_sun/images/neonbrand3GznpblImWcUnsplashjpg.jpeg",
-                      fullWidth: 1920,
-                      fullHeight: 1280,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-
-                <div className={classNames(projectcss.all, sty.column__zBfo5)}>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__cbdIg)}
-                  >
-                    <h4
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h4,
-                        projectcss.__wab_text,
-                        sty.h4__qxR22
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? "Customer Loyalty Programs That Stick"
-                        : "Blog heading dummy"}
-                    </h4>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text___8F7NU
-                      )}
-                    >
-                      {
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
-                      }
-                    </div>
-
-                    <Button
-                      className={classNames(
-                        "__wab_instance",
-                        sty.button__l2Up8
-                      )}
-                      color={"blue" as const}
-                      endIcon={
-                        <ArrowRightsvgIcon
-                          className={classNames(projectcss.all, sty.svg__c0Zpf)}
-                          role={"img"}
-                        />
-                      }
-                      shape={"rounded" as const}
-                      showEndIcon={true}
-                    >
-                      {"Learn more"}
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className={classNames(projectcss.all, sty.column___39T5D)}>
-              <div className={classNames(projectcss.all, sty.columns__mJnMr)}>
-                <div className={classNames(projectcss.all, sty.column__iepHg)}>
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img___4Hr2)}
-                    displayHeight={"100%" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"100%" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/mavia_sun/images/neonbrand3GznpblImWcUnsplashjpg.jpeg",
-                      fullWidth: 1920,
-                      fullHeight: 1280,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-
-                <div className={classNames(projectcss.all, sty.column__pjNrY)}>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__mSoAq)}
-                  >
-                    <h4
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h4,
-                        projectcss.__wab_text,
-                        sty.h4___3FdW
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? "Customer Loyalty Programs That Stick"
-                        : "Blog heading dummy"}
-                    </h4>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__jlGl
-                      )}
-                    >
-                      {
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
-                      }
-                    </div>
-
-                    <Button
-                      className={classNames(
-                        "__wab_instance",
-                        sty.button__vNnhu
-                      )}
-                      color={"blue" as const}
-                      endIcon={
-                        <ArrowRightsvgIcon
-                          className={classNames(projectcss.all, sty.svg__j8Q79)}
-                          role={"img"}
-                        />
-                      }
-                      shape={"rounded" as const}
-                      showEndIcon={true}
-                    >
-                      {"Learn more"}
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className={classNames(projectcss.all, sty.column__dVxFd)} />
           </p.Stack>
         </div>
       </div>

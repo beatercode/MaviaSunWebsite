@@ -157,8 +157,6 @@ function PlasmicFooter__RenderFunc(props: {
                 {"Blog"}
               </p.PlasmicLink>
             </div>
-
-            <div className={classNames(projectcss.all, sty.column___9W1Dn)} />
           </div>
         </div>
       </div>

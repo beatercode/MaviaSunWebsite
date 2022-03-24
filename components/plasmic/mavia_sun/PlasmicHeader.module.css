@@ -34,7 +34,7 @@
   width: 100%;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 600px) {
   .header2:global(.__wab_instance) {
     position: relative;
     top: auto;

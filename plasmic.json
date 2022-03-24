@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -751,6 +751,56 @@
           "id": "JcZBwpf-w",
           "name": "vecteezy_abstract-modern-banner-design-blue-gradient-with-liquid-wave_6488976.jpg",
           "filePath": "../public/plasmic/mavia_sun/images/vecteezyAbstractModernBannerDesignBlueGradientWithLiquidWave6488976Jpg.jpeg"
+        },
+        {
+          "id": "VsHyXJYTx",
+          "name": "scpzk0M.png",
+          "filePath": "../public/plasmic/mavia_sun/images/scpzk0Mpng.png"
+        },
+        {
+          "id": "1InjHk6fg",
+          "name": "base_1.jpg 2",
+          "filePath": "../public/plasmic/mavia_sun/images/base1Jpg2.jpeg"
+        },
+        {
+          "id": "cdtHLn-_o",
+          "name": "1__rpuANoIAgwdy2X3U_geAg.jpeg",
+          "filePath": "../public/plasmic/mavia_sun/images/_1RpuANoIAgwdy2X3UGeAgjpeg.png"
+        },
+        {
+          "id": "rrIkoC6Be",
+          "name": "1_6cMjpy3p7OsmuEG-QRVakw.jpeg",
+          "filePath": "../public/plasmic/mavia_sun/images/_16CMjpy3P7OsmuEgQrVakwjpeg.png"
+        },
+        {
+          "id": "G5n-LaUdh",
+          "name": "1_ELXYOK_wQDHaV6SBGMGygA.jpeg",
+          "filePath": "../public/plasmic/mavia_sun/images/_1ElxyokWQdHaV6SbgmGygAjpeg.png"
+        },
+        {
+          "id": "bWRSQ2hq9",
+          "name": "1_eNwbBN30OUDnORapRRivew.png",
+          "filePath": "../public/plasmic/mavia_sun/images/_1ENwbBn30OuDnORapRRivewpng.png"
+        },
+        {
+          "id": "OAOpHBrFE",
+          "name": "1_Hun3l2XdnsmrCj_Vv459Fg.jpeg",
+          "filePath": "../public/plasmic/mavia_sun/images/_1Hun3L2XdnsmrCjVv459Fgjpeg.png"
+        },
+        {
+          "id": "5Nu82v8sN",
+          "name": "1__F4P43SsLNMrknYFG9Mqqg.jpeg",
+          "filePath": "../public/plasmic/mavia_sun/images/_1F4P43SsLnMrknYfg9Mqqgjpeg.png"
+        },
+        {
+          "id": "AHQGdfOe-",
+          "name": "logo-red.png",
+          "filePath": "../public/plasmic/mavia_sun/images/logoRedpng.png"
+        },
+        {
+          "id": "toPR_DXCMH",
+          "name": "logo-dark.svg 2",
+          "filePath": "../public/plasmic/mavia_sun/images/logoDarksvg2.svg"
         }
       ],
       "indirect": false,
