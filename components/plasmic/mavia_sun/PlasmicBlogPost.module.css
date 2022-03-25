@@ -464,6 +464,13 @@
   min-width: 0;
   padding: 20px;
 }
+@media (min-width: 0px) and (max-width: 1200px) {
+  .column___1WxFy {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+}
 .freeBox___7QxLl {
   display: flex;
   position: relative;
