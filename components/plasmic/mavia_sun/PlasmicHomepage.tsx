@@ -166,9 +166,24 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h1
                           )}
                         >
-                          {hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? "MAVIA SUN TEAM"
-                            : "Mavia Sun Team"}
+                          {hasVariant(globalVariants, "screen", "mobile") ? (
+                            "MAVIA SUN TEAM"
+                          ) : hasVariant(globalVariants, "screen", "tablet") ? (
+                            <React.Fragment>
+                              <React.Fragment>{""}</React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"Mavia Sun Team"}
+                              </span>
+                              <React.Fragment>{""}</React.Fragment>
+                            </React.Fragment>
+                          ) : (
+                            "Mavia Sun Team"
+                          )}
                         </h1>
 
                         <div
@@ -178,7 +193,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.text___9Qpoh
                           )}
                         >
-                          {hasVariant(globalVariants, "screen", "mobileOnly")
+                          {hasVariant(globalVariants, "screen", "mobile")
                             ? "Esplora, Tilta, Shoppa"
                             : "Esplora, Tilta, Shoppa"}
                         </div>
@@ -337,11 +352,7 @@ function PlasmicHomepage__RenderFunc(props: {
                               )}
                             >
                               {(
-                                hasVariant(
-                                  globalVariants,
-                                  "screen",
-                                  "mobileOnly"
-                                )
+                                hasVariant(globalVariants, "screen", "mobile")
                                   ? true
                                   : true
                               ) ? (
@@ -352,7 +363,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     hasVariant(
                                       globalVariants,
                                       "screen",
-                                      "mobileOnly"
+                                      "mobile"
                                     )
                                       ? ("110px" as const)
                                       : ("400px" as const)
@@ -365,7 +376,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     hasVariant(
                                       globalVariants,
                                       "screen",
-                                      "mobileOnly"
+                                      "mobile"
                                     )
                                       ? ("110px" as const)
                                       : ("400px" as const)
@@ -407,11 +418,7 @@ function PlasmicHomepage__RenderFunc(props: {
                               )}
                             >
                               {(
-                                hasVariant(
-                                  globalVariants,
-                                  "screen",
-                                  "mobileOnly"
-                                )
+                                hasVariant(globalVariants, "screen", "mobile")
                                   ? true
                                   : true
                               ) ? (
@@ -422,7 +429,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     hasVariant(
                                       globalVariants,
                                       "screen",
-                                      "mobileOnly"
+                                      "mobile"
                                     )
                                       ? ("110px" as const)
                                       : ("400px" as const)
@@ -435,7 +442,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     hasVariant(
                                       globalVariants,
                                       "screen",
-                                      "mobileOnly"
+                                      "mobile"
                                     )
                                       ? ("110px" as const)
                                       : ("400px" as const)

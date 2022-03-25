@@ -108,7 +108,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                   sty.h2__rJyvd
                 )}
               >
-                {hasVariant(globalVariants, "screen", "mobileOnly") ? (
+                {hasVariant(globalVariants, "screen", "mobile") ? (
                   "Twitter"
                 ) : (
                   <React.Fragment>
@@ -135,7 +135,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                     displayMinHeight={"0" as const}
                     displayMinWidth={"0" as const}
                     displayWidth={
-                      hasVariant(globalVariants, "screen", "mobileOnly")
+                      hasVariant(globalVariants, "screen", "mobile")
                         ? ("100%" as const)
                         : ("100%" as const)
                     }
@@ -161,7 +161,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                         sty.h4__oA21
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                      {hasVariant(globalVariants, "screen", "mobile")
                         ? "Customer Loyalty Programs That Stick"
                         : "Blog heading dummy"}
                     </h4>
@@ -212,7 +212,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                   sty.h2__ujlHb
                 )}
               >
-                {hasVariant(globalVariants, "screen", "mobileOnly") ? (
+                {hasVariant(globalVariants, "screen", "mobile") ? (
                   <React.Fragment>
                     <React.Fragment>{""}</React.Fragment>
                     <span
@@ -270,7 +270,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                         sty.h4__cIt39
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                      {hasVariant(globalVariants, "screen", "mobile")
                         ? "Customer Loyalty Programs That Stick"
                         : "Blog heading dummy"}
                     </h4>
@@ -318,7 +318,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                   sty.h2__fM0HY
                 )}
               >
-                {hasVariant(globalVariants, "screen", "mobileOnly") ? (
+                {hasVariant(globalVariants, "screen", "mobile") ? (
                   <React.Fragment>
                     <React.Fragment>{""}</React.Fragment>
                     <span
@@ -376,7 +376,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                         sty.h4__rfS0W
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                      {hasVariant(globalVariants, "screen", "mobile")
                         ? "Customer Loyalty Programs That Stick"
                         : "Blog heading dummy"}
                     </h4>

@@ -129,7 +129,7 @@ function PlasmicBlogPosts__RenderFunc(props: {
               alt={""}
               className={classNames(sty.img__yNcIq)}
               displayHeight={
-                hasVariant(globalVariants, "screen", "mobileOnly")
+                hasVariant(globalVariants, "screen", "mobile")
                   ? ("286px" as const)
                   : ("230px" as const)
               }
@@ -138,7 +138,7 @@ function PlasmicBlogPosts__RenderFunc(props: {
               displayMinHeight={"0" as const}
               displayMinWidth={"0" as const}
               displayWidth={
-                hasVariant(globalVariants, "screen", "mobileOnly")
+                hasVariant(globalVariants, "screen", "mobile")
                   ? ("100%" as const)
                   : ("auto" as const)
               }

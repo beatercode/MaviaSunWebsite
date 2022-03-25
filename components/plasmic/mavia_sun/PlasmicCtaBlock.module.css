@@ -13,7 +13,7 @@
 .root > :nth-child(1n + 1) {
   width: calc((100% - 1 * 0px) * 12 / 12);
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .root {
     width: 100%;
     height: auto;
@@ -22,7 +22,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .root > :nth-child(1n + 1) {
     width: calc((100% - 1 * 0px) * 12 / 12);
   }
@@ -41,7 +41,7 @@
   min-width: 0;
   padding: 4.17em 15px 3.33em;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .outer {
     padding: 4.17em 15px 3.33em;
   }
@@ -64,7 +64,7 @@
 .container > :nth-child(2n + 2) {
   width: calc((100% - 2 * 0px) * 3 / 12);
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .container {
     width: 100%;
     height: auto;
@@ -73,7 +73,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .container > :nth-child(1n + 1) {
     width: calc((100% - 1 * 0px) * 12 / 12);
   }
@@ -100,7 +100,7 @@
   font-family: var(--token-MnLNoPKcW5_SqU);
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .h2 {
     font-size: 32px;
     margin: 0px 0px 10px;
@@ -133,7 +133,7 @@
   position: relative;
   align-self: flex-end;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .button:global(.__wab_instance) {
     align-self: flex-start;
   }

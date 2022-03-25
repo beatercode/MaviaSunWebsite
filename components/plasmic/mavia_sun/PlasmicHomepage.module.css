@@ -24,7 +24,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 0px;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .root {
     padding-right: 0px;
   }
@@ -52,7 +52,7 @@
   width: 100%;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .freeBox__rk3Sg {
     width: 100%;
     min-width: 0;
@@ -74,7 +74,7 @@
   min-width: 0;
   padding: 84px 20px 212px;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .freeBox__unOuN {
     flex-wrap: nowrap;
     align-items: stretch;
@@ -112,7 +112,7 @@
   > img {
   margin-left: 64px;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .freeBox__wx1Yk {
     display: flex;
     flex-direction: column;
@@ -121,7 +121,7 @@
     overflow: hidden;
   }
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .freeBox__wx1Yk > :global(.__wab_flex-container) {
     flex-direction: column;
     flex-wrap: nowrap;
@@ -134,7 +134,7 @@
     height: calc(100% + 32px);
   }
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .freeBox__wx1Yk > :global(.__wab_flex-container) > *,
   .freeBox__wx1Yk > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox__wx1Yk > :global(.__wab_flex-container) > picture > img,
@@ -170,7 +170,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .freeBox__qOhGq {
     margin-bottom: 13px;
     padding-right: 22px;
@@ -197,7 +197,7 @@
   > img {
   margin-top: 20px;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .freeBox__n8Py4 {
     margin-right: 0px;
     max-width: 389px;
@@ -206,7 +206,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .freeBox__n8Py4 > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -219,7 +219,7 @@
   width: 100%;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .text___9Qpoh {
     margin-top: calc(0px + 20px) !important;
   }
@@ -248,7 +248,7 @@
   position: relative;
   height: 400px;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .freeBox__hiaeS {
     margin-bottom: 0px;
     height: 289px;
@@ -269,20 +269,33 @@
   flex-shrink: 0;
   border-radius: 24%;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (max-width: 1000px) {
   .imageBox {
-    height: 166.78%;
-    width: 59.3%;
+    padding-right: 0px;
+    height: 497px;
+    width: 661px;
+    position: absolute;
+    left: auto;
+    top: 144px;
+    right: 0px;
+    flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 450px) {
+  .imageBox {
+    height: 137.02%;
+    width: 115.46%;
     margin-left: 0px;
     position: absolute;
-    left: 258px;
-    top: -148px;
+    left: 8px;
+    top: -13px;
     margin-bottom: 0px;
     padding-left: 0px;
     margin-right: 0px;
     overflow: visible;
     transform: none;
     padding-right: 0px;
+    padding-bottom: 0px;
   }
 }
 .mainArticles:global(.__wab_instance) {
@@ -291,7 +304,7 @@
   height: 829px;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .mainArticles:global(.__wab_instance) {
     height: 1873px;
     flex-shrink: 0;
@@ -300,12 +313,18 @@
 .blogPost:global(.__wab_instance) {
   position: relative;
   align-self: center;
-  height: 1756px;
+  height: 1700px;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (max-width: 1000px) {
   .blogPost:global(.__wab_instance) {
-    height: 2392px;
+    height: 1375px;
+    flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 450px) {
+  .blogPost:global(.__wab_instance) {
+    height: 1775px;
     flex-shrink: 0;
   }
 }
@@ -329,7 +348,7 @@
 .features > :nth-child(1n + 1) {
   width: calc((100% - 1 * 0px) * 12 / 12);
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .features {
     width: 100%;
     height: auto;
@@ -339,7 +358,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .features > :nth-child(1n + 1) {
     width: calc((100% - 1 * 0px) * 12 / 12);
   }
@@ -363,7 +382,7 @@
   min-width: 0;
   padding: 4.17em 15px 3.33em;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .column__yLcCd {
     justify-content: center;
     align-items: center;
@@ -385,7 +404,7 @@
   min-width: 0;
   margin: 0px 0px 0.25em;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .h2___54HrM {
     font-size: 32px;
   }
@@ -415,7 +434,7 @@
 .container4 > :nth-child(1n + 1) {
   width: calc((100% - 1 * 0px) * 12 / 12);
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .container4 {
     width: 100%;
     height: auto;
@@ -424,7 +443,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .container4 > :nth-child(1n + 1) {
     width: calc((100% - 1 * 0px) * 12 / 12);
   }
@@ -462,7 +481,7 @@
 .valusRow1 > :nth-child(2n + 2) {
   width: calc((100% - 2 * 0px) * 6 / 12);
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .valusRow1 {
     width: 100%;
     height: auto;
@@ -471,7 +490,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .valusRow1 > :nth-child(1n + 1) {
     width: calc((100% - 1 * 0px) * 12 / 12);
   }
@@ -516,7 +535,7 @@
   > img {
   margin-top: 20px;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .freeBox___2CfU > :global(.__wab_flex-container) {
     justify-content: center;
     align-items: center;
@@ -541,7 +560,7 @@
   margin-left: 0px;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .h3__lYuw4 {
     font-size: 32px;
     margin-top: calc(0px + 20px) !important;
@@ -558,7 +577,7 @@
   margin-left: 0px;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .text__us0Aj {
     margin-top: calc(0px + 20px) !important;
   }
@@ -605,7 +624,7 @@
   object-fit: cover;
   object-position: center center;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .img__cer72 {
     margin-bottom: 24px;
     width: 110px;
@@ -637,7 +656,7 @@
 .valusRow2 > :nth-child(1n + 1) {
   width: calc((100% - 1 * 0px) * 12 / 12);
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .valusRow2 {
     width: 100%;
     height: auto;
@@ -646,7 +665,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .valusRow2 > :nth-child(1n + 1) {
     width: calc((100% - 1 * 0px) * 12 / 12);
   }
@@ -681,7 +700,7 @@
 .row4 > :nth-child(2n + 2) {
   width: calc((100% - 2 * 0px) * 6 / 12);
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .row4 {
     width: 100%;
     height: auto;
@@ -690,7 +709,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .row4 > :nth-child(1n + 1) {
     width: calc((100% - 1 * 0px) * 12 / 12);
   }
@@ -725,7 +744,7 @@
 .img__zutd5 > .__wab_img-spacer > img {
   object-fit: cover;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .img__zutd5 {
     margin-bottom: 26px;
     width: 110px;
@@ -777,7 +796,7 @@
   > img {
   margin-top: 20px;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .freeBox__zecBi > :global(.__wab_flex-container) {
     justify-content: center;
     align-items: center;
@@ -802,7 +821,7 @@
   margin-left: 0px;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .h3___2AZs7 {
     font-size: 32px;
     margin-top: calc(0px + 20px) !important;
@@ -819,7 +838,7 @@
   margin-left: 0px;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .text__yAiD {
     margin-top: calc(0px + 20px) !important;
   }
@@ -844,7 +863,7 @@
 .team > :nth-child(1n + 1) {
   width: calc((100% - 1 * 0px) * 12 / 12);
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .team {
     width: 100%;
     height: auto;
@@ -854,7 +873,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .team > :nth-child(1n + 1) {
     width: calc((100% - 1 * 0px) * 12 / 12);
   }
@@ -880,7 +899,7 @@
   min-width: 0;
   margin: 0px 0px 0.25em;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .h2__eGy6 {
     font-size: 32px;
   }
@@ -916,7 +935,7 @@
 .columns__mtKwT > :nth-child(3n + 3) {
   width: calc((100% - 3 * 0px) * 4 / 12);
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .columns__mtKwT {
     width: 100%;
     height: auto;
@@ -925,7 +944,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .columns__mtKwT > :nth-child(1n + 1) {
     width: calc((100% - 1 * 0px) * 12 / 12);
   }
@@ -961,7 +980,7 @@
 .columns__bgUby > :nth-child(1n + 1) {
   width: calc((100% - 1 * 0px) * 12 / 12);
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .columns__bgUby {
     width: 100%;
     height: auto;
@@ -971,7 +990,7 @@
     margin: 0px 0px 15px;
   }
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .columns__bgUby > :nth-child(1n + 1) {
     width: calc((100% - 1 * 0px) * 12 / 12);
   }
@@ -1017,7 +1036,7 @@
   min-width: 0;
   margin: 0px 0px 10px;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .h5__gVuiG {
     text-align: center;
   }
@@ -1063,7 +1082,7 @@
 .columns__aHqxX > :nth-child(1n + 1) {
   width: calc((100% - 1 * 0px) * 12 / 12);
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .columns__aHqxX {
     width: 100%;
     height: auto;
@@ -1073,7 +1092,7 @@
     margin: 0px 0px 15px;
   }
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .columns__aHqxX > :nth-child(1n + 1) {
     width: calc((100% - 1 * 0px) * 12 / 12);
   }
@@ -1118,7 +1137,7 @@
   min-width: 0;
   margin: 0px 0px 10px;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .h5__axaI5 {
     text-align: center;
   }
@@ -1164,7 +1183,7 @@
 .columns__tJg4I > :nth-child(1n + 1) {
   width: calc((100% - 1 * 0px) * 12 / 12);
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .columns__tJg4I {
     width: 100%;
     height: auto;
@@ -1174,7 +1193,7 @@
     margin: 0px 0px 15px;
   }
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .columns__tJg4I > :nth-child(1n + 1) {
     width: calc((100% - 1 * 0px) * 12 / 12);
   }
@@ -1219,7 +1238,7 @@
   min-width: 0;
   margin: 0px 0px 10px;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .h5___2KWnd {
     text-align: center;
   }
