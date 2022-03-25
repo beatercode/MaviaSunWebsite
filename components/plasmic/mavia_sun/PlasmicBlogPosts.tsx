@@ -36,6 +36,8 @@ import {
 } from "@plasmicapp/react-web";
 import Button from "../../Button"; // plasmic-import: kodhyUpj2vfND/component
 
+import { useScreenVariants as useScreenVariantsohuKUq66Y5Rscr } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: ohuKUq66y5rscr/globalVariant
+
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import projectcss from "./plasmic_mavia_sun.module.css"; // plasmic-import: mJU3w7LiKHPBKUALsVD2dj/projectcss
@@ -71,6 +73,10 @@ function PlasmicBlogPosts__RenderFunc(props: {
   forNode?: string;
 }) {
   const { variants, args, overrides, forNode } = props;
+
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariantsohuKUq66Y5Rscr()
+  });
 
   return (
     <section
@@ -118,12 +124,20 @@ function PlasmicBlogPosts__RenderFunc(props: {
             <p.PlasmicImg
               alt={""}
               className={classNames(sty.img__yNcIq)}
-              displayHeight={"230px" as const}
+              displayHeight={
+                hasVariant(globalVariants, "screen", "mobileOnly")
+                  ? ("286px" as const)
+                  : ("230px" as const)
+              }
               displayMaxHeight={"none" as const}
               displayMaxWidth={"100%" as const}
               displayMinHeight={"0" as const}
               displayMinWidth={"0" as const}
-              displayWidth={"auto" as const}
+              displayWidth={
+                hasVariant(globalVariants, "screen", "mobileOnly")
+                  ? ("100%" as const)
+                  : ("auto" as const)
+              }
               loading={"lazy" as const}
               src={{
                 src: "/plasmic/mavia_sun/images/base4Jpg.jpeg",

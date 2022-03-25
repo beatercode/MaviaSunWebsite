@@ -129,6 +129,14 @@
 .img__yNcIq > .__wab_img-spacer > img {
   object-fit: cover;
 }
+@media (min-width: 0px) and (max-width: 1200px) {
+  .img__yNcIq {
+    height: 286px;
+    width: 100%;
+    min-width: 0;
+    flex-shrink: 0;
+  }
+}
 .columns__g6Icr {
   display: flex;
   position: relative;
@@ -380,6 +388,21 @@
 }
 .img__inm8Y > .__wab_img-spacer > img {
   object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 1200px) {
+  .img__inm8Y {
+    object-position: 50% 40%;
+  }
+}
+@media (min-width: 0px) and (max-width: 1200px) {
+  .img__inm8Y > picture > img {
+    object-position: 50% 40%;
+  }
+}
+@media (min-width: 0px) and (max-width: 1200px) {
+  .img__inm8Y > .__wab_img-spacer > img {
+    object-position: 50% 40%;
+  }
 }
 .columns__z2MK7 {
   display: flex;
