@@ -100,43 +100,51 @@ function PlasmicBlogPost__RenderFunc(props: {
             className={classNames(projectcss.all, sty.columns__kRyiJ)}
           >
             <div className={classNames(projectcss.all, sty.column___3TKyo)}>
-              <h2
-                className={classNames(
-                  projectcss.all,
-                  projectcss.h2,
-                  projectcss.__wab_text,
-                  sty.h2__rJyvd
-                )}
-              >
-                {hasVariant(globalVariants, "screen", "mobile") ? (
-                  "Twitter"
-                ) : (
-                  <React.Fragment>
-                    <React.Fragment>{""}</React.Fragment>
-                    <span
-                      className={"plasmic_default__all plasmic_default__span"}
-                      style={{ color: "#FDFDFD", fontWeight: 700 }}
-                    >
-                      {"Twitter"}
-                    </span>
-                    <React.Fragment>{""}</React.Fragment>
-                  </React.Fragment>
-                )}
-              </h2>
+              {(
+                hasVariant(globalVariants, "screen", "mobile") ? true : true
+              ) ? (
+                <h2
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.h2,
+                    projectcss.__wab_text,
+                    sty.h2__rJyvd
+                  )}
+                >
+                  {hasVariant(globalVariants, "screen", "mobile") ? (
+                    "Twitter"
+                  ) : (
+                    <React.Fragment>
+                      <React.Fragment>{""}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ color: "#FDFDFD", fontWeight: 700 }}
+                      >
+                        {"Twitter"}
+                      </span>
+                      <React.Fragment>{""}</React.Fragment>
+                    </React.Fragment>
+                  )}
+                </h2>
+              ) : null}
 
               <div className={classNames(projectcss.all, sty.columns___7LFZr)}>
                 <div className={classNames(projectcss.all, sty.column__ce84T)}>
                   <p.PlasmicImg
                     alt={""}
                     className={classNames(sty.img__e985O)}
-                    displayHeight={"100%" as const}
+                    displayHeight={
+                      hasVariant(globalVariants, "screen", "mobile")
+                        ? ("auto" as const)
+                        : ("100%" as const)
+                    }
                     displayMaxHeight={"none" as const}
                     displayMaxWidth={"100%" as const}
                     displayMinHeight={"0" as const}
                     displayMinWidth={"0" as const}
                     displayWidth={
                       hasVariant(globalVariants, "screen", "mobile")
-                        ? ("100%" as const)
+                        ? ("auto" as const)
                         : ("100%" as const)
                     }
                     loading={"lazy" as const}
@@ -204,41 +212,88 @@ function PlasmicBlogPost__RenderFunc(props: {
             </div>
 
             <div className={classNames(projectcss.all, sty.column__rbp1E)}>
-              <h2
-                className={classNames(
-                  projectcss.all,
-                  projectcss.h2,
-                  projectcss.__wab_text,
-                  sty.h2__ujlHb
-                )}
-              >
-                {hasVariant(globalVariants, "screen", "mobile") ? (
-                  <React.Fragment>
-                    <React.Fragment>{""}</React.Fragment>
-                    <span
-                      className={"plasmic_default__all plasmic_default__span"}
-                      style={{ color: "#FFFFFF", fontWeight: 700 }}
-                    >
-                      {"Medium"}
-                    </span>
-                    <React.Fragment>{""}</React.Fragment>
-                  </React.Fragment>
-                ) : (
-                  <React.Fragment>
-                    <React.Fragment>{""}</React.Fragment>
-                    <span
-                      className={"plasmic_default__all plasmic_default__span"}
-                      style={{ color: "#FFFFFF" }}
-                    >
-                      {"Medium"}
-                    </span>
-                    <React.Fragment>{""}</React.Fragment>
-                  </React.Fragment>
-                )}
-              </h2>
+              {(
+                hasVariant(globalVariants, "screen", "mobile") ? true : true
+              ) ? (
+                <h2
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.h2,
+                    projectcss.__wab_text,
+                    sty.h2__ujlHb
+                  )}
+                >
+                  {hasVariant(globalVariants, "screen", "mobile") ? (
+                    <React.Fragment>
+                      <React.Fragment>{""}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ color: "#FFFFFF", fontWeight: 700 }}
+                      >
+                        {"Medium"}
+                      </span>
+                      <React.Fragment>{""}</React.Fragment>
+                    </React.Fragment>
+                  ) : (
+                    <React.Fragment>
+                      <React.Fragment>{""}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ color: "#FFFFFF" }}
+                      >
+                        {"Medium"}
+                      </span>
+                      <React.Fragment>{""}</React.Fragment>
+                    </React.Fragment>
+                  )}
+                </h2>
+              ) : null}
 
               <div className={classNames(projectcss.all, sty.columns___6GrVt)}>
                 <div className={classNames(projectcss.all, sty.column__uzeD)}>
+                  {(
+                    hasVariant(globalVariants, "screen", "mobile")
+                      ? true
+                      : false
+                  ) ? (
+                    <h2
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h2,
+                        projectcss.__wab_text,
+                        sty.h2__xm6D9
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobile") ? (
+                        <React.Fragment>
+                          <React.Fragment>{""}</React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#FFFFFF" }}
+                          >
+                            {"Medium"}
+                          </span>
+                          <React.Fragment>{""}</React.Fragment>
+                        </React.Fragment>
+                      ) : (
+                        <React.Fragment>
+                          <React.Fragment>{""}</React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#FDFDFD", fontWeight: 700 }}
+                          >
+                            {"Twitter"}
+                          </span>
+                          <React.Fragment>{""}</React.Fragment>
+                        </React.Fragment>
+                      )}
+                    </h2>
+                  ) : null}
+
                   <p.PlasmicImg
                     alt={""}
                     className={classNames(sty.img__wNTkB)}
@@ -249,12 +304,21 @@ function PlasmicBlogPost__RenderFunc(props: {
                     displayMinWidth={"0" as const}
                     displayWidth={"100%" as const}
                     loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/mavia_sun/images/_1ENwbBn30OuDnORapRRivewpng.png",
-                      fullWidth: 1024,
-                      fullHeight: 576,
-                      aspectRatio: undefined
-                    }}
+                    src={
+                      hasVariant(globalVariants, "screen", "mobile")
+                        ? {
+                            src: "/plasmic/mavia_sun/images/_1ElxyokWQdHaV6SbgmGygAjpeg.png",
+                            fullWidth: 1024,
+                            fullHeight: 540,
+                            aspectRatio: undefined
+                          }
+                        : {
+                            src: "/plasmic/mavia_sun/images/_1ENwbBn30OuDnORapRRivewpng.png",
+                            fullWidth: 1024,
+                            fullHeight: 576,
+                            aspectRatio: undefined
+                          }
+                    }
                   />
                 </div>
 
@@ -310,41 +374,77 @@ function PlasmicBlogPost__RenderFunc(props: {
             </div>
 
             <div className={classNames(projectcss.all, sty.column__lfb0B)}>
-              <h2
-                className={classNames(
-                  projectcss.all,
-                  projectcss.h2,
-                  projectcss.__wab_text,
-                  sty.h2__fM0HY
-                )}
-              >
-                {hasVariant(globalVariants, "screen", "mobile") ? (
-                  <React.Fragment>
-                    <React.Fragment>{""}</React.Fragment>
-                    <span
-                      className={"plasmic_default__all plasmic_default__span"}
-                      style={{ color: "#FFFFFF", fontWeight: 700 }}
-                    >
-                      {"Others"}
-                    </span>
-                    <React.Fragment>{""}</React.Fragment>
-                  </React.Fragment>
-                ) : (
-                  <React.Fragment>
-                    <React.Fragment>{""}</React.Fragment>
-                    <span
-                      className={"plasmic_default__all plasmic_default__span"}
-                      style={{ color: "#FFFFFF", fontWeight: 700 }}
-                    >
-                      {"Other"}
-                    </span>
-                    <React.Fragment>{""}</React.Fragment>
-                  </React.Fragment>
-                )}
-              </h2>
+              {(
+                hasVariant(globalVariants, "screen", "mobile") ? true : true
+              ) ? (
+                <h2
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.h2,
+                    projectcss.__wab_text,
+                    sty.h2__fM0HY
+                  )}
+                >
+                  {hasVariant(globalVariants, "screen", "mobile") ? (
+                    <React.Fragment>
+                      <React.Fragment>{""}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ color: "#FFFFFF", fontWeight: 700 }}
+                      >
+                        {"Others"}
+                      </span>
+                      <React.Fragment>{""}</React.Fragment>
+                    </React.Fragment>
+                  ) : (
+                    <React.Fragment>
+                      <React.Fragment>{""}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ color: "#FFFFFF", fontWeight: 700 }}
+                      >
+                        {"Other"}
+                      </span>
+                      <React.Fragment>{""}</React.Fragment>
+                    </React.Fragment>
+                  )}
+                </h2>
+              ) : null}
 
               <div className={classNames(projectcss.all, sty.columns__hcLcy)}>
                 <div className={classNames(projectcss.all, sty.column___4EHwX)}>
+                  {(
+                    hasVariant(globalVariants, "screen", "mobile")
+                      ? true
+                      : false
+                  ) ? (
+                    <h2
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h2,
+                        projectcss.__wab_text,
+                        sty.h2__z4Pc
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobile") ? (
+                        "Others"
+                      ) : (
+                        <React.Fragment>
+                          <React.Fragment>{""}</React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#FDFDFD", fontWeight: 700 }}
+                          >
+                            {"Twitter"}
+                          </span>
+                          <React.Fragment>{""}</React.Fragment>
+                        </React.Fragment>
+                      )}
+                    </h2>
+                  ) : null}
+
                   <p.PlasmicImg
                     alt={""}
                     className={classNames(sty.img__a2DTt)}

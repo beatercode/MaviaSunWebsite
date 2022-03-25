@@ -505,7 +505,7 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  padding: 0px;
+  padding: 0px 0px 15px;
 }
 .column__hhhXu > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -524,6 +524,11 @@
   > picture
   > img {
   margin-top: 10px;
+}
+@media (min-width: 0px) and (max-width: 450px) {
+  .column__hhhXu {
+    padding-bottom: 12px;
+  }
 }
 .text__jyyE7 {
   position: relative;

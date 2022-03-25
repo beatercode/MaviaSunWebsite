@@ -324,7 +324,7 @@
 }
 @media (min-width: 0px) and (max-width: 450px) {
   .blogPost:global(.__wab_instance) {
-    height: 1775px;
+    height: 1525px;
     flex-shrink: 0;
   }
 }

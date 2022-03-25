@@ -270,9 +270,9 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.text__cj0SM
                     )}
                   >
-                    {
-                      "Non male persuasystem 2.0. Sembra di parlare con un venditore, però per il resto ha del contenuto molto valido"
-                    }
+                    {hasVariant(globalVariants, "screen", "mobile")
+                      ? "E' il terzo sito web questo web, parlo da solo perchè la mia ragazza sta giocando alla PS4. Viva la F(OMO)"
+                      : "Non male persuasystem 2.0. Sembra di parlare con un venditore, però per il resto ha del contenuto molto valido"}
                   </div>
 
                   <div
@@ -330,9 +330,9 @@ function PlasmicHomepage__RenderFunc(props: {
                                   sty.text__us0Aj
                                 )}
                               >
-                                {
-                                  "Our team is constantly posting new content every day.\nBy the way, BeaterFit is the best adc euw on Wild Rift.\nNo matter what."
-                                }
+                                {hasVariant(globalVariants, "screen", "mobile")
+                                  ? "Our team is constantly posting new content every day.\nBy the way, BeaterFit best adc euw on WildRift.\nNo matter what."
+                                  : "Our team is constantly posting new content every day.\nBy the way, BeaterFit is the best adc euw on Wild Rift.\nNo matter what."}
                               </div>
                             </p.Stack>
                           ) : null}
@@ -498,9 +498,13 @@ function PlasmicHomepage__RenderFunc(props: {
                                       sty.text__yAiD
                                     )}
                                   >
-                                    {
-                                      "Cioè. Cazzo. Siamo dei mostri. Un sito di cristo che con il content adatto, non può che farci avere la prima posizione in classifica. \nEasy win."
-                                    }
+                                    {hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "mobile"
+                                    )
+                                      ? "Cioè. Cazzo. Siamo dei mostri. Un sito di cristo che con il content adatto, non può che farci avere la prima posizione in classifica. \nEasy win."
+                                      : "Cioè. Cazzo. Siamo dei mostri. Un sito di cristo che con il content adatto, non può che farci avere la prima posizione in classifica. \nEasy win."}
                                   </div>
                                 </p.Stack>
                               ) : null}
@@ -577,7 +581,9 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h5__gVuiG
                           )}
                         >
-                          {"Content Guys"}
+                          {hasVariant(globalVariants, "screen", "mobile")
+                            ? "Content Guys"
+                            : "Content Guys"}
                         </h5>
 
                         <div
@@ -629,7 +635,9 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h5__axaI5
                           )}
                         >
-                          {"Beater Fit"}
+                          {hasVariant(globalVariants, "screen", "mobile")
+                            ? "Beater Owner"
+                            : "Beater Owner"}
                         </h5>
 
                         <div
@@ -686,7 +694,9 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h5___2KWnd
                           )}
                         >
-                          {"xScogna"}
+                          {hasVariant(globalVariants, "screen", "mobile")
+                            ? "Scogna Owner"
+                            : "Scgona Owner"}
                         </h5>
 
                         <div
