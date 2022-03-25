@@ -268,11 +268,12 @@
     width: 70%;
     margin-left: 0px;
     position: absolute;
-    left: 284px;
-    top: -136px;
+    left: 292px;
+    top: -172px;
     margin-bottom: 0px;
     padding-left: 0px;
     margin-right: 0px;
+    overflow: visible;
   }
 }
 .mainArticles:global(.__wab_instance) {
