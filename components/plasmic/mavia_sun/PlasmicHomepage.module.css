@@ -118,6 +118,7 @@
     flex-direction: column;
     height: 672px;
     padding-bottom: 0px;
+    overflow: hidden;
   }
 }
 @media (min-width: 0px) and (max-width: 1200px) {
@@ -270,16 +271,18 @@
 }
 @media (min-width: 0px) and (max-width: 1200px) {
   .imageBox {
-    height: 548px;
-    width: 70%;
+    height: 166.78%;
+    width: 59.3%;
     margin-left: 0px;
     position: absolute;
-    left: 292px;
-    top: -172px;
+    left: 258px;
+    top: -148px;
     margin-bottom: 0px;
     padding-left: 0px;
     margin-right: 0px;
     overflow: visible;
+    transform: none;
+    padding-right: 0px;
   }
 }
 .mainArticles:global(.__wab_instance) {
