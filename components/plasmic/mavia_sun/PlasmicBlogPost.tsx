@@ -58,6 +58,11 @@ export const PlasmicBlogPost__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicBlogPost__OverridesType = {
   root?: p.Flex<"div">;
+  twitterSlot?: p.Flex<"div">;
+  artSlot?: p.Flex<"div">;
+  mediumSlot?: p.Flex<"div">;
+  memeSlot?: p.Flex<"div">;
+  instagramSlot?: p.Flex<"div">;
 };
 
 export interface DefaultBlogPostProps {
@@ -92,443 +97,849 @@ function PlasmicBlogPost__RenderFunc(props: {
         sty.root
       )}
     >
-      <div className={classNames(projectcss.all, sty.column__cJi5A)}>
-        <div className={classNames(projectcss.all, sty.freeBox___8PD4F)}>
-          <p.Stack
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.columns__kRyiJ)}
-          >
-            <div className={classNames(projectcss.all, sty.column___3TKyo)}>
-              {(
-                hasVariant(globalVariants, "screen", "mobile") ? true : true
-              ) ? (
-                <h2
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h2,
-                    projectcss.__wab_text,
-                    sty.h2__rJyvd
-                  )}
-                >
-                  {hasVariant(globalVariants, "screen", "mobile") ? (
-                    "Twitter"
-                  ) : (
-                    <React.Fragment>
-                      <React.Fragment>{""}</React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ color: "#FDFDFD", fontWeight: 700 }}
-                      >
-                        {"Twitter"}
-                      </span>
-                      <React.Fragment>{""}</React.Fragment>
-                    </React.Fragment>
-                  )}
-                </h2>
-              ) : null}
-
-              <div className={classNames(projectcss.all, sty.columns___7LFZr)}>
-                <div className={classNames(projectcss.all, sty.column__ce84T)}>
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__e985O)}
-                    displayHeight={
-                      hasVariant(globalVariants, "screen", "mobile")
-                        ? ("auto" as const)
-                        : ("100%" as const)
-                    }
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={
-                      hasVariant(globalVariants, "screen", "mobile")
-                        ? ("auto" as const)
-                        : ("100%" as const)
-                    }
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/mavia_sun/images/_16CMjpy3P7OsmuEgQrVakwjpeg.png",
-                      fullWidth: 1024,
-                      fullHeight: 576,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-
-                <div className={classNames(projectcss.all, sty.column__e9ULr)}>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__cbGaD)}
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+        <div
+          className={classNames(projectcss.all, sty.column__cJi5A)}
+          width={
+            hasVariant(globalVariants, "screen", "mobile")
+              ? ("2400px !important" as const)
+              : undefined
+          }
+        >
+          <div className={classNames(projectcss.all, sty.freeBox___8PD4F)}>
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.columns__kRyiJ)}
+            >
+              <div
+                data-plasmic-name={"twitterSlot"}
+                data-plasmic-override={overrides.twitterSlot}
+                className={classNames(projectcss.all, sty.twitterSlot)}
+              >
+                {(
+                  hasVariant(globalVariants, "screen", "mobile") ? true : true
+                ) ? (
+                  <h2
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h2,
+                      projectcss.__wab_text,
+                      sty.h2__rJyvd
+                    )}
                   >
-                    <h4
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h4,
-                        projectcss.__wab_text,
-                        sty.h4__oA21
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobile")
-                        ? "Customer Loyalty Programs That Stick"
-                        : "Blog heading dummy"}
-                    </h4>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text___5Ojaa
-                      )}
-                    >
-                      {
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
-                      }
-                    </div>
-
-                    <Button
-                      className={classNames(
-                        "__wab_instance",
-                        sty.button__qPw5O
-                      )}
-                      color={"blue" as const}
-                      endIcon={
-                        <ArrowRightsvgIcon
-                          className={classNames(
-                            projectcss.all,
-                            sty.svg___32Nmv
-                          )}
-                          role={"img"}
-                        />
-                      }
-                      shape={"rounded" as const}
-                      showEndIcon={true}
-                    >
-                      {"Read post"}
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className={classNames(projectcss.all, sty.column__rbp1E)}>
-              {(
-                hasVariant(globalVariants, "screen", "mobile") ? true : true
-              ) ? (
-                <h2
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h2,
-                    projectcss.__wab_text,
-                    sty.h2__ujlHb
-                  )}
-                >
-                  {hasVariant(globalVariants, "screen", "mobile") ? (
-                    <React.Fragment>
-                      <React.Fragment>{""}</React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ color: "#FFFFFF", fontWeight: 700 }}
-                      >
-                        {"Medium"}
-                      </span>
-                      <React.Fragment>{""}</React.Fragment>
-                    </React.Fragment>
-                  ) : (
-                    <React.Fragment>
-                      <React.Fragment>{""}</React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ color: "#FFFFFF" }}
-                      >
-                        {"Medium"}
-                      </span>
-                      <React.Fragment>{""}</React.Fragment>
-                    </React.Fragment>
-                  )}
-                </h2>
-              ) : null}
-
-              <div className={classNames(projectcss.all, sty.columns___6GrVt)}>
-                <div className={classNames(projectcss.all, sty.column__uzeD)}>
-                  {(
-                    hasVariant(globalVariants, "screen", "mobile")
-                      ? true
-                      : false
-                  ) ? (
-                    <h2
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h2,
-                        projectcss.__wab_text,
-                        sty.h2__xm6D9
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobile") ? (
-                        <React.Fragment>
-                          <React.Fragment>{""}</React.Fragment>
-                          <span
-                            className={
-                              "plasmic_default__all plasmic_default__span"
-                            }
-                            style={{ color: "#FFFFFF" }}
-                          >
-                            {"Medium"}
-                          </span>
-                          <React.Fragment>{""}</React.Fragment>
-                        </React.Fragment>
-                      ) : (
-                        <React.Fragment>
-                          <React.Fragment>{""}</React.Fragment>
-                          <span
-                            className={
-                              "plasmic_default__all plasmic_default__span"
-                            }
-                            style={{ color: "#FDFDFD", fontWeight: 700 }}
-                          >
-                            {"Twitter"}
-                          </span>
-                          <React.Fragment>{""}</React.Fragment>
-                        </React.Fragment>
-                      )}
-                    </h2>
-                  ) : null}
-
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__wNTkB)}
-                    displayHeight={"100%" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"100%" as const}
-                    loading={"lazy" as const}
-                    src={
-                      hasVariant(globalVariants, "screen", "mobile")
-                        ? {
-                            src: "/plasmic/mavia_sun/images/_1ElxyokWQdHaV6SbgmGygAjpeg.png",
-                            fullWidth: 1024,
-                            fullHeight: 540,
-                            aspectRatio: undefined
+                    {hasVariant(globalVariants, "screen", "mobile") ? (
+                      "Twitter"
+                    ) : (
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
                           }
-                        : {
-                            src: "/plasmic/mavia_sun/images/_1ENwbBn30OuDnORapRRivewpng.png",
-                            fullWidth: 1024,
-                            fullHeight: 576,
-                            aspectRatio: undefined
-                          }
-                    }
-                  />
-                </div>
+                          style={{ color: "#FDFDFD", fontWeight: 700 }}
+                        >
+                          {"Twitter"}
+                        </span>
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    )}
+                  </h2>
+                ) : null}
 
-                <div className={classNames(projectcss.all, sty.column___1WxFy)}>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox___7QxLl)}
-                  >
-                    <h4
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h4,
-                        projectcss.__wab_text,
-                        sty.h4__cIt39
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobile")
-                        ? "Customer Loyalty Programs That Stick"
-                        : "Blog heading dummy"}
-                    </h4>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__dMNiC
-                      )}
-                    >
-                      {
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
-                      }
-                    </div>
-
-                    <Button
-                      className={classNames(
-                        "__wab_instance",
-                        sty.button__qUk1R
-                      )}
-                      color={"blue" as const}
-                      endIcon={
-                        <ArrowRightsvgIcon
-                          className={classNames(projectcss.all, sty.svg__vGrSh)}
-                          role={"img"}
-                        />
-                      }
-                      shape={"rounded" as const}
-                      showEndIcon={true}
-                    >
-                      {"Read post"}
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className={classNames(projectcss.all, sty.column__lfb0B)}>
-              {(
-                hasVariant(globalVariants, "screen", "mobile") ? true : true
-              ) ? (
-                <h2
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h2,
-                    projectcss.__wab_text,
-                    sty.h2__fM0HY
-                  )}
+                <div
+                  className={classNames(projectcss.all, sty.columns___7LFZr)}
                 >
-                  {hasVariant(globalVariants, "screen", "mobile") ? (
-                    <React.Fragment>
-                      <React.Fragment>{""}</React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ color: "#FFFFFF", fontWeight: 700 }}
-                      >
-                        {"Others"}
-                      </span>
-                      <React.Fragment>{""}</React.Fragment>
-                    </React.Fragment>
-                  ) : (
-                    <React.Fragment>
-                      <React.Fragment>{""}</React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ color: "#FFFFFF", fontWeight: 700 }}
-                      >
-                        {"Other"}
-                      </span>
-                      <React.Fragment>{""}</React.Fragment>
-                    </React.Fragment>
-                  )}
-                </h2>
-              ) : null}
-
-              <div className={classNames(projectcss.all, sty.columns__hcLcy)}>
-                <div className={classNames(projectcss.all, sty.column___4EHwX)}>
-                  {(
-                    hasVariant(globalVariants, "screen", "mobile")
-                      ? true
-                      : false
-                  ) ? (
-                    <h2
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h2,
-                        projectcss.__wab_text,
-                        sty.h2__z4Pc
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobile") ? (
-                        "Others"
-                      ) : (
-                        <React.Fragment>
-                          <React.Fragment>{""}</React.Fragment>
-                          <span
-                            className={
-                              "plasmic_default__all plasmic_default__span"
-                            }
-                            style={{ color: "#FDFDFD", fontWeight: 700 }}
-                          >
-                            {"Twitter"}
-                          </span>
-                          <React.Fragment>{""}</React.Fragment>
-                        </React.Fragment>
-                      )}
-                    </h2>
-                  ) : null}
-
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__a2DTt)}
-                    displayHeight={"100%" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"100%" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/mavia_sun/images/_1F4P43SsLnMrknYfg9Mqqgjpeg.png",
-                      fullWidth: 1280,
-                      fullHeight: 675,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-
-                <div className={classNames(projectcss.all, sty.column__j3XvM)}>
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__ePhXg)}
+                    className={classNames(projectcss.all, sty.column__ce84T)}
                   >
-                    <h4
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h4,
-                        projectcss.__wab_text,
-                        sty.h4__rfS0W
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobile")
-                        ? "Customer Loyalty Programs That Stick"
-                        : "Blog heading dummy"}
-                    </h4>
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__e985O)}
+                      displayHeight={
+                        hasVariant(globalVariants, "screen", "mobile")
+                          ? ("auto" as const)
+                          : ("100%" as const)
+                      }
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"100%" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={
+                        hasVariant(globalVariants, "screen", "mobile")
+                          ? ("auto" as const)
+                          : ("100%" as const)
+                      }
+                      loading={"lazy" as const}
+                      src={{
+                        src: "/plasmic/mavia_sun/images/_16CMjpy3P7OsmuEgQrVakwjpeg.png",
+                        fullWidth: 1024,
+                        fullHeight: 576,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </div>
 
+                  <div
+                    className={classNames(projectcss.all, sty.column__e9ULr)}
+                  >
                     <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__qDoj
-                      )}
+                      className={classNames(projectcss.all, sty.freeBox__cbGaD)}
                     >
-                      {
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
-                      }
-                    </div>
+                      <h4
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h4,
+                          projectcss.__wab_text,
+                          sty.h4__oA21
+                        )}
+                      >
+                        {hasVariant(globalVariants, "screen", "mobile")
+                          ? "Customer Loyalty Programs That Stick"
+                          : "Blog heading dummy"}
+                      </h4>
 
-                    <Button
-                      className={classNames(
-                        "__wab_instance",
-                        sty.button__tbNhH
-                      )}
-                      color={"blue" as const}
-                      endIcon={
-                        <ArrowRightsvgIcon
-                          className={classNames(projectcss.all, sty.svg__loWf6)}
-                          role={"img"}
-                        />
-                      }
-                      shape={"rounded" as const}
-                      showEndIcon={true}
-                    >
-                      {"Read post"}
-                    </Button>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___5Ojaa
+                        )}
+                      >
+                        {
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
+                        }
+                      </div>
+
+                      <Button
+                        className={classNames(
+                          "__wab_instance",
+                          sty.button__qPw5O
+                        )}
+                        color={"blue" as const}
+                        endIcon={
+                          <ArrowRightsvgIcon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg___32Nmv
+                            )}
+                            role={"img"}
+                          />
+                        }
+                        shape={"rounded" as const}
+                        showEndIcon={true}
+                      >
+                        {"Read post"}
+                      </Button>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </p.Stack>
+
+              <div
+                data-plasmic-name={"artSlot"}
+                data-plasmic-override={overrides.artSlot}
+                className={classNames(projectcss.all, sty.artSlot)}
+              >
+                {(
+                  hasVariant(globalVariants, "screen", "mobile") ? true : true
+                ) ? (
+                  <h2
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h2,
+                      projectcss.__wab_text,
+                      sty.h2__fM0HY
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobile") ? (
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "#FFFFFF", fontWeight: 700 }}
+                        >
+                          {"Others"}
+                        </span>
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    ) : (
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "#FFFFFF" }}
+                        >
+                          {"Art"}
+                        </span>
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    )}
+                  </h2>
+                ) : null}
+
+                <div className={classNames(projectcss.all, sty.columns__hcLcy)}>
+                  <div
+                    className={classNames(projectcss.all, sty.column___4EHwX)}
+                  >
+                    {(
+                      hasVariant(globalVariants, "screen", "mobile")
+                        ? true
+                        : false
+                    ) ? (
+                      <h2
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h2,
+                          projectcss.__wab_text,
+                          sty.h2__z4Pc
+                        )}
+                      >
+                        {hasVariant(globalVariants, "screen", "mobile") ? (
+                          "Art"
+                        ) : (
+                          <React.Fragment>
+                            <React.Fragment>{""}</React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ color: "#FDFDFD", fontWeight: 700 }}
+                            >
+                              {"Twitter"}
+                            </span>
+                            <React.Fragment>{""}</React.Fragment>
+                          </React.Fragment>
+                        )}
+                      </h2>
+                    ) : null}
+
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__a2DTt)}
+                      displayHeight={"100%" as const}
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"100%" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={"100%" as const}
+                      loading={"lazy" as const}
+                      src={{
+                        src: "/plasmic/mavia_sun/images/_1F4P43SsLnMrknYfg9Mqqgjpeg.png",
+                        fullWidth: 1280,
+                        fullHeight: 675,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </div>
+
+                  <div
+                    className={classNames(projectcss.all, sty.column__j3XvM)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__ePhXg)}
+                    >
+                      <h4
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h4,
+                          projectcss.__wab_text,
+                          sty.h4__rfS0W
+                        )}
+                      >
+                        {hasVariant(globalVariants, "screen", "mobile")
+                          ? "Customer Loyalty Programs That Stick"
+                          : "Blog heading dummy"}
+                      </h4>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__qDoj
+                        )}
+                      >
+                        {
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
+                        }
+                      </div>
+
+                      <Button
+                        className={classNames(
+                          "__wab_instance",
+                          sty.button__tbNhH
+                        )}
+                        color={"blue" as const}
+                        endIcon={
+                          <ArrowRightsvgIcon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg__loWf6
+                            )}
+                            role={"img"}
+                          />
+                        }
+                        shape={"rounded" as const}
+                        showEndIcon={true}
+                      >
+                        {"Read post"}
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                data-plasmic-name={"mediumSlot"}
+                data-plasmic-override={overrides.mediumSlot}
+                className={classNames(projectcss.all, sty.mediumSlot)}
+              >
+                {(
+                  hasVariant(globalVariants, "screen", "mobile") ? true : true
+                ) ? (
+                  <h2
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h2,
+                      projectcss.__wab_text,
+                      sty.h2__ujlHb
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobile") ? (
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "#FFFFFF", fontWeight: 700 }}
+                        >
+                          {"Medium"}
+                        </span>
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    ) : (
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "#FFFFFF" }}
+                        >
+                          {"Medium"}
+                        </span>
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    )}
+                  </h2>
+                ) : null}
+
+                <div
+                  className={classNames(projectcss.all, sty.columns___6GrVt)}
+                >
+                  <div className={classNames(projectcss.all, sty.column__uzeD)}>
+                    {(
+                      hasVariant(globalVariants, "screen", "mobile")
+                        ? true
+                        : false
+                    ) ? (
+                      <h2
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h2,
+                          projectcss.__wab_text,
+                          sty.h2__xm6D9
+                        )}
+                      >
+                        {hasVariant(globalVariants, "screen", "mobile") ? (
+                          <React.Fragment>
+                            <React.Fragment>{""}</React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ color: "#FFFFFF" }}
+                            >
+                              {"Medium"}
+                            </span>
+                            <React.Fragment>{""}</React.Fragment>
+                          </React.Fragment>
+                        ) : (
+                          <React.Fragment>
+                            <React.Fragment>{""}</React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ color: "#FDFDFD", fontWeight: 700 }}
+                            >
+                              {"Twitter"}
+                            </span>
+                            <React.Fragment>{""}</React.Fragment>
+                          </React.Fragment>
+                        )}
+                      </h2>
+                    ) : null}
+
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__wNTkB)}
+                      displayHeight={"100%" as const}
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"100%" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={"100%" as const}
+                      loading={"lazy" as const}
+                      src={
+                        hasVariant(globalVariants, "screen", "mobile")
+                          ? {
+                              src: "/plasmic/mavia_sun/images/_1ElxyokWQdHaV6SbgmGygAjpeg.png",
+                              fullWidth: 1024,
+                              fullHeight: 540,
+                              aspectRatio: undefined
+                            }
+                          : {
+                              src: "/plasmic/mavia_sun/images/_1ENwbBn30OuDnORapRRivewpng.png",
+                              fullWidth: 1024,
+                              fullHeight: 576,
+                              aspectRatio: undefined
+                            }
+                      }
+                    />
+                  </div>
+
+                  <div
+                    className={classNames(projectcss.all, sty.column___1WxFy)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___7QxLl
+                      )}
+                    >
+                      <h4
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h4,
+                          projectcss.__wab_text,
+                          sty.h4__cIt39
+                        )}
+                      >
+                        {hasVariant(globalVariants, "screen", "mobile")
+                          ? "Customer Loyalty Programs That Stick"
+                          : "Blog heading dummy"}
+                      </h4>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__dMNiC
+                        )}
+                      >
+                        {
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
+                        }
+                      </div>
+
+                      <Button
+                        className={classNames(
+                          "__wab_instance",
+                          sty.button__qUk1R
+                        )}
+                        color={"blue" as const}
+                        endIcon={
+                          <ArrowRightsvgIcon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg__vGrSh
+                            )}
+                            role={"img"}
+                          />
+                        }
+                        shape={"rounded" as const}
+                        showEndIcon={true}
+                      >
+                        {"Read post"}
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                data-plasmic-name={"memeSlot"}
+                data-plasmic-override={overrides.memeSlot}
+                className={classNames(projectcss.all, sty.memeSlot)}
+              >
+                {(
+                  hasVariant(globalVariants, "screen", "mobile") ? true : true
+                ) ? (
+                  <h2
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h2,
+                      projectcss.__wab_text,
+                      sty.h2__syLis
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobile") ? (
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "#FFFFFF", fontWeight: 700 }}
+                        >
+                          {"Medium"}
+                        </span>
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    ) : (
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "#FFFFFF" }}
+                        >
+                          {"Meme"}
+                        </span>
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    )}
+                  </h2>
+                ) : null}
+
+                <div className={classNames(projectcss.all, sty.columns__qt9He)}>
+                  <div
+                    className={classNames(projectcss.all, sty.column__ro9Nh)}
+                  >
+                    {(
+                      hasVariant(globalVariants, "screen", "mobile")
+                        ? true
+                        : false
+                    ) ? (
+                      <h2
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h2,
+                          projectcss.__wab_text,
+                          sty.h2__rSrq3
+                        )}
+                      >
+                        {hasVariant(globalVariants, "screen", "mobile") ? (
+                          "Meme"
+                        ) : (
+                          <React.Fragment>
+                            <React.Fragment>{""}</React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ color: "#FDFDFD", fontWeight: 700 }}
+                            >
+                              {"Twitter"}
+                            </span>
+                            <React.Fragment>{""}</React.Fragment>
+                          </React.Fragment>
+                        )}
+                      </h2>
+                    ) : null}
+
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__ziMw8)}
+                      displayHeight={"100%" as const}
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"100%" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={"100%" as const}
+                      loading={"lazy" as const}
+                      src={
+                        hasVariant(globalVariants, "screen", "mobile")
+                          ? {
+                              src: "/plasmic/mavia_sun/images/_1ElxyokWQdHaV6SbgmGygAjpeg.png",
+                              fullWidth: 1024,
+                              fullHeight: 540,
+                              aspectRatio: undefined
+                            }
+                          : {
+                              src: "/plasmic/mavia_sun/images/_1ENwbBn30OuDnORapRRivewpng.png",
+                              fullWidth: 1024,
+                              fullHeight: 576,
+                              aspectRatio: undefined
+                            }
+                      }
+                    />
+                  </div>
+
+                  <div
+                    className={classNames(projectcss.all, sty.column__dw47W)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__xVq21)}
+                    >
+                      <h4
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h4,
+                          projectcss.__wab_text,
+                          sty.h4___2SbOk
+                        )}
+                      >
+                        {hasVariant(globalVariants, "screen", "mobile")
+                          ? "Customer Loyalty Programs That Stick"
+                          : "Blog heading dummy"}
+                      </h4>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__tybul
+                        )}
+                      >
+                        {
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
+                        }
+                      </div>
+
+                      <Button
+                        className={classNames(
+                          "__wab_instance",
+                          sty.button__iesNx
+                        )}
+                        color={"blue" as const}
+                        endIcon={
+                          <ArrowRightsvgIcon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg__vYKj
+                            )}
+                            role={"img"}
+                          />
+                        }
+                        shape={"rounded" as const}
+                        showEndIcon={true}
+                      >
+                        {"Read post"}
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                data-plasmic-name={"instagramSlot"}
+                data-plasmic-override={overrides.instagramSlot}
+                className={classNames(projectcss.all, sty.instagramSlot)}
+              >
+                {(
+                  hasVariant(globalVariants, "screen", "mobile") ? true : true
+                ) ? (
+                  <h2
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h2,
+                      projectcss.__wab_text,
+                      sty.h2__oGmqf
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobile") ? (
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "#FFFFFF", fontWeight: 700 }}
+                        >
+                          {"Medium"}
+                        </span>
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    ) : (
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "#FFFFFF" }}
+                        >
+                          {"Instagram"}
+                        </span>
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    )}
+                  </h2>
+                ) : null}
+
+                <div
+                  className={classNames(projectcss.all, sty.columns___3T6Dk)}
+                >
+                  <div className={classNames(projectcss.all, sty.column__lBhS)}>
+                    {(
+                      hasVariant(globalVariants, "screen", "mobile")
+                        ? true
+                        : false
+                    ) ? (
+                      <h2
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h2,
+                          projectcss.__wab_text,
+                          sty.h2__s2K3Y
+                        )}
+                      >
+                        {hasVariant(globalVariants, "screen", "mobile") ? (
+                          "Instagram"
+                        ) : (
+                          <React.Fragment>
+                            <React.Fragment>{""}</React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ color: "#FDFDFD", fontWeight: 700 }}
+                            >
+                              {"Twitter"}
+                            </span>
+                            <React.Fragment>{""}</React.Fragment>
+                          </React.Fragment>
+                        )}
+                      </h2>
+                    ) : null}
+
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__yMfDg)}
+                      displayHeight={"100%" as const}
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"100%" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={"100%" as const}
+                      loading={"lazy" as const}
+                      src={
+                        hasVariant(globalVariants, "screen", "mobile")
+                          ? {
+                              src: "/plasmic/mavia_sun/images/_1ElxyokWQdHaV6SbgmGygAjpeg.png",
+                              fullWidth: 1024,
+                              fullHeight: 540,
+                              aspectRatio: undefined
+                            }
+                          : {
+                              src: "/plasmic/mavia_sun/images/_1ENwbBn30OuDnORapRRivewpng.png",
+                              fullWidth: 1024,
+                              fullHeight: 576,
+                              aspectRatio: undefined
+                            }
+                      }
+                    />
+                  </div>
+
+                  <div
+                    className={classNames(projectcss.all, sty.column___5V3HF)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___7Lhg4
+                      )}
+                    >
+                      <h4
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h4,
+                          projectcss.__wab_text,
+                          sty.h4__cq26Q
+                        )}
+                      >
+                        {hasVariant(globalVariants, "screen", "mobile")
+                          ? "Customer Loyalty Programs That Stick"
+                          : "Blog heading dummy"}
+                      </h4>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__geelo
+                        )}
+                      >
+                        {
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ..."
+                        }
+                      </div>
+
+                      <Button
+                        className={classNames(
+                          "__wab_instance",
+                          sty.button__teCyN
+                        )}
+                        color={"blue" as const}
+                        endIcon={
+                          <ArrowRightsvgIcon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg___8Sp6C
+                            )}
+                            role={"img"}
+                          />
+                        }
+                        shape={"rounded" as const}
+                        showEndIcon={true}
+                      >
+                        {"Read post"}
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </p.Stack>
+          </div>
         </div>
-      </div>
+      ) : null}
     </div>
   ) as React.ReactElement | null;
 }
 
 const PlasmicDescendants = {
-  root: ["root"]
+  root: [
+    "root",
+    "twitterSlot",
+    "artSlot",
+    "mediumSlot",
+    "memeSlot",
+    "instagramSlot"
+  ],
+  twitterSlot: ["twitterSlot"],
+  artSlot: ["artSlot"],
+  mediumSlot: ["mediumSlot"],
+  memeSlot: ["memeSlot"],
+  instagramSlot: ["instagramSlot"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
+  twitterSlot: "div";
+  artSlot: "div";
+  mediumSlot: "div";
+  memeSlot: "div";
+  instagramSlot: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -588,6 +999,11 @@ export const PlasmicBlogPost = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    twitterSlot: makeNodeComponent("twitterSlot"),
+    artSlot: makeNodeComponent("artSlot"),
+    mediumSlot: makeNodeComponent("mediumSlot"),
+    memeSlot: makeNodeComponent("memeSlot"),
+    instagramSlot: makeNodeComponent("instagramSlot"),
 
     // Metadata about props expected for PlasmicBlogPost
     internalVariantProps: PlasmicBlogPost__VariantProps,

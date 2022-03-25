@@ -306,7 +306,7 @@
 }
 @media (min-width: 0px) and (max-width: 450px) {
   .mainArticles:global(.__wab_instance) {
-    height: 1918px;
+    height: 750px;
     flex-shrink: 0;
   }
 }
@@ -324,7 +324,6 @@
 }
 @media (min-width: 0px) and (max-width: 450px) {
   .blogPost:global(.__wab_instance) {
-    height: 1525px;
     flex-shrink: 0;
   }
 }

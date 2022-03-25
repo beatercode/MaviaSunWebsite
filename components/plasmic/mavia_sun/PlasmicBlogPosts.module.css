@@ -18,7 +18,7 @@
 @media (min-width: 0px) and (max-width: 450px) {
   .root {
     width: 100%;
-    height: auto;
+    height: 1710px;
     flex-direction: row;
     flex-wrap: wrap;
     min-width: 0;
@@ -41,6 +41,12 @@
   align-items: center;
   min-width: 0;
   padding: 0px 15px;
+}
+@media (min-width: 0px) and (max-width: 450px) {
+  .column__jI2BB {
+    justify-content: flex-start;
+    align-items: center;
+  }
 }
 .h2 {
   position: relative;
@@ -97,6 +103,7 @@
     height: auto;
     flex-direction: row;
     min-width: 0;
+    display: flex;
   }
 }
 @media (min-width: 0px) and (max-width: 450px) {
@@ -140,6 +147,7 @@
 }
 @media (min-width: 0px) and (max-width: 450px) {
   .column__bvFe9 {
+    display: none;
     padding: 0% 4%;
   }
 }
@@ -287,6 +295,11 @@
   background: none;
   min-width: 0;
   padding: 0px 0.83rem;
+}
+@media (min-width: 0px) and (max-width: 450px) {
+  .column__icw94 {
+    display: none;
+  }
 }
 .img__krmij {
   position: relative;

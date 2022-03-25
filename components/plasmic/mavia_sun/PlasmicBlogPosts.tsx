@@ -119,268 +119,285 @@ function PlasmicBlogPosts__RenderFunc(props: {
           }
         </div>
 
-        <p.Stack
-          as={"div"}
-          hasGap={true}
-          className={classNames(projectcss.all, sty.columns__zY4Js)}
-        >
-          <div className={classNames(projectcss.all, sty.column__bvFe9)}>
-            <p.PlasmicImg
-              alt={""}
-              className={classNames(sty.img__yNcIq)}
-              displayHeight={
-                hasVariant(globalVariants, "screen", "mobile")
-                  ? ("286px" as const)
-                  : ("230px" as const)
-              }
-              displayMaxHeight={"none" as const}
-              displayMaxWidth={"100%" as const}
-              displayMinHeight={"0" as const}
-              displayMinWidth={"0" as const}
-              displayWidth={
-                hasVariant(globalVariants, "screen", "mobile")
-                  ? ("100%" as const)
-                  : ("auto" as const)
-              }
-              loading={"lazy" as const}
-              src={{
-                src: "/plasmic/mavia_sun/images/base4Jpg.jpeg",
-                fullWidth: 962,
-                fullHeight: 618,
-                aspectRatio: undefined
-              }}
-            />
-
-            <div className={classNames(projectcss.all, sty.columns__g6Icr)}>
-              <div className={classNames(projectcss.all, sty.column__nZssj)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text___9YVa
-                  )}
-                >
-                  {"April 01, 2022"}
-                </div>
-
-                <h4
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h4,
-                    projectcss.__wab_text,
-                    sty.h4__spbXs
-                  )}
-                >
-                  {"Mavia è troppo figa raga, fidati lascia stare"}
-                </h4>
-
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__fzCK
-                  )}
-                >
-                  {
-                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ....\n"
+        {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.columns__zY4Js)}
+          >
+            {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+              <div className={classNames(projectcss.all, sty.column__bvFe9)}>
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__yNcIq)}
+                  displayHeight={
+                    hasVariant(globalVariants, "screen", "mobile")
+                      ? ("286px" as const)
+                      : ("230px" as const)
                   }
-                </div>
-
-                <Button
-                  className={classNames("__wab_instance", sty.button__h2W3U)}
-                  color={"softBlue" as const}
-                  endIcon={
-                    <ArrowRightsvgIcon
-                      className={classNames(projectcss.all, sty.svg__gqE86)}
-                      role={"img"}
-                    />
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={
+                    hasVariant(globalVariants, "screen", "mobile")
+                      ? ("100%" as const)
+                      : ("auto" as const)
                   }
-                  link={"https://twitter.com/MaviaGame" as const}
-                  shape={"rounded" as const}
-                  showEndIcon={true}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/mavia_sun/images/base4Jpg.jpeg",
+                    fullWidth: 962,
+                    fullHeight: 618,
+                    aspectRatio: undefined
+                  }}
+                />
+
+                <div className={classNames(projectcss.all, sty.columns__g6Icr)}>
+                  <div
+                    className={classNames(projectcss.all, sty.column__nZssj)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___9YVa
+                      )}
+                    >
+                      {"April 01, 2022"}
+                    </div>
+
+                    <h4
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h4,
+                        projectcss.__wab_text,
+                        sty.h4__spbXs
+                      )}
+                    >
+                      {"Mavia è troppo figa raga, fidati lascia stare"}
+                    </h4>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__fzCK
+                      )}
+                    >
+                      {
+                        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ....\n"
+                      }
+                    </div>
+
+                    <Button
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button__h2W3U
+                      )}
+                      color={"softBlue" as const}
+                      endIcon={
+                        <ArrowRightsvgIcon
+                          className={classNames(projectcss.all, sty.svg__gqE86)}
+                          role={"img"}
+                        />
+                      }
+                      link={"https://twitter.com/MaviaGame" as const}
+                      shape={"rounded" as const}
+                      showEndIcon={true}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___4FEHo
+                        )}
+                      >
+                        {"READ MORE"}
+                      </div>
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            ) : null}
+            {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+              <div className={classNames(projectcss.all, sty.column__icw94)}>
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__krmij)}
+                  displayHeight={"285px" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"100%" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/mavia_sun/images/base1Jpg.jpeg",
+                    fullWidth: 500,
+                    fullHeight: 327,
+                    aspectRatio: undefined
+                  }}
+                />
+
+                <div className={classNames(projectcss.all, sty.columns__h0JXa)}>
+                  <div
+                    className={classNames(projectcss.all, sty.column__ikXfO)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___4GzBm
+                      )}
+                    >
+                      {"April 02, 2022"}
+                    </div>
+
+                    <h4
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h4,
+                        projectcss.__wab_text,
+                        sty.h4___0Dsnv
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobile")
+                        ? "CEO di Mavia indagato per stupro, ancora aperte le indagini"
+                        : "CEO di Mavia indagato per stupro, ancora aperte le indagini"}
+                    </h4>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__cKMxc
+                      )}
+                    >
+                      {
+                        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ....\n"
+                      }
+                    </div>
+
+                    <Button
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button__f738L
+                      )}
+                      color={"softBlue" as const}
+                      endIcon={
+                        <ArrowRightsvgIcon
+                          className={classNames(projectcss.all, sty.svg__sXOdV)}
+                          role={"img"}
+                        />
+                      }
+                      link={"https://twitter.com/MaviaGame" as const}
+                      shape={"rounded" as const}
+                      showEndIcon={true}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__m6R7
+                        )}
+                      >
+                        {"READ MORE"}
+                      </div>
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            ) : null}
+
+            <div className={classNames(projectcss.all, sty.column__gaLuf)}>
+              <p.PlasmicImg
+                alt={""}
+                className={classNames(sty.img__inm8Y)}
+                displayHeight={"230px" as const}
+                displayMaxHeight={"none" as const}
+                displayMaxWidth={"100%" as const}
+                displayMinHeight={"0" as const}
+                displayMinWidth={"0" as const}
+                displayWidth={"100%" as const}
+                loading={"lazy" as const}
+                src={{
+                  src: "/plasmic/mavia_sun/images/base3Jpg.jpeg",
+                  fullWidth: 960,
+                  fullHeight: 618,
+                  aspectRatio: undefined
+                }}
+              />
+
+              <div className={classNames(projectcss.all, sty.columns__z2MK7)}>
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.column__hhhXu)}
                 >
                   <div
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text___4FEHo
+                      sty.text__jyyE7
                     )}
                   >
-                    {"READ MORE"}
+                    {"April 03, 2022"}
                   </div>
-                </Button>
+
+                  <h4
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h4,
+                      projectcss.__wab_text,
+                      sty.h4___6Uggh
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobile")
+                      ? "Rilasciato nuovo gruppo di Land, troppi soldi"
+                      : "Rilasciato nuovo gruppo di Land, troppi soldi"}
+                  </h4>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__ffrYn
+                    )}
+                  >
+                    {
+                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ....\n"
+                    }
+                  </div>
+
+                  <Button
+                    className={classNames("__wab_instance", sty.button__x7Ltd)}
+                    color={"softBlue" as const}
+                    endIcon={
+                      <ArrowRightsvgIcon
+                        className={classNames(projectcss.all, sty.svg___04Lyk)}
+                        role={"img"}
+                      />
+                    }
+                    link={"https://twitter.com/MaviaGame" as const}
+                    shape={"rounded" as const}
+                    showEndIcon={true}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___6E9Wt
+                      )}
+                    >
+                      {"READ MORE"}
+                    </div>
+                  </Button>
+                </p.Stack>
               </div>
             </div>
-          </div>
-
-          <div className={classNames(projectcss.all, sty.column__icw94)}>
-            <p.PlasmicImg
-              alt={""}
-              className={classNames(sty.img__krmij)}
-              displayHeight={"285px" as const}
-              displayMaxHeight={"none" as const}
-              displayMaxWidth={"100%" as const}
-              displayMinHeight={"0" as const}
-              displayMinWidth={"0" as const}
-              displayWidth={"100%" as const}
-              loading={"lazy" as const}
-              src={{
-                src: "/plasmic/mavia_sun/images/base1Jpg.jpeg",
-                fullWidth: 500,
-                fullHeight: 327,
-                aspectRatio: undefined
-              }}
-            />
-
-            <div className={classNames(projectcss.all, sty.columns__h0JXa)}>
-              <div className={classNames(projectcss.all, sty.column__ikXfO)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text___4GzBm
-                  )}
-                >
-                  {"April 02, 2022"}
-                </div>
-
-                <h4
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h4,
-                    projectcss.__wab_text,
-                    sty.h4___0Dsnv
-                  )}
-                >
-                  {
-                    "CEO di Mavia indagato per stupro, ancora aperte le indagini"
-                  }
-                </h4>
-
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__cKMxc
-                  )}
-                >
-                  {
-                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ....\n"
-                  }
-                </div>
-
-                <Button
-                  className={classNames("__wab_instance", sty.button__f738L)}
-                  color={"softBlue" as const}
-                  endIcon={
-                    <ArrowRightsvgIcon
-                      className={classNames(projectcss.all, sty.svg__sXOdV)}
-                      role={"img"}
-                    />
-                  }
-                  link={"https://twitter.com/MaviaGame" as const}
-                  shape={"rounded" as const}
-                  showEndIcon={true}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__m6R7
-                    )}
-                  >
-                    {"READ MORE"}
-                  </div>
-                </Button>
-              </div>
-            </div>
-          </div>
-
-          <div className={classNames(projectcss.all, sty.column__gaLuf)}>
-            <p.PlasmicImg
-              alt={""}
-              className={classNames(sty.img__inm8Y)}
-              displayHeight={"230px" as const}
-              displayMaxHeight={"none" as const}
-              displayMaxWidth={"100%" as const}
-              displayMinHeight={"0" as const}
-              displayMinWidth={"0" as const}
-              displayWidth={"100%" as const}
-              loading={"lazy" as const}
-              src={{
-                src: "/plasmic/mavia_sun/images/base3Jpg.jpeg",
-                fullWidth: 960,
-                fullHeight: 618,
-                aspectRatio: undefined
-              }}
-            />
-
-            <div className={classNames(projectcss.all, sty.columns__z2MK7)}>
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.column__hhhXu)}
-              >
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__jyyE7
-                  )}
-                >
-                  {"April 03, 2022"}
-                </div>
-
-                <h4
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h4,
-                    projectcss.__wab_text,
-                    sty.h4___6Uggh
-                  )}
-                >
-                  {"Rilasciato nuovo gruppo di Land, troppi soldi"}
-                </h4>
-
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__ffrYn
-                  )}
-                >
-                  {
-                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ....\n"
-                  }
-                </div>
-
-                <Button
-                  className={classNames("__wab_instance", sty.button__x7Ltd)}
-                  color={"softBlue" as const}
-                  endIcon={
-                    <ArrowRightsvgIcon
-                      className={classNames(projectcss.all, sty.svg___04Lyk)}
-                      role={"img"}
-                    />
-                  }
-                  link={"https://twitter.com/MaviaGame" as const}
-                  shape={"rounded" as const}
-                  showEndIcon={true}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___6E9Wt
-                    )}
-                  >
-                    {"READ MORE"}
-                  </div>
-                </Button>
-              </p.Stack>
-            </div>
-          </div>
-        </p.Stack>
+          </p.Stack>
+        ) : null}
       </div>
     </section>
   ) as React.ReactElement | null;
