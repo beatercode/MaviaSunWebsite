@@ -306,7 +306,7 @@
 }
 @media (min-width: 0px) and (max-width: 450px) {
   .mainArticles:global(.__wab_instance) {
-    height: 1873px;
+    height: 1918px;
     flex-shrink: 0;
   }
 }
