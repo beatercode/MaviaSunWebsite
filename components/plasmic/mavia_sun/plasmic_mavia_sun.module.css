@@ -41,6 +41,13 @@
   --plasmic-token-unnamed-style-token-9: var(--token-hQYK_wWexJ1e0F);
 }
 
+@media (min-width: 0px) and (max-width: 1200px) {
+  .plasmic_tokens {
+    --token-BGSug6hHGNlGUz: #f8f8f8;
+    --plasmic-token-unnamed-style-token-6: var(--token-BGSug6hHGNlGUz);
+  }
+}
+
 .plasmic_default_styles {
   --mixin-7IdePuwcF700kD_font-family: "Inter";
   --mixin-7IdePuwcF700kD_font-size: 16px;

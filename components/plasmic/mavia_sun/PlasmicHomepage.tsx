@@ -66,14 +66,16 @@ export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
   mainHeader?: p.Flex<typeof Header2>;
   h1?: p.Flex<"h1">;
+  button?: p.Flex<typeof Button>;
+  svg?: p.Flex<"svg">;
   imageBox?: p.Flex<"div">;
   mainArticles?: p.Flex<typeof BlogPosts>;
   blogPost?: p.Flex<typeof BlogPost>;
   features?: p.Flex<"section">;
   container4?: p.Flex<"div">;
   outerRow2?: p.Flex<"div">;
-  row2?: p.Flex<"div">;
-  container5?: p.Flex<"div">;
+  valusRow1?: p.Flex<"div">;
+  valusRow2?: p.Flex<"div">;
   outerRow3?: p.Flex<"div">;
   row4?: p.Flex<"div">;
   team?: p.Flex<"section">;
@@ -182,16 +184,14 @@ function PlasmicHomepage__RenderFunc(props: {
                         </div>
 
                         <Button
-                          className={classNames(
-                            "__wab_instance",
-                            sty.button__xwBEl
-                          )}
+                          data-plasmic-name={"button"}
+                          data-plasmic-override={overrides.button}
+                          className={classNames("__wab_instance", sty.button)}
                           endIcon={
                             <ArrowRightsvgIcon
-                              className={classNames(
-                                projectcss.all,
-                                sty.svg__yPJho
-                              )}
+                              data-plasmic-name={"svg"}
+                              data-plasmic-override={overrides.svg}
+                              className={classNames(projectcss.all, sty.svg)}
                               role={"img"}
                             />
                           }
@@ -271,9 +271,9 @@ function PlasmicHomepage__RenderFunc(props: {
                       className={classNames(projectcss.all, sty.outerRow2)}
                     >
                       <div
-                        data-plasmic-name={"row2"}
-                        data-plasmic-override={overrides.row2}
-                        className={classNames(projectcss.all, sty.row2)}
+                        data-plasmic-name={"valusRow1"}
+                        data-plasmic-override={overrides.valusRow1}
+                        className={classNames(projectcss.all, sty.valusRow1)}
                       >
                         <div
                           className={classNames(
@@ -319,27 +319,6 @@ function PlasmicHomepage__RenderFunc(props: {
                                   "Our team is constantly posting new content every day.\nBy the way, BeaterFit is the best adc euw on Wild Rift.\nNo matter what."
                                 }
                               </div>
-
-                              <Button
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.button__jlSkW
-                                )}
-                                color={"blue" as const}
-                                endIcon={
-                                  <ArrowRightsvgIcon
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.svg__cAu7Z
-                                    )}
-                                    role={"img"}
-                                  />
-                                }
-                                shape={"rounded" as const}
-                                showEndIcon={true}
-                              >
-                                {"Learn more"}
-                              </Button>
                             </p.Stack>
                           ) : null}
                         </div>
@@ -357,49 +336,59 @@ function PlasmicHomepage__RenderFunc(props: {
                                 sty.freeBox__bVdM5
                               )}
                             >
-                              <p.PlasmicImg
-                                alt={""}
-                                className={classNames(sty.img__cer72)}
-                                displayHeight={
-                                  hasVariant(
-                                    globalVariants,
-                                    "screen",
-                                    "mobileOnly"
-                                  )
-                                    ? ("110px" as const)
-                                    : ("400px" as const)
-                                }
-                                displayMaxHeight={"none" as const}
-                                displayMaxWidth={"none" as const}
-                                displayMinHeight={"0" as const}
-                                displayMinWidth={"0" as const}
-                                displayWidth={
-                                  hasVariant(
-                                    globalVariants,
-                                    "screen",
-                                    "mobileOnly"
-                                  )
-                                    ? ("110px" as const)
-                                    : ("400px" as const)
-                                }
-                                loading={"lazy" as const}
-                                src={{
-                                  src: "/plasmic/mavia_sun/images/logoRedpng.png",
-                                  fullWidth: 366,
-                                  fullHeight: 357,
-                                  aspectRatio: undefined
-                                }}
-                                style={"" as const}
-                              />
+                              {(
+                                hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mobileOnly"
+                                )
+                                  ? true
+                                  : true
+                              ) ? (
+                                <p.PlasmicImg
+                                  alt={""}
+                                  className={classNames(sty.img__cer72)}
+                                  displayHeight={
+                                    hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "mobileOnly"
+                                    )
+                                      ? ("110px" as const)
+                                      : ("400px" as const)
+                                  }
+                                  displayMaxHeight={"none" as const}
+                                  displayMaxWidth={"none" as const}
+                                  displayMinHeight={"0" as const}
+                                  displayMinWidth={"0" as const}
+                                  displayWidth={
+                                    hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "mobileOnly"
+                                    )
+                                      ? ("110px" as const)
+                                      : ("400px" as const)
+                                  }
+                                  loading={"lazy" as const}
+                                  src={{
+                                    src: "/plasmic/mavia_sun/images/logoRedpng.png",
+                                    fullWidth: 366,
+                                    fullHeight: 357,
+                                    aspectRatio: undefined
+                                  }}
+                                  style={"" as const}
+                                />
+                              ) : null}
                             </div>
                           ) : null}
                         </div>
                       </div>
 
                       <div
-                        data-plasmic-name={"container5"}
-                        data-plasmic-override={overrides.container5}
-                        className={classNames(projectcss.all, sty.container5)}
+                        data-plasmic-name={"valusRow2"}
+                        data-plasmic-override={overrides.valusRow2}
+                        className={classNames(projectcss.all, sty.valusRow2)}
                       >
                         <div
                           data-plasmic-name={"outerRow3"}
@@ -417,39 +406,49 @@ function PlasmicHomepage__RenderFunc(props: {
                                 sty.column__vc5Cg
                               )}
                             >
-                              <p.PlasmicImg
-                                alt={""}
-                                className={classNames(sty.img__zutd5)}
-                                displayHeight={
-                                  hasVariant(
-                                    globalVariants,
-                                    "screen",
-                                    "mobileOnly"
-                                  )
-                                    ? ("110px" as const)
-                                    : ("400px" as const)
-                                }
-                                displayMaxHeight={"none" as const}
-                                displayMaxWidth={"none" as const}
-                                displayMinHeight={"0" as const}
-                                displayMinWidth={"0" as const}
-                                displayWidth={
-                                  hasVariant(
-                                    globalVariants,
-                                    "screen",
-                                    "mobileOnly"
-                                  )
-                                    ? ("110px" as const)
-                                    : ("400px" as const)
-                                }
-                                loading={"lazy" as const}
-                                src={{
-                                  src: "/plasmic/mavia_sun/images/logoRedpng.png",
-                                  fullWidth: 366,
-                                  fullHeight: 357,
-                                  aspectRatio: undefined
-                                }}
-                              />
+                              {(
+                                hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mobileOnly"
+                                )
+                                  ? true
+                                  : true
+                              ) ? (
+                                <p.PlasmicImg
+                                  alt={""}
+                                  className={classNames(sty.img__zutd5)}
+                                  displayHeight={
+                                    hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "mobileOnly"
+                                    )
+                                      ? ("110px" as const)
+                                      : ("400px" as const)
+                                  }
+                                  displayMaxHeight={"none" as const}
+                                  displayMaxWidth={"none" as const}
+                                  displayMinHeight={"0" as const}
+                                  displayMinWidth={"0" as const}
+                                  displayWidth={
+                                    hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "mobileOnly"
+                                    )
+                                      ? ("110px" as const)
+                                      : ("400px" as const)
+                                  }
+                                  loading={"lazy" as const}
+                                  src={{
+                                    src: "/plasmic/mavia_sun/images/logoRedpng.png",
+                                    fullWidth: 366,
+                                    fullHeight: 357,
+                                    aspectRatio: undefined
+                                  }}
+                                />
+                              ) : null}
                             </div>
 
                             <div
@@ -496,27 +495,6 @@ function PlasmicHomepage__RenderFunc(props: {
                                       "Cioè. Cazzo. Siamo dei mostri. Un sito di cristo che con il content adatto, non può che farci avere la prima posizione in classifica. \nEasy win."
                                     }
                                   </div>
-
-                                  <Button
-                                    className={classNames(
-                                      "__wab_instance",
-                                      sty.button__zPfce
-                                    )}
-                                    color={"blue" as const}
-                                    endIcon={
-                                      <ArrowRightsvgIcon
-                                        className={classNames(
-                                          projectcss.all,
-                                          sty.svg__x2Zze
-                                        )}
-                                        role={"img"}
-                                      />
-                                    }
-                                    shape={"rounded" as const}
-                                    showEndIcon={true}
-                                  >
-                                    {"Learn more"}
-                                  </Button>
                                 </p.Stack>
                               ) : null}
                             </div>
@@ -754,14 +732,16 @@ const PlasmicDescendants = {
     "root",
     "mainHeader",
     "h1",
+    "button",
+    "svg",
     "imageBox",
     "mainArticles",
     "blogPost",
     "features",
     "container4",
     "outerRow2",
-    "row2",
-    "container5",
+    "valusRow1",
+    "valusRow2",
     "outerRow3",
     "row4",
     "team",
@@ -771,6 +751,8 @@ const PlasmicDescendants = {
   ],
   mainHeader: ["mainHeader"],
   h1: ["h1"],
+  button: ["button", "svg"],
+  svg: ["svg"],
   imageBox: ["imageBox"],
   mainArticles: ["mainArticles"],
   blogPost: ["blogPost"],
@@ -778,22 +760,22 @@ const PlasmicDescendants = {
     "features",
     "container4",
     "outerRow2",
-    "row2",
-    "container5",
+    "valusRow1",
+    "valusRow2",
     "outerRow3",
     "row4"
   ],
   container4: [
     "container4",
     "outerRow2",
-    "row2",
-    "container5",
+    "valusRow1",
+    "valusRow2",
     "outerRow3",
     "row4"
   ],
-  outerRow2: ["outerRow2", "row2", "container5", "outerRow3", "row4"],
-  row2: ["row2"],
-  container5: ["container5", "outerRow3", "row4"],
+  outerRow2: ["outerRow2", "valusRow1", "valusRow2", "outerRow3", "row4"],
+  valusRow1: ["valusRow1"],
+  valusRow2: ["valusRow2", "outerRow3", "row4"],
   outerRow3: ["outerRow3", "row4"],
   row4: ["row4"],
   team: ["team"],
@@ -808,14 +790,16 @@ type NodeDefaultElementType = {
   root: "div";
   mainHeader: typeof Header2;
   h1: "h1";
+  button: typeof Button;
+  svg: "svg";
   imageBox: "div";
   mainArticles: typeof BlogPosts;
   blogPost: typeof BlogPost;
   features: "section";
   container4: "div";
   outerRow2: "div";
-  row2: "div";
-  container5: "div";
+  valusRow1: "div";
+  valusRow2: "div";
   outerRow3: "div";
   row4: "div";
   team: "section";
@@ -883,14 +867,16 @@ export const PlasmicHomepage = Object.assign(
     // Helper components rendering sub-elements
     mainHeader: makeNodeComponent("mainHeader"),
     h1: makeNodeComponent("h1"),
+    button: makeNodeComponent("button"),
+    svg: makeNodeComponent("svg"),
     imageBox: makeNodeComponent("imageBox"),
     mainArticles: makeNodeComponent("mainArticles"),
     blogPost: makeNodeComponent("blogPost"),
     features: makeNodeComponent("features"),
     container4: makeNodeComponent("container4"),
     outerRow2: makeNodeComponent("outerRow2"),
-    row2: makeNodeComponent("row2"),
-    container5: makeNodeComponent("container5"),
+    valusRow1: makeNodeComponent("valusRow1"),
+    valusRow2: makeNodeComponent("valusRow2"),
     outerRow3: makeNodeComponent("outerRow3"),
     row4: makeNodeComponent("row4"),
     team: makeNodeComponent("team"),

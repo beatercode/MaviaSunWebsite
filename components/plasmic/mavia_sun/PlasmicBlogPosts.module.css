@@ -67,25 +67,28 @@
   margin: 0px 0px 1.67em;
 }
 .columns__zY4Js {
+  flex-direction: row;
   display: flex;
   position: relative;
   width: 100%;
   height: auto;
-  align-items: stretch;
   flex-shrink: 1;
-  flex-direction: row;
-  flex-wrap: nowrap;
   max-width: 1170px;
   padding: 0rem;
   margin: 0px 0rem;
 }
-.columns__zY4Js > :nth-child(3n + 1) {
+.columns__zY4Js > :global(.__wab_flex-container) {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+.columns__zY4Js > :global(.__wab_flex-container) > :nth-child(3n + 1) {
   width: calc((100% - 3 * 0px) * 4 / 12);
 }
-.columns__zY4Js > :nth-child(3n + 2) {
+.columns__zY4Js > :global(.__wab_flex-container) > :nth-child(3n + 2) {
   width: calc((100% - 3 * 0px) * 4 / 12);
 }
-.columns__zY4Js > :nth-child(3n + 3) {
+.columns__zY4Js > :global(.__wab_flex-container) > :nth-child(3n + 3) {
   width: calc((100% - 3 * 0px) * 4 / 12);
 }
 @media (min-width: 0px) and (max-width: 1200px) {
@@ -93,13 +96,33 @@
     width: 100%;
     height: auto;
     flex-direction: row;
-    flex-wrap: wrap;
     min-width: 0;
   }
 }
 @media (min-width: 0px) and (max-width: 1200px) {
-  .columns__zY4Js > :nth-child(1n + 1) {
+  .columns__zY4Js > :global(.__wab_flex-container) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 0;
+    margin-top: calc(0px - 20px);
+    height: calc(100% + 20px);
+  }
+}
+@media (min-width: 0px) and (max-width: 1200px) {
+  .columns__zY4Js > :global(.__wab_flex-container) > :nth-child(1n + 1) {
     width: calc((100% - 1 * 0px) * 12 / 12);
+  }
+}
+@media (min-width: 0px) and (max-width: 1200px) {
+  .columns__zY4Js > :global(.__wab_flex-container) > *,
+  .columns__zY4Js > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .columns__zY4Js > :global(.__wab_flex-container) > picture > img,
+  .columns__zY4Js
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-top: 20px;
   }
 }
 .column__bvFe9 {
@@ -114,6 +137,11 @@
   background: none;
   min-width: 0;
   padding: 0px 0.83rem;
+}
+@media (min-width: 0px) and (max-width: 1200px) {
+  .column__bvFe9 {
+    padding: 0% 4%;
+  }
 }
 .img__yNcIq {
   position: relative;
@@ -133,6 +161,8 @@
   .img__yNcIq {
     height: 286px;
     width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     min-width: 0;
     flex-shrink: 0;
   }
@@ -148,6 +178,8 @@
   flex-wrap: nowrap;
   background: #ffffff;
   box-shadow: 0px 3px 10px 0px #0000001a;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   min-width: 0;
   padding: 1.33em;
 }
@@ -160,7 +192,10 @@
     height: auto;
     flex-direction: row;
     flex-wrap: wrap;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
     min-width: 0;
+    padding: 1.33em;
     margin: 0px 0px 15px;
   }
 }
@@ -180,6 +215,11 @@
   align-items: center;
   min-width: 0;
   padding: 0px;
+}
+@media (min-width: 0px) and (max-width: 1200px) {
+  .column__nZssj {
+    padding-bottom: 0px;
+  }
 }
 .text___9YVa {
   position: relative;
@@ -263,6 +303,12 @@
 .img__krmij > .__wab_img-spacer > img {
   object-fit: cover;
 }
+@media (min-width: 0px) and (max-width: 1200px) {
+  .img__krmij {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+}
 .columns__h0JXa {
   display: flex;
   position: relative;
@@ -274,6 +320,8 @@
   flex-wrap: nowrap;
   background: #ffffff;
   box-shadow: 0px 3px 10px 0px #0000001a;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   min-width: 0;
   padding: 1.33em;
 }
@@ -286,6 +334,8 @@
     height: auto;
     flex-direction: row;
     flex-wrap: wrap;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
     min-width: 0;
   }
 }
@@ -372,6 +422,11 @@
   min-width: 0;
   padding: 0px 0.83rem;
 }
+@media (min-width: 0px) and (max-width: 1200px) {
+  .column__gaLuf {
+    padding: 0% 4%;
+  }
+}
 .img__inm8Y {
   position: relative;
   object-fit: cover;
@@ -392,6 +447,8 @@
 @media (min-width: 0px) and (max-width: 1200px) {
   .img__inm8Y {
     object-position: 50% 40%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
   }
 }
 @media (min-width: 0px) and (max-width: 1200px) {
@@ -415,6 +472,8 @@
   flex-wrap: nowrap;
   background: #ffffff;
   box-shadow: 0px 3px 10px 0px #0000001a;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   min-width: 0;
   padding: 1.33em;
 }
@@ -427,6 +486,8 @@
     height: auto;
     flex-direction: row;
     flex-wrap: wrap;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
     min-width: 0;
     margin: 0px 0px 15px;
   }

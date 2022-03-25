@@ -119,7 +119,11 @@ function PlasmicBlogPosts__RenderFunc(props: {
           }
         </div>
 
-        <div className={classNames(projectcss.all, sty.columns__zY4Js)}>
+        <p.Stack
+          as={"div"}
+          hasGap={true}
+          className={classNames(projectcss.all, sty.columns__zY4Js)}
+        >
           <div className={classNames(projectcss.all, sty.column__bvFe9)}>
             <p.PlasmicImg
               alt={""}
@@ -376,7 +380,7 @@ function PlasmicBlogPosts__RenderFunc(props: {
               </p.Stack>
             </div>
           </div>
-        </div>
+        </p.Stack>
       </div>
     </section>
   ) as React.ReactElement | null;
