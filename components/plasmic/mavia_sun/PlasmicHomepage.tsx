@@ -85,8 +85,8 @@ export type PlasmicHomepage__OverridesType = {
   valusRow2?: p.Flex<"div">;
   outerRow3?: p.Flex<"div">;
   row4?: p.Flex<"div">;
-  team?: p.Flex<"section">;
-  teamRow1?: p.Flex<"div">;
+  team?: p.Flex<"div">;
+  wrapTeam?: p.Flex<"section">;
   footerBanner?: p.Flex<typeof HeroSection>;
   footer?: p.Flex<typeof Footer>;
 };
@@ -723,51 +723,54 @@ function PlasmicHomepage__RenderFunc(props: {
                 </div>
               </section>
             ) : null}
+            {true ? (
+              <div
+                data-plasmic-name={"team"}
+                data-plasmic-override={overrides.team}
+                className={classNames(projectcss.all, sty.team)}
+              >
+                <div className={classNames(projectcss.all, sty.freeBox__itVhN)}>
+                  <h2
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h2,
+                      projectcss.__wab_text,
+                      sty.h2__eGy6
+                    )}
+                  >
+                    {"Team"}
+                  </h2>
 
-            <section
-              data-plasmic-name={"team"}
-              data-plasmic-override={overrides.team}
-              className={classNames(projectcss.all, sty.team)}
-            >
-              <div className={classNames(projectcss.all, sty.column__wMsG1)}>
-                <h2
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h2,
-                    projectcss.__wab_text,
-                    sty.h2__eGy6
-                  )}
-                >
-                  {"Team"}
-                </h2>
-
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__eiRds
-                  )}
-                >
-                  {
-                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. \nLorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                  }
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__eiRds
+                    )}
+                  >
+                    {
+                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. \nLorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    }
+                  </div>
                 </div>
 
                 <p.Stack
-                  as={"div"}
-                  data-plasmic-name={"teamRow1"}
-                  data-plasmic-override={overrides.teamRow1}
+                  as={"section"}
+                  data-plasmic-name={"wrapTeam"}
+                  data-plasmic-override={overrides.wrapTeam}
                   hasGap={true}
-                  className={classNames(projectcss.all, sty.teamRow1)}
+                  className={classNames(projectcss.all, sty.wrapTeam)}
                 >
-                  <div className={classNames(projectcss.all, sty.column__rc27)}>
+                  <div
+                    className={classNames(projectcss.all, sty.column__wMsG1)}
+                  >
                     <div
-                      className={classNames(projectcss.all, sty.columns__cxcmj)}
+                      className={classNames(projectcss.all, sty.freeBox__nKyi)}
                     >
                       <div
                         className={classNames(
                           projectcss.all,
-                          sty.column__vLMcr
+                          sty.freeBox__fOpl
                         )}
                       >
                         <p.PlasmicImg
@@ -919,19 +922,21 @@ function PlasmicHomepage__RenderFunc(props: {
                     </div>
                   </div>
 
-                  <div className={classNames(projectcss.all, sty.column__fVNc)}>
+                  <div
+                    className={classNames(projectcss.all, sty.column__zTnLi)}
+                  >
                     <div
-                      className={classNames(projectcss.all, sty.columns__g2VBa)}
+                      className={classNames(projectcss.all, sty.freeBox__dqk8R)}
                     >
                       <div
                         className={classNames(
                           projectcss.all,
-                          sty.column__ftzUl
+                          sty.freeBox__vhi9T
                         )}
                       >
                         <p.PlasmicImg
                           alt={""}
-                          className={classNames(sty.img__d4OHv)}
+                          className={classNames(sty.img__jg67X)}
                           displayHeight={"171px" as const}
                           displayMaxHeight={"171px" as const}
                           displayMaxWidth={"171px" as const}
@@ -952,12 +957,12 @@ function PlasmicHomepage__RenderFunc(props: {
                             projectcss.all,
                             projectcss.h5,
                             projectcss.__wab_text,
-                            sty.h5__kiaX2
+                            sty.h5__zgShT
                           )}
                         >
                           {hasVariant(globalVariants, "screen", "mediumSize")
                             ? "Scogna Owner"
-                            : "Engagement"}
+                            : "Social"}
                         </h5>
 
                         <div
@@ -965,71 +970,130 @@ function PlasmicHomepage__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__mpLE
+                            sty.text__oA1Ww
                           )}
                         >
-                          <React.Fragment>
-                            <React.Fragment>{""}</React.Fragment>
-                            <span
-                              className={
-                                "plasmic_default__all plasmic_default__span"
-                              }
-                              style={{ fontWeight: 700 }}
-                            >
-                              {"@tizio1 "}
-                            </span>
+                          {hasVariant(
+                            globalVariants,
+                            "screen",
+                            "mediumSize"
+                          ) ? (
                             <React.Fragment>
-                              {"il fottuto numero uno\n"}
+                              <React.Fragment>{""}</React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio1 "}
+                              </span>
+                              <React.Fragment>
+                                {"il fottuto numero uno\n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio2"}
+                              </span>
+                              <React.Fragment>
+                                {" questo fa un botto di cose\n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio3"}
+                              </span>
+                              <React.Fragment>
+                                {" che cazzo ne so\n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio4"}
+                              </span>
+                              <React.Fragment>
+                                {
+                                  " ho finito le frasi e mancano ancora 3 sezioni"
+                                }
+                              </React.Fragment>
                             </React.Fragment>
-                            <span
-                              className={
-                                "plasmic_default__all plasmic_default__span"
-                              }
-                              style={{ fontWeight: 700 }}
-                            >
-                              {"@tizio2"}
-                            </span>
+                          ) : (
                             <React.Fragment>
-                              {" questo fa un botto di cose\n"}
+                              <React.Fragment>{""}</React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio1 "}
+                              </span>
+                              <React.Fragment>
+                                {"il fottuto numero uno\n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio2"}
+                              </span>
+                              <React.Fragment>
+                                {" questo fa un botto di cose\n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio3"}
+                              </span>
+                              <React.Fragment>
+                                {" si ricopia facile"}
+                              </React.Fragment>
                             </React.Fragment>
-                            <span
-                              className={
-                                "plasmic_default__all plasmic_default__span"
-                              }
-                              style={{ fontWeight: 700 }}
-                            >
-                              {"@tizio3"}
-                            </span>
-                            <React.Fragment>
-                              {" si ricopia facile"}
-                            </React.Fragment>
-                          </React.Fragment>
+                          )}
                         </div>
                       </div>
                     </div>
                   </div>
 
                   <div
-                    className={classNames(projectcss.all, sty.column__k0Bmz)}
+                    className={classNames(projectcss.all, sty.column__lquca)}
                   >
                     <div
-                      className={classNames(projectcss.all, sty.columns__b42Jm)}
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___6ZJzc
+                      )}
                     >
                       <div
                         className={classNames(
                           projectcss.all,
-                          sty.column__uqUnq
+                          sty.freeBox___8JvxR
                         )}
                       >
                         <p.PlasmicImg
                           alt={""}
-                          className={classNames(sty.img__u7Zl)}
+                          className={classNames(sty.img__vgKrs)}
                           displayHeight={"171px" as const}
                           displayMaxHeight={"171px" as const}
                           displayMaxWidth={"171px" as const}
-                          displayMinHeight={"0" as const}
+                          displayMinHeight={"171px" as const}
                           displayMinWidth={"171px" as const}
-                          displayWidth={"171px" as const}
+                          displayWidth={"auto" as const}
                           loading={"lazy" as const}
                           src={{
                             src: "/plasmic/mavia_sun/images/item1Png.png",
@@ -1044,12 +1108,12 @@ function PlasmicHomepage__RenderFunc(props: {
                             projectcss.all,
                             projectcss.h5,
                             projectcss.__wab_text,
-                            sty.h5__nRQrS
+                            sty.h5__z6M1M
                           )}
                         >
                           {hasVariant(globalVariants, "screen", "mediumSize")
                             ? "Scogna Owner"
-                            : "Art"}
+                            : "Social"}
                         </h5>
 
                         <div
@@ -1057,62 +1121,118 @@ function PlasmicHomepage__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__iFx7X
+                            sty.text___1OGw4
                           )}
                         >
-                          <React.Fragment>
-                            <React.Fragment>{""}</React.Fragment>
-                            <span
-                              className={
-                                "plasmic_default__all plasmic_default__span"
-                              }
-                              style={{ fontWeight: 700 }}
-                            >
-                              {"@tizio1 "}
-                            </span>
+                          {hasVariant(
+                            globalVariants,
+                            "screen",
+                            "mediumSize"
+                          ) ? (
                             <React.Fragment>
-                              {"ho la creatività di una murena \n"}
+                              <React.Fragment>{""}</React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio1 "}
+                              </span>
+                              <React.Fragment>
+                                {"il fottuto numero uno\n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio2"}
+                              </span>
+                              <React.Fragment>
+                                {" questo fa un botto di cose\n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio3"}
+                              </span>
+                              <React.Fragment>
+                                {" che cazzo ne so\n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio4"}
+                              </span>
+                              <React.Fragment>
+                                {
+                                  " ho finito le frasi e mancano ancora 3 sezioni"
+                                }
+                              </React.Fragment>
                             </React.Fragment>
-                            <span
-                              className={
-                                "plasmic_default__all plasmic_default__span"
-                              }
-                              style={{ fontWeight: 700 }}
-                            >
-                              {"@tizio2"}
-                            </span>
+                          ) : (
                             <React.Fragment>
-                              {
-                                " sto usando le stesse frasi usate al mio orale di maturità "
-                              }
+                              <React.Fragment>{""}</React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio1 "}
+                              </span>
+                              <React.Fragment>
+                                {"ho la creatività di una murena \n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio2"}
+                              </span>
+                              <React.Fragment>
+                                {
+                                  " sto usando le stesse frasi usate al mio orale di maturità "
+                                }
+                              </React.Fragment>
                             </React.Fragment>
-                          </React.Fragment>
+                          )}
                         </div>
                       </div>
                     </div>
                   </div>
 
                   <div
-                    className={classNames(projectcss.all, sty.column__hDiY7)}
+                    className={classNames(projectcss.all, sty.column___2FucV)}
                   >
                     <div
-                      className={classNames(projectcss.all, sty.columns__q91Fk)}
+                      className={classNames(projectcss.all, sty.freeBox__pjEc5)}
                     >
                       <div
                         className={classNames(
                           projectcss.all,
-                          sty.column__bxGul
+                          sty.freeBox__fT3Kf
                         )}
                       >
                         <p.PlasmicImg
                           alt={""}
-                          className={classNames(sty.img__r6X8Q)}
+                          className={classNames(sty.img__xcp4L)}
                           displayHeight={"171px" as const}
                           displayMaxHeight={"171px" as const}
                           displayMaxWidth={"171px" as const}
                           displayMinHeight={"171px" as const}
                           displayMinWidth={"171px" as const}
-                          displayWidth={"171px" as const}
+                          displayWidth={"auto" as const}
                           loading={"lazy" as const}
                           src={{
                             src: "/plasmic/mavia_sun/images/item2Png.png",
@@ -1127,12 +1247,12 @@ function PlasmicHomepage__RenderFunc(props: {
                             projectcss.all,
                             projectcss.h5,
                             projectcss.__wab_text,
-                            sty.h5___7MBl1
+                            sty.h5__keQwT
                           )}
                         >
                           {hasVariant(globalVariants, "screen", "mediumSize")
                             ? "Scogna Owner"
-                            : "Other"}
+                            : "Social"}
                         </h5>
 
                         <div
@@ -1140,42 +1260,97 @@ function PlasmicHomepage__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__hw6Bh
+                            sty.text___1VGxG
                           )}
                         >
-                          <React.Fragment>
-                            <React.Fragment>{""}</React.Fragment>
-                            <span
-                              className={
-                                "plasmic_default__all plasmic_default__span"
-                              }
-                              style={{ fontWeight: 700 }}
-                            >
-                              {"@tizio1 "}
-                            </span>
+                          {hasVariant(
+                            globalVariants,
+                            "screen",
+                            "mediumSize"
+                          ) ? (
                             <React.Fragment>
-                              {"loro non sanno che sono beater \n"}
+                              <React.Fragment>{""}</React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio1 "}
+                              </span>
+                              <React.Fragment>
+                                {"il fottuto numero uno\n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio2"}
+                              </span>
+                              <React.Fragment>
+                                {" questo fa un botto di cose\n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio3"}
+                              </span>
+                              <React.Fragment>
+                                {" che cazzo ne so\n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio4"}
+                              </span>
+                              <React.Fragment>
+                                {
+                                  " ho finito le frasi e mancano ancora 3 sezioni"
+                                }
+                              </React.Fragment>
                             </React.Fragment>
-                            <span
-                              className={
-                                "plasmic_default__all plasmic_default__span"
-                              }
-                              style={{ fontWeight: 700 }}
-                            >
-                              {"@tizio2"}
-                            </span>
+                          ) : (
                             <React.Fragment>
-                              {" ìoro non sanno che sono scerif"}
+                              <React.Fragment>{""}</React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio1 "}
+                              </span>
+                              <React.Fragment>
+                                {"loro non sanno che sono beater \n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio2"}
+                              </span>
+                              <React.Fragment>
+                                {" ìoro non sanno che sono scerif"}
+                              </React.Fragment>
                             </React.Fragment>
-                          </React.Fragment>
+                          )}
                         </div>
                       </div>
                     </div>
                   </div>
                 </p.Stack>
               </div>
-            </section>
-
+            ) : null}
             {(
               hasVariant(globalVariants, "screen", "mediumSize") ? true : true
             ) ? (
@@ -1224,7 +1399,7 @@ const PlasmicDescendants = {
     "outerRow3",
     "row4",
     "team",
-    "teamRow1",
+    "wrapTeam",
     "footerBanner",
     "footer"
   ],
@@ -1324,8 +1499,8 @@ const PlasmicDescendants = {
   valusRow2: ["valusRow2", "outerRow3", "row4"],
   outerRow3: ["outerRow3", "row4"],
   row4: ["row4"],
-  team: ["team", "teamRow1"],
-  teamRow1: ["teamRow1"],
+  team: ["team", "wrapTeam"],
+  wrapTeam: ["wrapTeam"],
   footerBanner: ["footerBanner"],
   footer: ["footer"]
 } as const;
@@ -1356,8 +1531,8 @@ type NodeDefaultElementType = {
   valusRow2: "div";
   outerRow3: "div";
   row4: "div";
-  team: "section";
-  teamRow1: "div";
+  team: "div";
+  wrapTeam: "section";
   footerBanner: typeof HeroSection;
   footer: typeof Footer;
 };
@@ -1442,7 +1617,7 @@ export const PlasmicHomepage = Object.assign(
     outerRow3: makeNodeComponent("outerRow3"),
     row4: makeNodeComponent("row4"),
     team: makeNodeComponent("team"),
-    teamRow1: makeNodeComponent("teamRow1"),
+    wrapTeam: makeNodeComponent("wrapTeam"),
     footerBanner: makeNodeComponent("footerBanner"),
     footer: makeNodeComponent("footer"),
 
