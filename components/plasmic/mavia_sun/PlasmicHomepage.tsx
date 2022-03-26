@@ -306,12 +306,102 @@ function PlasmicHomepage__RenderFunc(props: {
                                 sty.freeBox___2CfU
                               )}
                             >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox___5Roiy
-                                )}
-                              />
+                              {(
+                                hasVariant(globalVariants, "screen", "mobile")
+                                  ? true
+                                  : false
+                              ) ? (
+                                <p.PlasmicImg
+                                  alt={""}
+                                  className={classNames(sty.img___7PtBe)}
+                                  displayHeight={
+                                    hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "mobile"
+                                    )
+                                      ? ("110px" as const)
+                                      : ("400px" as const)
+                                  }
+                                  displayMaxHeight={
+                                    hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "mobile"
+                                    )
+                                      ? ("110px" as const)
+                                      : ("none" as const)
+                                  }
+                                  displayMaxWidth={
+                                    hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "mobile"
+                                    )
+                                      ? ("110px" as const)
+                                      : ("none" as const)
+                                  }
+                                  displayMinHeight={
+                                    hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "mobile"
+                                    )
+                                      ? ("110px" as const)
+                                      : ("0" as const)
+                                  }
+                                  displayMinWidth={
+                                    hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "mobile"
+                                    )
+                                      ? ("110px" as const)
+                                      : ("0" as const)
+                                  }
+                                  displayWidth={
+                                    hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "mobile"
+                                    )
+                                      ? ("100%" as const)
+                                      : ("400px" as const)
+                                  }
+                                  loading={"lazy" as const}
+                                  src={
+                                    hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "mobile"
+                                    )
+                                      ? {
+                                          src: "/plasmic/mavia_sun/images/logo01RemovebgPreviewpng.png",
+                                          fullWidth: 500,
+                                          fullHeight: 500,
+                                          aspectRatio: undefined
+                                        }
+                                      : {
+                                          src: "/plasmic/mavia_sun/images/logoRedpng.png",
+                                          fullWidth: 366,
+                                          fullHeight: 357,
+                                          aspectRatio: undefined
+                                        }
+                                  }
+                                />
+                              ) : null}
+                              {(
+                                hasVariant(globalVariants, "screen", "mobile")
+                                  ? true
+                                  : true
+                              ) ? (
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox___5Roiy
+                                  )}
+                                />
+                              ) : null}
 
                               <h3
                                 className={classNames(
@@ -384,9 +474,9 @@ function PlasmicHomepage__RenderFunc(props: {
                                   }
                                   loading={"lazy" as const}
                                   src={{
-                                    src: "/plasmic/mavia_sun/images/logoRedpng.png",
-                                    fullWidth: 366,
-                                    fullHeight: 357,
+                                    src: "/plasmic/mavia_sun/images/logo01RemovebgPreviewpng.png",
+                                    fullWidth: 500,
+                                    fullHeight: 500,
                                     aspectRatio: undefined
                                   }}
                                   style={"" as const}
@@ -407,6 +497,59 @@ function PlasmicHomepage__RenderFunc(props: {
                           data-plasmic-override={overrides.outerRow3}
                           className={classNames(projectcss.all, sty.outerRow3)}
                         >
+                          {(
+                            hasVariant(globalVariants, "screen", "mobile")
+                              ? true
+                              : false
+                          ) ? (
+                            <p.PlasmicImg
+                              alt={""}
+                              className={classNames(sty.img__rj4H)}
+                              displayHeight={
+                                hasVariant(globalVariants, "screen", "mobile")
+                                  ? ("70px" as const)
+                                  : ("400px" as const)
+                              }
+                              displayMaxHeight={
+                                hasVariant(globalVariants, "screen", "mobile")
+                                  ? ("70px" as const)
+                                  : ("none" as const)
+                              }
+                              displayMaxWidth={
+                                hasVariant(globalVariants, "screen", "mobile")
+                                  ? ("70px" as const)
+                                  : ("none" as const)
+                              }
+                              displayMinHeight={"0" as const}
+                              displayMinWidth={
+                                hasVariant(globalVariants, "screen", "mobile")
+                                  ? ("70px" as const)
+                                  : ("0" as const)
+                              }
+                              displayWidth={
+                                hasVariant(globalVariants, "screen", "mobile")
+                                  ? ("70px" as const)
+                                  : ("400px" as const)
+                              }
+                              loading={"lazy" as const}
+                              src={
+                                hasVariant(globalVariants, "screen", "mobile")
+                                  ? {
+                                      src: "/plasmic/mavia_sun/images/logo01RemovebgPreviewpng.png",
+                                      fullWidth: 500,
+                                      fullHeight: 500,
+                                      aspectRatio: undefined
+                                    }
+                                  : {
+                                      src: "/plasmic/mavia_sun/images/logoRedpng.png",
+                                      fullWidth: 366,
+                                      fullHeight: 357,
+                                      aspectRatio: undefined
+                                    }
+                              }
+                            />
+                          ) : null}
+
                           <div
                             data-plasmic-name={"row4"}
                             data-plasmic-override={overrides.row4}
@@ -450,9 +593,9 @@ function PlasmicHomepage__RenderFunc(props: {
                                   }
                                   loading={"lazy" as const}
                                   src={{
-                                    src: "/plasmic/mavia_sun/images/logoRedpng.png",
-                                    fullWidth: 366,
-                                    fullHeight: 357,
+                                    src: "/plasmic/mavia_sun/images/logo01RemovebgPreviewpng.png",
+                                    fullWidth: 500,
+                                    fullHeight: 500,
                                     aspectRatio: undefined
                                   }}
                                 />
@@ -569,16 +712,16 @@ function PlasmicHomepage__RenderFunc(props: {
                           alt={""}
                           className={classNames(sty.img__iyzRx)}
                           displayHeight={"171px" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"100%" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
+                          displayMaxHeight={"171px" as const}
+                          displayMaxWidth={"171px" as const}
+                          displayMinHeight={"171px" as const}
+                          displayMinWidth={"171px" as const}
                           displayWidth={"auto" as const}
                           loading={"lazy" as const}
                           src={{
-                            src: "/plasmic/mavia_sun/images/item3Png.png",
-                            fullWidth: 402,
-                            fullHeight: 380,
+                            src: "/plasmic/mavia_sun/images/item4Png2.png",
+                            fullWidth: 316,
+                            fullHeight: 376,
                             aspectRatio: undefined
                           }}
                         />
@@ -604,9 +747,53 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.text__i5Cyh
                           )}
                         >
-                          {
-                            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-                          }
+                          <React.Fragment>
+                            <React.Fragment>{""}</React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ fontWeight: 700 }}
+                            >
+                              {"@tizio1 "}
+                            </span>
+                            <React.Fragment>
+                              {"il fottuto numero uno\n"}
+                            </React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ fontWeight: 700 }}
+                            >
+                              {"@tizio2"}
+                            </span>
+                            <React.Fragment>
+                              {" questo fa un botto di cose\n"}
+                            </React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ fontWeight: 700 }}
+                            >
+                              {"@tizio3"}
+                            </span>
+                            <React.Fragment>
+                              {" che cazzo ne so\n"}
+                            </React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ fontWeight: 700 }}
+                            >
+                              {"@tizio4"}
+                            </span>
+                            <React.Fragment>
+                              {" ho finito le frasi e mancano ancora 3 sezioni"}
+                            </React.Fragment>
+                          </React.Fragment>
                         </div>
                       </div>
                     </div>
@@ -626,11 +813,11 @@ function PlasmicHomepage__RenderFunc(props: {
                           alt={""}
                           className={classNames(sty.img__d4OHv)}
                           displayHeight={"171px" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"100%" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"auto" as const}
+                          displayMaxHeight={"171px" as const}
+                          displayMaxWidth={"171px" as const}
+                          displayMinHeight={"171px" as const}
+                          displayMinWidth={"171px" as const}
+                          displayWidth={"171px" as const}
                           loading={"lazy" as const}
                           src={{
                             src: "/plasmic/mavia_sun/images/item3Png.png",
@@ -661,9 +848,42 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.text__mpLE
                           )}
                         >
-                          {
-                            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-                          }
+                          <React.Fragment>
+                            <React.Fragment>{""}</React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ fontWeight: 700 }}
+                            >
+                              {"@tizio1 "}
+                            </span>
+                            <React.Fragment>
+                              {"il fottuto numero uno\n"}
+                            </React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ fontWeight: 700 }}
+                            >
+                              {"@tizio2"}
+                            </span>
+                            <React.Fragment>
+                              {" questo fa un botto di cose\n"}
+                            </React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ fontWeight: 700 }}
+                            >
+                              {"@tizio3"}
+                            </span>
+                            <React.Fragment>
+                              {" si ricopia facile"}
+                            </React.Fragment>
+                          </React.Fragment>
                         </div>
                       </div>
                     </div>
@@ -685,16 +905,16 @@ function PlasmicHomepage__RenderFunc(props: {
                           alt={""}
                           className={classNames(sty.img__u7Zl)}
                           displayHeight={"171px" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"100%" as const}
+                          displayMaxHeight={"171px" as const}
+                          displayMaxWidth={"171px" as const}
                           displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"auto" as const}
+                          displayMinWidth={"171px" as const}
+                          displayWidth={"171px" as const}
                           loading={"lazy" as const}
                           src={{
-                            src: "/plasmic/mavia_sun/images/item3Png.png",
-                            fullWidth: 402,
-                            fullHeight: 380,
+                            src: "/plasmic/mavia_sun/images/item1Png.png",
+                            fullWidth: 300,
+                            fullHeight: 300,
                             aspectRatio: undefined
                           }}
                         />
@@ -720,9 +940,33 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.text__iFx7X
                           )}
                         >
-                          {
-                            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-                          }
+                          <React.Fragment>
+                            <React.Fragment>{""}</React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ fontWeight: 700 }}
+                            >
+                              {"@tizio1 "}
+                            </span>
+                            <React.Fragment>
+                              {"ho la creatività di una murena \n"}
+                            </React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ fontWeight: 700 }}
+                            >
+                              {"@tizio2"}
+                            </span>
+                            <React.Fragment>
+                              {
+                                " sto usando le stesse frasi usate al mio orale di maturità "
+                              }
+                            </React.Fragment>
+                          </React.Fragment>
                         </div>
                       </div>
                     </div>
@@ -744,16 +988,16 @@ function PlasmicHomepage__RenderFunc(props: {
                           alt={""}
                           className={classNames(sty.img__r6X8Q)}
                           displayHeight={"171px" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"100%" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"auto" as const}
+                          displayMaxHeight={"171px" as const}
+                          displayMaxWidth={"171px" as const}
+                          displayMinHeight={"171px" as const}
+                          displayMinWidth={"171px" as const}
+                          displayWidth={"171px" as const}
                           loading={"lazy" as const}
                           src={{
-                            src: "/plasmic/mavia_sun/images/item3Png.png",
-                            fullWidth: 402,
-                            fullHeight: 380,
+                            src: "/plasmic/mavia_sun/images/item2Png.png",
+                            fullWidth: 644,
+                            fullHeight: 644,
                             aspectRatio: undefined
                           }}
                         />
@@ -779,9 +1023,31 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.text__hw6Bh
                           )}
                         >
-                          {
-                            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-                          }
+                          <React.Fragment>
+                            <React.Fragment>{""}</React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ fontWeight: 700 }}
+                            >
+                              {"@tizio1 "}
+                            </span>
+                            <React.Fragment>
+                              {"loro non sanno che sono beater \n"}
+                            </React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ fontWeight: 700 }}
+                            >
+                              {"@tizio2"}
+                            </span>
+                            <React.Fragment>
+                              {" ìoro non sanno che sono scerif"}
+                            </React.Fragment>
+                          </React.Fragment>
                         </div>
                       </div>
                     </div>

@@ -801,6 +801,31 @@
           "id": "toPR_DXCMH",
           "name": "logo-dark.svg 2",
           "filePath": "../public/plasmic/mavia_sun/images/logoDarksvg2.svg"
+        },
+        {
+          "id": "Dtn9E-Wgc",
+          "name": "item_2.png",
+          "filePath": "../public/plasmic/mavia_sun/images/item2Png.png"
+        },
+        {
+          "id": "4MZhlGEzl",
+          "name": "item_1.png",
+          "filePath": "../public/plasmic/mavia_sun/images/item1Png.png"
+        },
+        {
+          "id": "pCOPn1IZg",
+          "name": "item_4.png 2",
+          "filePath": "../public/plasmic/mavia_sun/images/item4Png2.png"
+        },
+        {
+          "id": "yniOopCDs",
+          "name": "LOGO_01-removebg-preview.png",
+          "filePath": "../public/plasmic/mavia_sun/images/logo01RemovebgPreviewpng.png"
+        },
+        {
+          "id": "__Ar9j4-0",
+          "name": "LOGO_01.jpeg",
+          "filePath": "../public/plasmic/mavia_sun/images/logo01Jpeg.jpeg"
         }
       ],
       "indirect": false,

@@ -309,93 +309,100 @@ function PlasmicBlogPosts__RenderFunc(props: {
                 </div>
               </div>
             ) : null}
+            {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+              <div className={classNames(projectcss.all, sty.column__gaLuf)}>
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__inm8Y)}
+                  displayHeight={"230px" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"100%" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/mavia_sun/images/base3Jpg.jpeg",
+                    fullWidth: 960,
+                    fullHeight: 618,
+                    aspectRatio: undefined
+                  }}
+                />
 
-            <div className={classNames(projectcss.all, sty.column__gaLuf)}>
-              <p.PlasmicImg
-                alt={""}
-                className={classNames(sty.img__inm8Y)}
-                displayHeight={"230px" as const}
-                displayMaxHeight={"none" as const}
-                displayMaxWidth={"100%" as const}
-                displayMinHeight={"0" as const}
-                displayMinWidth={"0" as const}
-                displayWidth={"100%" as const}
-                loading={"lazy" as const}
-                src={{
-                  src: "/plasmic/mavia_sun/images/base3Jpg.jpeg",
-                  fullWidth: 960,
-                  fullHeight: 618,
-                  aspectRatio: undefined
-                }}
-              />
-
-              <div className={classNames(projectcss.all, sty.columns__z2MK7)}>
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.column__hhhXu)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__jyyE7
-                    )}
-                  >
-                    {"April 03, 2022"}
-                  </div>
-
-                  <h4
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.h4,
-                      projectcss.__wab_text,
-                      sty.h4___6Uggh
-                    )}
-                  >
-                    {hasVariant(globalVariants, "screen", "mobile")
-                      ? "Rilasciato nuovo gruppo di Land, troppi soldi"
-                      : "Rilasciato nuovo gruppo di Land, troppi soldi"}
-                  </h4>
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__ffrYn
-                    )}
-                  >
-                    {
-                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ....\n"
-                    }
-                  </div>
-
-                  <Button
-                    className={classNames("__wab_instance", sty.button__x7Ltd)}
-                    color={"softBlue" as const}
-                    endIcon={
-                      <ArrowRightsvgIcon
-                        className={classNames(projectcss.all, sty.svg___04Lyk)}
-                        role={"img"}
-                      />
-                    }
-                    link={"https://twitter.com/MaviaGame" as const}
-                    shape={"rounded" as const}
-                    showEndIcon={true}
+                <div className={classNames(projectcss.all, sty.columns__z2MK7)}>
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.column__hhhXu)}
                   >
                     <div
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text___6E9Wt
+                        sty.text__jyyE7
                       )}
                     >
-                      {"READ MORE"}
+                      {"April 03, 2022"}
                     </div>
-                  </Button>
-                </p.Stack>
+
+                    <h4
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h4,
+                        projectcss.__wab_text,
+                        sty.h4___6Uggh
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobile")
+                        ? "Rilasciato nuovo gruppo di Land, troppi soldi"
+                        : "Rilasciato nuovo gruppo di Land, troppi soldi"}
+                    </h4>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__ffrYn
+                      )}
+                    >
+                      {
+                        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ....\n"
+                      }
+                    </div>
+
+                    <Button
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button__x7Ltd
+                      )}
+                      color={"softBlue" as const}
+                      endIcon={
+                        <ArrowRightsvgIcon
+                          className={classNames(
+                            projectcss.all,
+                            sty.svg___04Lyk
+                          )}
+                          role={"img"}
+                        />
+                      }
+                      link={"https://twitter.com/MaviaGame" as const}
+                      shape={"rounded" as const}
+                      showEndIcon={true}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___6E9Wt
+                        )}
+                      >
+                        {"READ MORE"}
+                      </div>
+                    </Button>
+                  </p.Stack>
+                </div>
               </div>
-            </div>
+            ) : null}
           </p.Stack>
         ) : null}
       </div>
