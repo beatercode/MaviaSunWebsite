@@ -18,7 +18,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 16px;
 }
-@media (min-width: 0px) and (max-width: 450px) {
+@media (min-width: 0px) and (max-width: 700px) {
   .root {
     padding: 32px 15px;
   }
@@ -49,13 +49,13 @@
   > img {
   margin-left: 16px;
 }
-@media (min-width: 0px) and (max-width: 450px) {
+@media (min-width: 0px) and (max-width: 700px) {
   .freeBox__a3NPx {
     display: flex;
     flex-direction: column;
   }
 }
-@media (min-width: 0px) and (max-width: 450px) {
+@media (min-width: 0px) and (max-width: 700px) {
   .freeBox__a3NPx > :global(.__wab_flex-container) {
     flex-direction: column;
     align-items: center;
@@ -65,7 +65,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 0px) and (max-width: 450px) {
+@media (min-width: 0px) and (max-width: 700px) {
   .freeBox__a3NPx > :global(.__wab_flex-container) > *,
   .freeBox__a3NPx > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox__a3NPx > :global(.__wab_flex-container) > picture > img,
@@ -124,7 +124,7 @@
   > img {
   margin-left: 8px;
 }
-@media (min-width: 0px) and (max-width: 450px) {
+@media (min-width: 0px) and (max-width: 700px) {
   .freeBox__aNcaL > :global(.__wab_flex-container) {
     flex-wrap: wrap;
     justify-content: center;
@@ -132,7 +132,7 @@
     height: calc(100% + 8px);
   }
 }
-@media (min-width: 0px) and (max-width: 450px) {
+@media (min-width: 0px) and (max-width: 700px) {
   .freeBox__aNcaL > :global(.__wab_flex-container) > *,
   .freeBox__aNcaL > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox__aNcaL > :global(.__wab_flex-container) > picture > img,
@@ -198,7 +198,7 @@
   line-height: 26px;
   font-family: "Montserrat", sans-serif;
 }
-@media (min-width: 0px) and (max-width: 450px) {
+@media (min-width: 0px) and (max-width: 700px) {
   .text__sjGw {
     color: var(--token-4DHMt0QiPKjZuh);
   }
@@ -255,7 +255,7 @@
   line-height: 26px;
   font-family: "Montserrat", sans-serif;
 }
-@media (min-width: 0px) and (max-width: 450px) {
+@media (min-width: 0px) and (max-width: 700px) {
   .text__pygmH {
     color: var(--token-4DHMt0QiPKjZuh);
   }
@@ -303,7 +303,7 @@
   font-size: 18px;
   line-height: 26px;
 }
-@media (min-width: 0px) and (max-width: 450px) {
+@media (min-width: 0px) and (max-width: 700px) {
   .text__ztb3X {
     color: var(--token-4DHMt0QiPKjZuh);
   }

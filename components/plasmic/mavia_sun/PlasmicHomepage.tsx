@@ -167,24 +167,9 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h1
                           )}
                         >
-                          {hasVariant(globalVariants, "screen", "mobile") ? (
-                            "MAVIA SUN TEAM"
-                          ) : hasVariant(globalVariants, "screen", "tablet") ? (
-                            <React.Fragment>
-                              <React.Fragment>{""}</React.Fragment>
-                              <span
-                                className={
-                                  "plasmic_default__all plasmic_default__span"
-                                }
-                                style={{ fontWeight: 700 }}
-                              >
-                                {"Mavia Sun Team"}
-                              </span>
-                              <React.Fragment>{""}</React.Fragment>
-                            </React.Fragment>
-                          ) : (
-                            "Mavia Sun Team"
-                          )}
+                          {hasVariant(globalVariants, "screen", "mobile")
+                            ? "MAVIA SUN TEAM"
+                            : "Mavia Sun Team"}
                         </h1>
 
                         <div
@@ -751,53 +736,107 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.text__i5Cyh
                           )}
                         >
-                          <React.Fragment>
-                            <React.Fragment>{""}</React.Fragment>
-                            <span
-                              className={
-                                "plasmic_default__all plasmic_default__span"
-                              }
-                              style={{ fontWeight: 700 }}
-                            >
-                              {"@tizio1 "}
-                            </span>
+                          {hasVariant(globalVariants, "screen", "mobile") ? (
                             <React.Fragment>
-                              {"il fottuto numero uno\n"}
+                              <React.Fragment>{""}</React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio1 "}
+                              </span>
+                              <React.Fragment>
+                                {"il fottuto numero uno\n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio2"}
+                              </span>
+                              <React.Fragment>
+                                {" questo fa un botto di cose\n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio3"}
+                              </span>
+                              <React.Fragment>
+                                {" che cazzo ne so\n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio4"}
+                              </span>
+                              <React.Fragment>
+                                {
+                                  " ho finito le frasi e mancano ancora 3 sezioni"
+                                }
+                              </React.Fragment>
                             </React.Fragment>
-                            <span
-                              className={
-                                "plasmic_default__all plasmic_default__span"
-                              }
-                              style={{ fontWeight: 700 }}
-                            >
-                              {"@tizio2"}
-                            </span>
+                          ) : (
                             <React.Fragment>
-                              {" questo fa un botto di cose\n"}
+                              <React.Fragment>{""}</React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio1 "}
+                              </span>
+                              <React.Fragment>
+                                {"il fottuto numero uno\n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio2"}
+                              </span>
+                              <React.Fragment>
+                                {" questo fa un botto di cose\n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio3"}
+                              </span>
+                              <React.Fragment>
+                                {" che cazzo ne so\n"}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"@tizio4"}
+                              </span>
+                              <React.Fragment>
+                                {
+                                  " ho finito le frasi e mancano ancora 3 sezioni"
+                                }
+                              </React.Fragment>
                             </React.Fragment>
-                            <span
-                              className={
-                                "plasmic_default__all plasmic_default__span"
-                              }
-                              style={{ fontWeight: 700 }}
-                            >
-                              {"@tizio3"}
-                            </span>
-                            <React.Fragment>
-                              {" che cazzo ne so\n"}
-                            </React.Fragment>
-                            <span
-                              className={
-                                "plasmic_default__all plasmic_default__span"
-                              }
-                              style={{ fontWeight: 700 }}
-                            >
-                              {"@tizio4"}
-                            </span>
-                            <React.Fragment>
-                              {" ho finito le frasi e mancano ancora 3 sezioni"}
-                            </React.Fragment>
-                          </React.Fragment>
+                          )}
                         </div>
                       </div>
                     </div>
