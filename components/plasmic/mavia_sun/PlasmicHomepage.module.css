@@ -1594,7 +1594,7 @@
     align-self: center;
     order: 6;
     margin-top: calc(0px + 0px) !important;
-    display: flex;
+    display: none;
   }
 }
 .footer:global(.__wab_instance) {
