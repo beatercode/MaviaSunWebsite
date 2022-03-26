@@ -97,11 +97,11 @@ function PlasmicBlogPost__RenderFunc(props: {
         sty.root
       )}
     >
-      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+      {(hasVariant(globalVariants, "screen", "mediumSize") ? true : true) ? (
         <div
           className={classNames(projectcss.all, sty.column__cJi5A)}
           width={
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "mediumSize")
               ? ("2400px !important" as const)
               : undefined
           }
@@ -118,7 +118,9 @@ function PlasmicBlogPost__RenderFunc(props: {
                 className={classNames(projectcss.all, sty.twitterSlot)}
               >
                 {(
-                  hasVariant(globalVariants, "screen", "mobile") ? true : true
+                  hasVariant(globalVariants, "screen", "mediumSize")
+                    ? true
+                    : true
                 ) ? (
                   <h2
                     className={classNames(
@@ -128,7 +130,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                       sty.h2__rJyvd
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile") ? (
+                    {hasVariant(globalVariants, "screen", "mediumSize") ? (
                       "Twitter"
                     ) : (
                       <React.Fragment>
@@ -157,7 +159,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                       alt={""}
                       className={classNames(sty.img__e985O)}
                       displayHeight={
-                        hasVariant(globalVariants, "screen", "mobile")
+                        hasVariant(globalVariants, "screen", "mediumSize")
                           ? ("auto" as const)
                           : ("100%" as const)
                       }
@@ -166,7 +168,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
                       displayWidth={
-                        hasVariant(globalVariants, "screen", "mobile")
+                        hasVariant(globalVariants, "screen", "mediumSize")
                           ? ("auto" as const)
                           : ("100%" as const)
                       }
@@ -194,7 +196,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                           sty.h4__oA21
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobile")
+                        {hasVariant(globalVariants, "screen", "mediumSize")
                           ? "Customer Loyalty Programs That Stick"
                           : "Blog heading dummy"}
                       </h4>
@@ -242,7 +244,9 @@ function PlasmicBlogPost__RenderFunc(props: {
                 className={classNames(projectcss.all, sty.artSlot)}
               >
                 {(
-                  hasVariant(globalVariants, "screen", "mobile") ? true : true
+                  hasVariant(globalVariants, "screen", "mediumSize")
+                    ? true
+                    : true
                 ) ? (
                   <h2
                     className={classNames(
@@ -252,7 +256,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                       sty.h2__fM0HY
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile") ? (
+                    {hasVariant(globalVariants, "screen", "mediumSize") ? (
                       <React.Fragment>
                         <React.Fragment>{""}</React.Fragment>
                         <span
@@ -287,7 +291,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                     className={classNames(projectcss.all, sty.column___4EHwX)}
                   >
                     {(
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "mediumSize")
                         ? true
                         : false
                     ) ? (
@@ -299,7 +303,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                           sty.h2__z4Pc
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobile") ? (
+                        {hasVariant(globalVariants, "screen", "mediumSize") ? (
                           "Art"
                         ) : (
                           <React.Fragment>
@@ -351,7 +355,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                           sty.h4__rfS0W
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobile")
+                        {hasVariant(globalVariants, "screen", "mediumSize")
                           ? "Customer Loyalty Programs That Stick"
                           : "Blog heading dummy"}
                       </h4>
@@ -399,7 +403,9 @@ function PlasmicBlogPost__RenderFunc(props: {
                 className={classNames(projectcss.all, sty.mediumSlot)}
               >
                 {(
-                  hasVariant(globalVariants, "screen", "mobile") ? true : true
+                  hasVariant(globalVariants, "screen", "mediumSize")
+                    ? true
+                    : true
                 ) ? (
                   <h2
                     className={classNames(
@@ -409,7 +415,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                       sty.h2__ujlHb
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile") ? (
+                    {hasVariant(globalVariants, "screen", "mediumSize") ? (
                       <React.Fragment>
                         <React.Fragment>{""}</React.Fragment>
                         <span
@@ -444,7 +450,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                 >
                   <div className={classNames(projectcss.all, sty.column__uzeD)}>
                     {(
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "mediumSize")
                         ? true
                         : false
                     ) ? (
@@ -456,7 +462,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                           sty.h2__xm6D9
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobile") ? (
+                        {hasVariant(globalVariants, "screen", "mediumSize") ? (
                           <React.Fragment>
                             <React.Fragment>{""}</React.Fragment>
                             <span
@@ -497,7 +503,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                       displayWidth={"100%" as const}
                       loading={"lazy" as const}
                       src={
-                        hasVariant(globalVariants, "screen", "mobile")
+                        hasVariant(globalVariants, "screen", "mediumSize")
                           ? {
                               src: "/plasmic/mavia_sun/images/_1ElxyokWQdHaV6SbgmGygAjpeg.png",
                               fullWidth: 1024,
@@ -531,7 +537,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                           sty.h4__cIt39
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobile")
+                        {hasVariant(globalVariants, "screen", "mediumSize")
                           ? "Customer Loyalty Programs That Stick"
                           : "Blog heading dummy"}
                       </h4>
@@ -579,7 +585,9 @@ function PlasmicBlogPost__RenderFunc(props: {
                 className={classNames(projectcss.all, sty.memeSlot)}
               >
                 {(
-                  hasVariant(globalVariants, "screen", "mobile") ? true : true
+                  hasVariant(globalVariants, "screen", "mediumSize")
+                    ? true
+                    : true
                 ) ? (
                   <h2
                     className={classNames(
@@ -589,7 +597,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                       sty.h2__syLis
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile") ? (
+                    {hasVariant(globalVariants, "screen", "mediumSize") ? (
                       <React.Fragment>
                         <React.Fragment>{""}</React.Fragment>
                         <span
@@ -624,7 +632,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                     className={classNames(projectcss.all, sty.column__ro9Nh)}
                   >
                     {(
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "mediumSize")
                         ? true
                         : false
                     ) ? (
@@ -636,7 +644,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                           sty.h2__rSrq3
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobile") ? (
+                        {hasVariant(globalVariants, "screen", "mediumSize") ? (
                           "Meme"
                         ) : (
                           <React.Fragment>
@@ -666,7 +674,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                       displayWidth={"100%" as const}
                       loading={"lazy" as const}
                       src={
-                        hasVariant(globalVariants, "screen", "mobile")
+                        hasVariant(globalVariants, "screen", "mediumSize")
                           ? {
                               src: "/plasmic/mavia_sun/images/_1ElxyokWQdHaV6SbgmGygAjpeg.png",
                               fullWidth: 1024,
@@ -697,7 +705,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                           sty.h4___2SbOk
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobile")
+                        {hasVariant(globalVariants, "screen", "mediumSize")
                           ? "Customer Loyalty Programs That Stick"
                           : "Blog heading dummy"}
                       </h4>
@@ -745,7 +753,9 @@ function PlasmicBlogPost__RenderFunc(props: {
                 className={classNames(projectcss.all, sty.instagramSlot)}
               >
                 {(
-                  hasVariant(globalVariants, "screen", "mobile") ? true : true
+                  hasVariant(globalVariants, "screen", "mediumSize")
+                    ? true
+                    : true
                 ) ? (
                   <h2
                     className={classNames(
@@ -755,7 +765,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                       sty.h2__oGmqf
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile") ? (
+                    {hasVariant(globalVariants, "screen", "mediumSize") ? (
                       <React.Fragment>
                         <React.Fragment>{""}</React.Fragment>
                         <span
@@ -790,7 +800,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                 >
                   <div className={classNames(projectcss.all, sty.column__lBhS)}>
                     {(
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "mediumSize")
                         ? true
                         : false
                     ) ? (
@@ -802,7 +812,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                           sty.h2__s2K3Y
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobile") ? (
+                        {hasVariant(globalVariants, "screen", "mediumSize") ? (
                           "Instagram"
                         ) : (
                           <React.Fragment>
@@ -832,7 +842,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                       displayWidth={"100%" as const}
                       loading={"lazy" as const}
                       src={
-                        hasVariant(globalVariants, "screen", "mobile")
+                        hasVariant(globalVariants, "screen", "mediumSize")
                           ? {
                               src: "/plasmic/mavia_sun/images/_1ElxyokWQdHaV6SbgmGygAjpeg.png",
                               fullWidth: 1024,
@@ -866,7 +876,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                           sty.h4__cq26Q
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobile")
+                        {hasVariant(globalVariants, "screen", "mediumSize")
                           ? "Customer Loyalty Programs That Stick"
                           : "Blog heading dummy"}
                       </h4>

@@ -167,7 +167,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h1
                           )}
                         >
-                          {hasVariant(globalVariants, "screen", "mobile")
+                          {hasVariant(globalVariants, "screen", "mediumSize")
                             ? "MAVIA SUN TEAM"
                             : "Mavia Sun Team"}
                         </h1>
@@ -179,7 +179,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.text___9Qpoh
                           )}
                         >
-                          {hasVariant(globalVariants, "screen", "mobile")
+                          {hasVariant(globalVariants, "screen", "mediumSize")
                             ? "Esplora, Tilta, Shoppa"
                             : "Esplora, Tilta, Shoppa"}
                         </div>
@@ -256,7 +256,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.text__cj0SM
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile")
+                    {hasVariant(globalVariants, "screen", "mediumSize")
                       ? "E' il terzo sito web questo web, parlo da solo perchè la mia ragazza sta giocando alla PS4. Viva la F(OMO)"
                       : "Non male persuasystem 2.0. Sembra di parlare con un venditore, però per il resto ha del contenuto molto valido"}
                   </div>
@@ -292,7 +292,11 @@ function PlasmicHomepage__RenderFunc(props: {
                               )}
                             >
                               {(
-                                hasVariant(globalVariants, "screen", "mobile")
+                                hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mediumSize"
+                                )
                                   ? true
                                   : false
                               ) ? (
@@ -303,7 +307,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     hasVariant(
                                       globalVariants,
                                       "screen",
-                                      "mobile"
+                                      "mediumSize"
                                     )
                                       ? ("110px" as const)
                                       : ("400px" as const)
@@ -312,7 +316,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     hasVariant(
                                       globalVariants,
                                       "screen",
-                                      "mobile"
+                                      "mediumSize"
                                     )
                                       ? ("110px" as const)
                                       : ("none" as const)
@@ -321,7 +325,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     hasVariant(
                                       globalVariants,
                                       "screen",
-                                      "mobile"
+                                      "mediumSize"
                                     )
                                       ? ("110px" as const)
                                       : ("none" as const)
@@ -330,7 +334,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     hasVariant(
                                       globalVariants,
                                       "screen",
-                                      "mobile"
+                                      "mediumSize"
                                     )
                                       ? ("110px" as const)
                                       : ("0" as const)
@@ -339,7 +343,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     hasVariant(
                                       globalVariants,
                                       "screen",
-                                      "mobile"
+                                      "mediumSize"
                                     )
                                       ? ("110px" as const)
                                       : ("0" as const)
@@ -348,7 +352,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     hasVariant(
                                       globalVariants,
                                       "screen",
-                                      "mobile"
+                                      "mediumSize"
                                     )
                                       ? ("110px" as const)
                                       : ("400px" as const)
@@ -358,7 +362,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     hasVariant(
                                       globalVariants,
                                       "screen",
-                                      "mobile"
+                                      "mediumSize"
                                     )
                                       ? {
                                           src: "/plasmic/mavia_sun/images/logo01RemovebgPreviewpng.png",
@@ -376,7 +380,11 @@ function PlasmicHomepage__RenderFunc(props: {
                                 />
                               ) : null}
                               {(
-                                hasVariant(globalVariants, "screen", "mobile")
+                                hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mediumSize"
+                                )
                                   ? true
                                   : true
                               ) ? (
@@ -406,7 +414,11 @@ function PlasmicHomepage__RenderFunc(props: {
                                   sty.text__us0Aj
                                 )}
                               >
-                                {hasVariant(globalVariants, "screen", "mobile")
+                                {hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mediumSize"
+                                )
                                   ? "Our team is constantly posting new content every day.\nBy the way, BeaterFit best adc euw on WildRift.\nNo matter what."
                                   : "Our team is constantly posting new content every day.\nBy the way, BeaterFit is the best adc euw on Wild Rift.\nNo matter what."}
                               </div>
@@ -428,7 +440,11 @@ function PlasmicHomepage__RenderFunc(props: {
                               )}
                             >
                               {(
-                                hasVariant(globalVariants, "screen", "mobile")
+                                hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mediumSize"
+                                )
                                   ? true
                                   : true
                               ) ? (
@@ -439,7 +455,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     hasVariant(
                                       globalVariants,
                                       "screen",
-                                      "mobile"
+                                      "mediumSize"
                                     )
                                       ? ("110px" as const)
                                       : ("400px" as const)
@@ -452,7 +468,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     hasVariant(
                                       globalVariants,
                                       "screen",
-                                      "mobile"
+                                      "mediumSize"
                                     )
                                       ? ("110px" as const)
                                       : ("400px" as const)
@@ -483,7 +499,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           className={classNames(projectcss.all, sty.outerRow3)}
                         >
                           {(
-                            hasVariant(globalVariants, "screen", "mobile")
+                            hasVariant(globalVariants, "screen", "mediumSize")
                               ? true
                               : false
                           ) ? (
@@ -491,38 +507,66 @@ function PlasmicHomepage__RenderFunc(props: {
                               alt={""}
                               className={classNames(sty.img__rj4H)}
                               displayHeight={
-                                hasVariant(globalVariants, "screen", "mobile")
+                                hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mediumSize"
+                                )
                                   ? ("110px" as const)
                                   : ("400px" as const)
                               }
                               displayMaxHeight={
-                                hasVariant(globalVariants, "screen", "mobile")
+                                hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mediumSize"
+                                )
                                   ? ("110px" as const)
                                   : ("none" as const)
                               }
                               displayMaxWidth={
-                                hasVariant(globalVariants, "screen", "mobile")
+                                hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mediumSize"
+                                )
                                   ? ("110px" as const)
                                   : ("none" as const)
                               }
                               displayMinHeight={
-                                hasVariant(globalVariants, "screen", "mobile")
+                                hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mediumSize"
+                                )
                                   ? ("110px" as const)
                                   : ("0" as const)
                               }
                               displayMinWidth={
-                                hasVariant(globalVariants, "screen", "mobile")
+                                hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mediumSize"
+                                )
                                   ? ("110px" as const)
                                   : ("0" as const)
                               }
                               displayWidth={
-                                hasVariant(globalVariants, "screen", "mobile")
+                                hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mediumSize"
+                                )
                                   ? ("70px" as const)
                                   : ("400px" as const)
                               }
                               loading={"lazy" as const}
                               src={
-                                hasVariant(globalVariants, "screen", "mobile")
+                                hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mediumSize"
+                                )
                                   ? {
                                       src: "/plasmic/mavia_sun/images/logo01RemovebgPreviewpng.png",
                                       fullWidth: 500,
@@ -551,7 +595,11 @@ function PlasmicHomepage__RenderFunc(props: {
                               )}
                             >
                               {(
-                                hasVariant(globalVariants, "screen", "mobile")
+                                hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mediumSize"
+                                )
                                   ? true
                                   : true
                               ) ? (
@@ -562,7 +610,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     hasVariant(
                                       globalVariants,
                                       "screen",
-                                      "mobile"
+                                      "mediumSize"
                                     )
                                       ? ("110px" as const)
                                       : ("400px" as const)
@@ -575,7 +623,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     hasVariant(
                                       globalVariants,
                                       "screen",
-                                      "mobile"
+                                      "mediumSize"
                                     )
                                       ? ("110px" as const)
                                       : ("400px" as const)
@@ -634,7 +682,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     {hasVariant(
                                       globalVariants,
                                       "screen",
-                                      "mobile"
+                                      "mediumSize"
                                     )
                                       ? "Cioè. Cazzo. Siamo dei mostri. Un sito di cristo che con il content adatto, non può che farci avere la prima posizione in classifica. \nEasy win."
                                       : "Cioè. Cazzo. Siamo dei mostri. Un sito di cristo che con il content adatto, non può che farci avere la prima posizione in classifica. \nEasy win."}
@@ -723,7 +771,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h5__gNw8K
                           )}
                         >
-                          {hasVariant(globalVariants, "screen", "mobile")
+                          {hasVariant(globalVariants, "screen", "mediumSize")
                             ? "Scogna Owner"
                             : "Social"}
                         </h5>
@@ -736,7 +784,11 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.text__i5Cyh
                           )}
                         >
-                          {hasVariant(globalVariants, "screen", "mobile") ? (
+                          {hasVariant(
+                            globalVariants,
+                            "screen",
+                            "mediumSize"
+                          ) ? (
                             <React.Fragment>
                               <React.Fragment>{""}</React.Fragment>
                               <span
@@ -878,7 +930,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h5__kiaX2
                           )}
                         >
-                          {hasVariant(globalVariants, "screen", "mobile")
+                          {hasVariant(globalVariants, "screen", "mediumSize")
                             ? "Scogna Owner"
                             : "Engagement"}
                         </h5>
@@ -970,7 +1022,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h5__nRQrS
                           )}
                         >
-                          {hasVariant(globalVariants, "screen", "mobile")
+                          {hasVariant(globalVariants, "screen", "mediumSize")
                             ? "Scogna Owner"
                             : "Art"}
                         </h5>
@@ -1053,7 +1105,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h5___7MBl1
                           )}
                         >
-                          {hasVariant(globalVariants, "screen", "mobile")
+                          {hasVariant(globalVariants, "screen", "mediumSize")
                             ? "Scogna Owner"
                             : "Other"}
                         </h5>

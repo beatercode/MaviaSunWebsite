@@ -119,19 +119,21 @@ function PlasmicBlogPosts__RenderFunc(props: {
           }
         </div>
 
-        {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+        {(hasVariant(globalVariants, "screen", "mediumSize") ? true : true) ? (
           <p.Stack
             as={"div"}
             hasGap={true}
             className={classNames(projectcss.all, sty.columns__zY4Js)}
           >
-            {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+            {(
+              hasVariant(globalVariants, "screen", "mediumSize") ? true : true
+            ) ? (
               <div className={classNames(projectcss.all, sty.column__bvFe9)}>
                 <p.PlasmicImg
                   alt={""}
                   className={classNames(sty.img__yNcIq)}
                   displayHeight={
-                    hasVariant(globalVariants, "screen", "mobile")
+                    hasVariant(globalVariants, "screen", "mediumSize")
                       ? ("286px" as const)
                       : ("230px" as const)
                   }
@@ -140,7 +142,7 @@ function PlasmicBlogPosts__RenderFunc(props: {
                   displayMinHeight={"0" as const}
                   displayMinWidth={"0" as const}
                   displayWidth={
-                    hasVariant(globalVariants, "screen", "mobile")
+                    hasVariant(globalVariants, "screen", "mediumSize")
                       ? ("100%" as const)
                       : ("auto" as const)
                   }
@@ -220,7 +222,9 @@ function PlasmicBlogPosts__RenderFunc(props: {
                 </div>
               </div>
             ) : null}
-            {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+            {(
+              hasVariant(globalVariants, "screen", "mediumSize") ? true : true
+            ) ? (
               <div className={classNames(projectcss.all, sty.column__icw94)}>
                 <p.PlasmicImg
                   alt={""}
@@ -262,7 +266,7 @@ function PlasmicBlogPosts__RenderFunc(props: {
                         sty.h4___0Dsnv
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "mobile")
+                      {hasVariant(globalVariants, "screen", "mediumSize")
                         ? "CEO di Mavia indagato per stupro, ancora aperte le indagini"
                         : "CEO di Mavia indagato per stupro, ancora aperte le indagini"}
                     </h4>
@@ -309,7 +313,9 @@ function PlasmicBlogPosts__RenderFunc(props: {
                 </div>
               </div>
             ) : null}
-            {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+            {(
+              hasVariant(globalVariants, "screen", "mediumSize") ? true : true
+            ) ? (
               <div className={classNames(projectcss.all, sty.column__gaLuf)}>
                 <p.PlasmicImg
                   alt={""}
@@ -353,7 +359,7 @@ function PlasmicBlogPosts__RenderFunc(props: {
                         sty.h4___6Uggh
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "mobile")
+                      {hasVariant(globalVariants, "screen", "mediumSize")
                         ? "Rilasciato nuovo gruppo di Land, troppi soldi"
                         : "Rilasciato nuovo gruppo di Land, troppi soldi"}
                     </h4>
