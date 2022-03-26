@@ -80,8 +80,6 @@ export type PlasmicHomepage__OverridesType = {
   row4?: p.Flex<"div">;
   team?: p.Flex<"section">;
   teamRow1?: p.Flex<"div">;
-  teamRow2?: p.Flex<"div">;
-  teamRow3?: p.Flex<"div">;
   ctaBlock?: p.Flex<typeof CtaBlock>;
   heroSection?: p.Flex<typeof HeroSection>;
   footer?: p.Flex<typeof Footer>;
@@ -595,7 +593,7 @@ function PlasmicHomepage__RenderFunc(props: {
                         >
                           {hasVariant(globalVariants, "screen", "mobile")
                             ? "Scogna Owner"
-                            : "Team Member 1"}
+                            : "Social"}
                         </h5>
 
                         <div
@@ -652,7 +650,7 @@ function PlasmicHomepage__RenderFunc(props: {
                         >
                           {hasVariant(globalVariants, "screen", "mobile")
                             ? "Scogna Owner"
-                            : "Team Member 1"}
+                            : "Engagement"}
                         </h5>
 
                         <div
@@ -711,7 +709,7 @@ function PlasmicHomepage__RenderFunc(props: {
                         >
                           {hasVariant(globalVariants, "screen", "mobile")
                             ? "Scogna Owner"
-                            : "Team Member 1"}
+                            : "Art"}
                         </h5>
 
                         <div
@@ -770,7 +768,7 @@ function PlasmicHomepage__RenderFunc(props: {
                         >
                           {hasVariant(globalVariants, "screen", "mobile")
                             ? "Scogna Owner"
-                            : "Team Member 1"}
+                            : "Other"}
                         </h5>
 
                         <div
@@ -788,378 +786,6 @@ function PlasmicHomepage__RenderFunc(props: {
                       </div>
                     </div>
                   </div>
-                </p.Stack>
-
-                <p.Stack
-                  as={"div"}
-                  data-plasmic-name={"teamRow2"}
-                  data-plasmic-override={overrides.teamRow2}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.teamRow2)}
-                >
-                  <div
-                    className={classNames(projectcss.all, sty.column__nIlhJ)}
-                  >
-                    <div
-                      className={classNames(projectcss.all, sty.columns__aSLyB)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__b52Pq
-                        )}
-                      >
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__of0Zm)}
-                          displayHeight={"171px" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"100%" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"auto" as const}
-                          loading={"lazy" as const}
-                          src={{
-                            src: "/plasmic/mavia_sun/images/item3Png.png",
-                            fullWidth: 402,
-                            fullHeight: 380,
-                            aspectRatio: undefined
-                          }}
-                        />
-
-                        <h5
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.h5,
-                            projectcss.__wab_text,
-                            sty.h5__fHqA1
-                          )}
-                        >
-                          {hasVariant(globalVariants, "screen", "mobile")
-                            ? "Scogna Owner"
-                            : "Team Member 1"}
-                        </h5>
-
-                        <div
-                          before={"" as const}
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__nSmk0
-                          )}
-                        >
-                          {
-                            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-                          }
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className={classNames(projectcss.all, sty.column__srb0)}>
-                    <div
-                      className={classNames(projectcss.all, sty.columns__aLm4G)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__wZsCp
-                        )}
-                      >
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__wJhh)}
-                          displayHeight={"171px" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"100%" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"auto" as const}
-                          loading={"lazy" as const}
-                          src={{
-                            src: "/plasmic/mavia_sun/images/item3Png.png",
-                            fullWidth: 402,
-                            fullHeight: 380,
-                            aspectRatio: undefined
-                          }}
-                        />
-
-                        <h5
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.h5,
-                            projectcss.__wab_text,
-                            sty.h5__cKeWt
-                          )}
-                        >
-                          {hasVariant(globalVariants, "screen", "mobile")
-                            ? "Scogna Owner"
-                            : "Team Member 1"}
-                        </h5>
-
-                        <div
-                          before={"" as const}
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__av20D
-                          )}
-                        >
-                          {
-                            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-                          }
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div
-                    className={classNames(projectcss.all, sty.column__xsNmC)}
-                  >
-                    <div
-                      className={classNames(projectcss.all, sty.columns__grYj7)}
-                    >
-                      <div
-                        className={classNames(projectcss.all, sty.column__djKL)}
-                      >
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__kxJdy)}
-                          displayHeight={"171px" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"100%" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"auto" as const}
-                          loading={"lazy" as const}
-                          src={{
-                            src: "/plasmic/mavia_sun/images/item3Png.png",
-                            fullWidth: 402,
-                            fullHeight: 380,
-                            aspectRatio: undefined
-                          }}
-                        />
-
-                        <h5
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.h5,
-                            projectcss.__wab_text,
-                            sty.h5___7NwTf
-                          )}
-                        >
-                          {hasVariant(globalVariants, "screen", "mobile")
-                            ? "Scogna Owner"
-                            : "Team Member 1"}
-                        </h5>
-
-                        <div
-                          before={"" as const}
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__kQFzB
-                          )}
-                        >
-                          {
-                            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-                          }
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div
-                    className={classNames(projectcss.all, sty.column___5FJkD)}
-                  >
-                    <div
-                      className={classNames(projectcss.all, sty.columns__hvK65)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__gAes7
-                        )}
-                      >
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__eiINc)}
-                          displayHeight={"171px" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"100%" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"auto" as const}
-                          loading={"lazy" as const}
-                          src={{
-                            src: "/plasmic/mavia_sun/images/item3Png.png",
-                            fullWidth: 402,
-                            fullHeight: 380,
-                            aspectRatio: undefined
-                          }}
-                        />
-
-                        <h5
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.h5,
-                            projectcss.__wab_text,
-                            sty.h5___9RSsP
-                          )}
-                        >
-                          {hasVariant(globalVariants, "screen", "mobile")
-                            ? "Scogna Owner"
-                            : hasVariant(globalVariants, "screen", "tablet")
-                            ? "Team Member 1"
-                            : "Team Member 1"}
-                        </h5>
-
-                        <div
-                          before={"" as const}
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__xyIWo
-                          )}
-                        >
-                          {
-                            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-                          }
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </p.Stack>
-
-                <p.Stack
-                  as={"div"}
-                  data-plasmic-name={"teamRow3"}
-                  data-plasmic-override={overrides.teamRow3}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.teamRow3)}
-                >
-                  <div
-                    className={classNames(projectcss.all, sty.column__rD9)}
-                  />
-
-                  <div
-                    className={classNames(projectcss.all, sty.column__miYxe)}
-                  >
-                    <div
-                      className={classNames(projectcss.all, sty.columns__cef3A)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__zY142
-                        )}
-                      >
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__wBXeN)}
-                          displayHeight={"171px" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"100%" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"auto" as const}
-                          loading={"lazy" as const}
-                          src={{
-                            src: "/plasmic/mavia_sun/images/item3Png.png",
-                            fullWidth: 402,
-                            fullHeight: 380,
-                            aspectRatio: undefined
-                          }}
-                        />
-
-                        <h5
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.h5,
-                            projectcss.__wab_text,
-                            sty.h5__wbRCv
-                          )}
-                        >
-                          {hasVariant(globalVariants, "screen", "mobile")
-                            ? "Scogna Owner"
-                            : "Team Member 1"}
-                        </h5>
-
-                        <div
-                          before={"" as const}
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__v97Uo
-                          )}
-                        >
-                          {
-                            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-                          }
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div
-                    className={classNames(projectcss.all, sty.column__fuRpB)}
-                  >
-                    <div
-                      className={classNames(projectcss.all, sty.columns__eOBjK)}
-                    >
-                      <div
-                        className={classNames(projectcss.all, sty.column__xKkb)}
-                      >
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__wlfzt)}
-                          displayHeight={"171px" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"100%" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"auto" as const}
-                          loading={"lazy" as const}
-                          src={{
-                            src: "/plasmic/mavia_sun/images/item3Png.png",
-                            fullWidth: 402,
-                            fullHeight: 380,
-                            aspectRatio: undefined
-                          }}
-                        />
-
-                        <h5
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.h5,
-                            projectcss.__wab_text,
-                            sty.h5__ci79R
-                          )}
-                        >
-                          {hasVariant(globalVariants, "screen", "mobile")
-                            ? "Scogna Owner"
-                            : "Team Member 1"}
-                        </h5>
-
-                        <div
-                          before={"" as const}
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___2Dnyx
-                          )}
-                        >
-                          {
-                            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-                          }
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div
-                    className={classNames(projectcss.all, sty.column___6Elaz)}
-                  />
                 </p.Stack>
               </div>
             </section>
@@ -1209,8 +835,6 @@ const PlasmicDescendants = {
     "row4",
     "team",
     "teamRow1",
-    "teamRow2",
-    "teamRow3",
     "ctaBlock",
     "heroSection",
     "footer"
@@ -1244,10 +868,8 @@ const PlasmicDescendants = {
   valusRow2: ["valusRow2", "outerRow3", "row4"],
   outerRow3: ["outerRow3", "row4"],
   row4: ["row4"],
-  team: ["team", "teamRow1", "teamRow2", "teamRow3"],
+  team: ["team", "teamRow1"],
   teamRow1: ["teamRow1"],
-  teamRow2: ["teamRow2"],
-  teamRow3: ["teamRow3"],
   ctaBlock: ["ctaBlock"],
   heroSection: ["heroSection"],
   footer: ["footer"]
@@ -1273,8 +895,6 @@ type NodeDefaultElementType = {
   row4: "div";
   team: "section";
   teamRow1: "div";
-  teamRow2: "div";
-  teamRow3: "div";
   ctaBlock: typeof CtaBlock;
   heroSection: typeof HeroSection;
   footer: typeof Footer;
@@ -1353,8 +973,6 @@ export const PlasmicHomepage = Object.assign(
     row4: makeNodeComponent("row4"),
     team: makeNodeComponent("team"),
     teamRow1: makeNodeComponent("teamRow1"),
-    teamRow2: makeNodeComponent("teamRow2"),
-    teamRow3: makeNodeComponent("teamRow3"),
     ctaBlock: makeNodeComponent("ctaBlock"),
     heroSection: makeNodeComponent("heroSection"),
     footer: makeNodeComponent("footer"),
