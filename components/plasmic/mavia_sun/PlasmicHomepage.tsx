@@ -38,7 +38,6 @@ import Header2 from "../../Header2"; // plasmic-import: ptkmiNbGzpy1yv/component
 import Button from "../../Button"; // plasmic-import: kodhyUpj2vfND/component
 import BlogPosts from "../../BlogPosts"; // plasmic-import: vxnSGiRcBqvaI/component
 import BlogPost from "../../BlogPost"; // plasmic-import: GPII4fC9bhF/component
-import CtaBlock from "../../CtaBlock"; // plasmic-import: J57A6jCLGpdNw/component
 import HeroSection from "../../HeroSection"; // plasmic-import: gib5IgK6rWAYJZ/component
 import Footer from "../../Footer"; // plasmic-import: ayAaR3NYyZ-kRT/component
 
@@ -64,13 +63,21 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
-  mainHeader?: p.Flex<typeof Header2>;
-  h1?: p.Flex<"h1">;
+  bigVerticalStack?: p.Flex<"div">;
+  wrappedStack?: p.Flex<"div">;
+  header?: p.Flex<typeof Header2>;
+  landingVStack?: p.Flex<"div">;
+  innerHStack?: p.Flex<"div">;
+  titaleVStack?: p.Flex<"div">;
+  wrapStack?: p.Flex<"div">;
+  h1Text?: p.Flex<"h1">;
+  h4Text?: p.Flex<"div">;
   button?: p.Flex<typeof Button>;
   svg?: p.Flex<"svg">;
+  imageHStack?: p.Flex<"div">;
   imageBox?: p.Flex<"div">;
   mainArticles?: p.Flex<typeof BlogPosts>;
-  blogPost?: p.Flex<typeof BlogPost>;
+  allArticles?: p.Flex<typeof BlogPost>;
   features?: p.Flex<"section">;
   container4?: p.Flex<"div">;
   outerRow2?: p.Flex<"div">;
@@ -80,8 +87,7 @@ export type PlasmicHomepage__OverridesType = {
   row4?: p.Flex<"div">;
   team?: p.Flex<"section">;
   teamRow1?: p.Flex<"div">;
-  ctaBlock?: p.Flex<typeof CtaBlock>;
-  heroSection?: p.Flex<typeof HeroSection>;
+  footerBanner?: p.Flex<typeof HeroSection>;
   footer?: p.Flex<typeof Footer>;
 };
 
@@ -130,41 +136,56 @@ function PlasmicHomepage__RenderFunc(props: {
               sty.root
             )}
           >
-            <div className={classNames(projectcss.all, sty.freeBox__pLeWm)}>
-              <div className={classNames(projectcss.all, sty.freeBox__rk3Sg)}>
+            <div
+              data-plasmic-name={"bigVerticalStack"}
+              data-plasmic-override={overrides.bigVerticalStack}
+              className={classNames(projectcss.all, sty.bigVerticalStack)}
+            >
+              <div
+                data-plasmic-name={"wrappedStack"}
+                data-plasmic-override={overrides.wrappedStack}
+                className={classNames(projectcss.all, sty.wrappedStack)}
+              >
                 <Header2
-                  data-plasmic-name={"mainHeader"}
-                  data-plasmic-override={overrides.mainHeader}
-                  className={classNames("__wab_instance", sty.mainHeader)}
+                  data-plasmic-name={"header"}
+                  data-plasmic-override={overrides.header}
+                  className={classNames("__wab_instance", sty.header)}
                 />
 
-                <div className={classNames(projectcss.all, sty.freeBox__unOuN)}>
+                <div
+                  data-plasmic-name={"landingVStack"}
+                  data-plasmic-override={overrides.landingVStack}
+                  className={classNames(projectcss.all, sty.landingVStack)}
+                >
                   <p.Stack
                     as={"div"}
+                    data-plasmic-name={"innerHStack"}
+                    data-plasmic-override={overrides.innerHStack}
                     hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox__wx1Yk)}
+                    className={classNames(projectcss.all, sty.innerHStack)}
                   >
                     <p.Stack
                       as={"div"}
+                      data-plasmic-name={"titaleVStack"}
+                      data-plasmic-override={overrides.titaleVStack}
                       hasGap={true}
-                      className={classNames(projectcss.all, sty.freeBox__qOhGq)}
+                      className={classNames(projectcss.all, sty.titaleVStack)}
                     >
                       <p.Stack
                         as={"div"}
+                        data-plasmic-name={"wrapStack"}
+                        data-plasmic-override={overrides.wrapStack}
                         hasGap={true}
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox__n8Py4
-                        )}
+                        className={classNames(projectcss.all, sty.wrapStack)}
                       >
                         <h1
-                          data-plasmic-name={"h1"}
-                          data-plasmic-override={overrides.h1}
+                          data-plasmic-name={"h1Text"}
+                          data-plasmic-override={overrides.h1Text}
                           className={classNames(
                             projectcss.all,
                             projectcss.h1,
                             projectcss.__wab_text,
-                            sty.h1
+                            sty.h1Text
                           )}
                         >
                           {hasVariant(globalVariants, "screen", "mediumSize")
@@ -173,10 +194,12 @@ function PlasmicHomepage__RenderFunc(props: {
                         </h1>
 
                         <div
+                          data-plasmic-name={"h4Text"}
+                          data-plasmic-override={overrides.h4Text}
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text___9Qpoh
+                            sty.h4Text
                           )}
                         >
                           {hasVariant(globalVariants, "screen", "mediumSize")
@@ -204,7 +227,9 @@ function PlasmicHomepage__RenderFunc(props: {
                     </p.Stack>
 
                     <div
-                      className={classNames(projectcss.all, sty.freeBox__hiaeS)}
+                      data-plasmic-name={"imageHStack"}
+                      data-plasmic-override={overrides.imageHStack}
+                      className={classNames(projectcss.all, sty.imageHStack)}
                     >
                       {true ? (
                         <div
@@ -224,9 +249,9 @@ function PlasmicHomepage__RenderFunc(props: {
                 />
 
                 <BlogPost
-                  data-plasmic-name={"blogPost"}
-                  data-plasmic-override={overrides.blogPost}
-                  className={classNames("__wab_instance", sty.blogPost)}
+                  data-plasmic-name={"allArticles"}
+                  data-plasmic-override={overrides.allArticles}
+                  className={classNames("__wab_instance", sty.allArticles)}
                 />
               </div>
             </div>
@@ -1151,19 +1176,15 @@ function PlasmicHomepage__RenderFunc(props: {
               </div>
             </section>
 
-            {true ? (
-              <CtaBlock
-                data-plasmic-name={"ctaBlock"}
-                data-plasmic-override={overrides.ctaBlock}
-                className={classNames("__wab_instance", sty.ctaBlock)}
+            {(
+              hasVariant(globalVariants, "screen", "mediumSize") ? true : true
+            ) ? (
+              <HeroSection
+                data-plasmic-name={"footerBanner"}
+                data-plasmic-override={overrides.footerBanner}
+                className={classNames("__wab_instance", sty.footerBanner)}
               />
             ) : null}
-
-            <HeroSection
-              data-plasmic-name={"heroSection"}
-              data-plasmic-override={overrides.heroSection}
-              className={classNames("__wab_instance", sty.heroSection)}
-            />
 
             <Footer
               data-plasmic-name={"footer"}
@@ -1180,13 +1201,21 @@ function PlasmicHomepage__RenderFunc(props: {
 const PlasmicDescendants = {
   root: [
     "root",
-    "mainHeader",
-    "h1",
+    "bigVerticalStack",
+    "wrappedStack",
+    "header",
+    "landingVStack",
+    "innerHStack",
+    "titaleVStack",
+    "wrapStack",
+    "h1Text",
+    "h4Text",
     "button",
     "svg",
+    "imageHStack",
     "imageBox",
     "mainArticles",
-    "blogPost",
+    "allArticles",
     "features",
     "container4",
     "outerRow2",
@@ -1196,17 +1225,83 @@ const PlasmicDescendants = {
     "row4",
     "team",
     "teamRow1",
-    "ctaBlock",
-    "heroSection",
+    "footerBanner",
     "footer"
   ],
-  mainHeader: ["mainHeader"],
-  h1: ["h1"],
+  bigVerticalStack: [
+    "bigVerticalStack",
+    "wrappedStack",
+    "header",
+    "landingVStack",
+    "innerHStack",
+    "titaleVStack",
+    "wrapStack",
+    "h1Text",
+    "h4Text",
+    "button",
+    "svg",
+    "imageHStack",
+    "imageBox",
+    "mainArticles",
+    "allArticles"
+  ],
+  wrappedStack: [
+    "wrappedStack",
+    "header",
+    "landingVStack",
+    "innerHStack",
+    "titaleVStack",
+    "wrapStack",
+    "h1Text",
+    "h4Text",
+    "button",
+    "svg",
+    "imageHStack",
+    "imageBox",
+    "mainArticles",
+    "allArticles"
+  ],
+  header: ["header"],
+  landingVStack: [
+    "landingVStack",
+    "innerHStack",
+    "titaleVStack",
+    "wrapStack",
+    "h1Text",
+    "h4Text",
+    "button",
+    "svg",
+    "imageHStack",
+    "imageBox"
+  ],
+  innerHStack: [
+    "innerHStack",
+    "titaleVStack",
+    "wrapStack",
+    "h1Text",
+    "h4Text",
+    "button",
+    "svg",
+    "imageHStack",
+    "imageBox"
+  ],
+  titaleVStack: [
+    "titaleVStack",
+    "wrapStack",
+    "h1Text",
+    "h4Text",
+    "button",
+    "svg"
+  ],
+  wrapStack: ["wrapStack", "h1Text", "h4Text", "button", "svg"],
+  h1Text: ["h1Text"],
+  h4Text: ["h4Text"],
   button: ["button", "svg"],
   svg: ["svg"],
+  imageHStack: ["imageHStack", "imageBox"],
   imageBox: ["imageBox"],
   mainArticles: ["mainArticles"],
-  blogPost: ["blogPost"],
+  allArticles: ["allArticles"],
   features: [
     "features",
     "container4",
@@ -1231,8 +1326,7 @@ const PlasmicDescendants = {
   row4: ["row4"],
   team: ["team", "teamRow1"],
   teamRow1: ["teamRow1"],
-  ctaBlock: ["ctaBlock"],
-  heroSection: ["heroSection"],
+  footerBanner: ["footerBanner"],
   footer: ["footer"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -1240,13 +1334,21 @@ type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  mainHeader: typeof Header2;
-  h1: "h1";
+  bigVerticalStack: "div";
+  wrappedStack: "div";
+  header: typeof Header2;
+  landingVStack: "div";
+  innerHStack: "div";
+  titaleVStack: "div";
+  wrapStack: "div";
+  h1Text: "h1";
+  h4Text: "div";
   button: typeof Button;
   svg: "svg";
+  imageHStack: "div";
   imageBox: "div";
   mainArticles: typeof BlogPosts;
-  blogPost: typeof BlogPost;
+  allArticles: typeof BlogPost;
   features: "section";
   container4: "div";
   outerRow2: "div";
@@ -1256,8 +1358,7 @@ type NodeDefaultElementType = {
   row4: "div";
   team: "section";
   teamRow1: "div";
-  ctaBlock: typeof CtaBlock;
-  heroSection: typeof HeroSection;
+  footerBanner: typeof HeroSection;
   footer: typeof Footer;
 };
 
@@ -1318,13 +1419,21 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    mainHeader: makeNodeComponent("mainHeader"),
-    h1: makeNodeComponent("h1"),
+    bigVerticalStack: makeNodeComponent("bigVerticalStack"),
+    wrappedStack: makeNodeComponent("wrappedStack"),
+    header: makeNodeComponent("header"),
+    landingVStack: makeNodeComponent("landingVStack"),
+    innerHStack: makeNodeComponent("innerHStack"),
+    titaleVStack: makeNodeComponent("titaleVStack"),
+    wrapStack: makeNodeComponent("wrapStack"),
+    h1Text: makeNodeComponent("h1Text"),
+    h4Text: makeNodeComponent("h4Text"),
     button: makeNodeComponent("button"),
     svg: makeNodeComponent("svg"),
+    imageHStack: makeNodeComponent("imageHStack"),
     imageBox: makeNodeComponent("imageBox"),
     mainArticles: makeNodeComponent("mainArticles"),
-    blogPost: makeNodeComponent("blogPost"),
+    allArticles: makeNodeComponent("allArticles"),
     features: makeNodeComponent("features"),
     container4: makeNodeComponent("container4"),
     outerRow2: makeNodeComponent("outerRow2"),
@@ -1334,8 +1443,7 @@ export const PlasmicHomepage = Object.assign(
     row4: makeNodeComponent("row4"),
     team: makeNodeComponent("team"),
     teamRow1: makeNodeComponent("teamRow1"),
-    ctaBlock: makeNodeComponent("ctaBlock"),
-    heroSection: makeNodeComponent("heroSection"),
+    footerBanner: makeNodeComponent("footerBanner"),
     footer: makeNodeComponent("footer"),
 
     // Metadata about props expected for PlasmicHomepage

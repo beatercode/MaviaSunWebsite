@@ -94,15 +94,18 @@
     overflow: auto;
     margin-bottom: 0px;
     padding-top: 25px;
-    left: 0px;
-    top: 0px;
+    left: auto;
+    top: auto;
     z-index: 1;
-    position: sticky;
+    position: relative;
     max-height: none;
     min-height: auto;
     height: 100%;
     justify-content: flex-start;
     align-items: center;
+    max-width: none;
+    align-self: center;
+    order: 3;
   }
 }
 .columns__kRyiJ {
@@ -149,7 +152,10 @@
     display: flex;
     position: relative;
     flex-shrink: 1;
-    overflow: hidden;
+    left: auto;
+    top: auto;
+    z-index: 1;
+    flex-grow: 0;
     min-width: 0;
     padding: 8px 0px;
   }
