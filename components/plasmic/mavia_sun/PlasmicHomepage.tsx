@@ -365,7 +365,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                       "screen",
                                       "mobile"
                                     )
-                                      ? ("100%" as const)
+                                      ? ("110px" as const)
                                       : ("400px" as const)
                                   }
                                   loading={"lazy" as const}
@@ -507,23 +507,27 @@ function PlasmicHomepage__RenderFunc(props: {
                               className={classNames(sty.img__rj4H)}
                               displayHeight={
                                 hasVariant(globalVariants, "screen", "mobile")
-                                  ? ("70px" as const)
+                                  ? ("110px" as const)
                                   : ("400px" as const)
                               }
                               displayMaxHeight={
                                 hasVariant(globalVariants, "screen", "mobile")
-                                  ? ("70px" as const)
+                                  ? ("110px" as const)
                                   : ("none" as const)
                               }
                               displayMaxWidth={
                                 hasVariant(globalVariants, "screen", "mobile")
-                                  ? ("70px" as const)
+                                  ? ("110px" as const)
                                   : ("none" as const)
                               }
-                              displayMinHeight={"0" as const}
+                              displayMinHeight={
+                                hasVariant(globalVariants, "screen", "mobile")
+                                  ? ("110px" as const)
+                                  : ("0" as const)
+                              }
                               displayMinWidth={
                                 hasVariant(globalVariants, "screen", "mobile")
-                                  ? ("70px" as const)
+                                  ? ("110px" as const)
                                   : ("0" as const)
                               }
                               displayWidth={
