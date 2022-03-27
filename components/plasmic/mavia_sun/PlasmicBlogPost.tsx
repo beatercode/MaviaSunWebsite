@@ -163,13 +163,17 @@ function PlasmicBlogPost__RenderFunc(props: {
                           ? ("auto" as const)
                           : ("100%" as const)
                       }
-                      displayMaxHeight={"none" as const}
+                      displayMaxHeight={
+                        hasVariant(globalVariants, "screen", "mediumSize")
+                          ? ("400px" as const)
+                          : ("none" as const)
+                      }
                       displayMaxWidth={"100%" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
                       displayWidth={
                         hasVariant(globalVariants, "screen", "mediumSize")
-                          ? ("auto" as const)
+                          ? ("100%" as const)
                           : ("100%" as const)
                       }
                       loading={"lazy" as const}
@@ -326,7 +330,11 @@ function PlasmicBlogPost__RenderFunc(props: {
                       alt={""}
                       className={classNames(sty.img__a2DTt)}
                       displayHeight={"100%" as const}
-                      displayMaxHeight={"none" as const}
+                      displayMaxHeight={
+                        hasVariant(globalVariants, "screen", "mediumSize")
+                          ? ("400px" as const)
+                          : ("none" as const)
+                      }
                       displayMaxWidth={"100%" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
@@ -495,8 +503,16 @@ function PlasmicBlogPost__RenderFunc(props: {
                     <p.PlasmicImg
                       alt={""}
                       className={classNames(sty.img__wNTkB)}
-                      displayHeight={"100%" as const}
-                      displayMaxHeight={"none" as const}
+                      displayHeight={
+                        hasVariant(globalVariants, "screen", "mediumSize")
+                          ? ("100%" as const)
+                          : ("100%" as const)
+                      }
+                      displayMaxHeight={
+                        hasVariant(globalVariants, "screen", "mediumSize")
+                          ? ("400px" as const)
+                          : ("none" as const)
+                      }
                       displayMaxWidth={"100%" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
@@ -667,7 +683,11 @@ function PlasmicBlogPost__RenderFunc(props: {
                       alt={""}
                       className={classNames(sty.img__ziMw8)}
                       displayHeight={"100%" as const}
-                      displayMaxHeight={"none" as const}
+                      displayMaxHeight={
+                        hasVariant(globalVariants, "screen", "mediumSize")
+                          ? ("400px" as const)
+                          : ("none" as const)
+                      }
                       displayMaxWidth={"100%" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
@@ -835,7 +855,11 @@ function PlasmicBlogPost__RenderFunc(props: {
                       alt={""}
                       className={classNames(sty.img__yMfDg)}
                       displayHeight={"100%" as const}
-                      displayMaxHeight={"none" as const}
+                      displayMaxHeight={
+                        hasVariant(globalVariants, "screen", "mediumSize")
+                          ? ("400px" as const)
+                          : ("none" as const)
+                      }
                       displayMaxWidth={"100%" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
