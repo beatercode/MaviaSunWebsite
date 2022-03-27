@@ -22,7 +22,7 @@ export function ScreenVariantProvider(props: React.PropsWithChildren) {
 }
 
 export const useScreenVariants = p.createUseScreenVariants(true, {
-  mediumSize: "(min-width:0px) and (max-width:1000px)",
+  mediumSize: "(min-width:0px) and (max-width:1420px)",
   bigScreen: "(max-width:2400px)",
 });
 
