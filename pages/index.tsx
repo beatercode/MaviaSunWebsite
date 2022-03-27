@@ -22,7 +22,9 @@ function Homepage() {
   // variant context providers. These wrappers may be moved to
   // Next.js Custom App component
   // (https://nextjs.org/docs/advanced-features/custom-app).
-  return <PlasmicHomepage />;
+  return (
+    <PlasmicHomepage />
+  );
 }
 
 export default Homepage;

@@ -1,6 +1,7 @@
 
 import '../styles/globals.css'
 import { PlasmicRootProvider } from "@plasmicapp/react-web";
+import { Main } from "../components/Main";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -11,4 +12,3 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp
-  

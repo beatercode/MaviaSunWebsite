@@ -235,7 +235,6 @@
   z-index: 1;
   min-height: 34px;
   max-height: 34px;
-  min-width: 250px;
   flex-shrink: 0;
   border-radius: 0px 0px 15px 15px;
   margin: 0px 0px 0em;
@@ -261,6 +260,7 @@
       100% repeat;
     letter-spacing: 0px;
     border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 0px;
     flex-shrink: 0;
     display: block;
     margin: 0px 0px 0em;
