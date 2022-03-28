@@ -53,6 +53,8 @@ import { collection, doc, getDocs, getDoc, snaphot } from 'firebase/firestore'
 import { db } from './AppFirebase';
 import { Post } from '../../types/Post';
 import { consumers } from "stream";
+import Chip from "@material-ui/core/Chip";
+import { bottom } from "@popperjs/core";
 
 export type PlasmicBlogPost__VariantMembers = {};
 
@@ -87,14 +89,18 @@ const postInstagraArray: Post[] = [];
 export const getAllPosts = async () => {
   const querySnapshot = await getDocs(collection(db, "post"));
   querySnapshot.forEach((doc) => {
+    var t = new Date(1970, 0, 1);
+    t.setSeconds(doc.data().data.seconds);
     postArray.push(
       new Post(
         doc.data().categoria,
         doc.data().titolo,
         doc.data().descrizione,
         doc.data().link_immagine,
-        doc.data().link_content));
+        doc.data().link_content,
+        t));
   });
+  postArray = postArray.slice().sort((a, b) => b.data - a.data);
   postTwitterArray = postArray.filter(function (item) { return item.categoria == "twitter" });
   postArtArray = postArray.filter(function (item) { return item.categoria == "art" });
   postMediumArray = postArray.filter(function (item) { return item.categoria == "medium" });
@@ -294,7 +300,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                               link={post.link_content as const}
                               showEndIcon={true}
                             >
-                              {"Read post"}
+                              {post.data.toLocaleDateString().concat(" | Read post")}
                             </Button>
                           </div>
                         </div>
@@ -472,7 +478,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                               link={post.link_content as const}
                               showEndIcon={true}
                             >
-                              {"Read post"}
+                              {post.data.toLocaleDateString().concat(" | Read post")}
                             </Button>
                           </div>
                         </div>
@@ -664,7 +670,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                               link={post.link_content as const}
                               showEndIcon={true}
                             >
-                              {"Read post"}
+                              {post.data.toLocaleDateString().concat(" | Read post")}
                             </Button>
                           </div>
                         </div>
@@ -842,7 +848,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                               link={post.link_content as const}
                               showEndIcon={true}
                             >
-                              {"Read post"}
+                              {post.data.toLocaleDateString().concat(" | Read post")}
                             </Button>
                           </div>
                         </div>
@@ -1024,7 +1030,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                               link={post.link_content as const}
                               showEndIcon={true}
                             >
-                              {"Read post"}
+                              {post.data.toLocaleDateString().concat(" | Read post")}
                             </Button>
                           </div>
                         </div>

@@ -74,14 +74,18 @@ const postArray: Post[] = [];
 export const getAllPosts = async () => {
   const querySnapshot = await getDocs(collection(db, "post"));
   querySnapshot.forEach((doc) => {
+    var t = new Date(1970, 0, 1);
+    t.setSeconds(doc.data().data.seconds);
     postArray.push(
       new Post(
         doc.data().categoria,
         doc.data().titolo,
         doc.data().descrizione,
         doc.data().link_immagine,
-        doc.data().link_content));
+        doc.data().link_content,
+        t));
   });
+  postArray = (postArray.slice().sort((a, b) => b.data - a.data)).slice(0, 3);
 }
 
 function PlasmicBlogPosts__RenderFunc(props: {
@@ -166,339 +170,121 @@ function PlasmicBlogPosts__RenderFunc(props: {
                     hasGap={true}
                     className={classNames(projectcss.all, sty.columns__kyEMf)}
                   >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        sty.column__ai7B5
-                      )}
-                    >
-                      <p.PlasmicImg
-                        alt={""}
-                        className={classNames(sty.img__tZqVe)}
-                        displayHeight={
-                          hasVariant(globalVariants, "screen", "mediumSize")
-                            ? ("286px" as const)
-                            : ("230px" as const)
-                        }
-                        displayMaxHeight={"none" as const}
-                        displayMaxWidth={"100%" as const}
-                        displayMinHeight={"0" as const}
-                        displayMinWidth={"0" as const}
-                        displayWidth={
-                          hasVariant(globalVariants, "screen", "mediumSize")
-                            ? ("100%" as const)
-                            : ("100%" as const)
-                        }
-                        loading={"lazy" as const}
-                        src={{
-                          src: "/plasmic/mavia_sun/images/base4Jpg.jpeg", // img estratta 2
-                          fullWidth: 962,
-                          fullHeight: 618,
-                          aspectRatio: undefined
-                        }}
-                      />
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.columns__kl5Pg
-                        )}
-                      >
+                    {
+                      postArray.map((post, index) => (
                         <div
                           className={classNames(
                             projectcss.all,
-                            sty.column__fLBtl
+                            sty.column__ai7B5
                           )}
                         >
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__tZqVe)}
+                            displayHeight={
+                              hasVariant(globalVariants, "screen", "mediumSize")
+                                ? ("286px" as const)
+                                : ("230px" as const)
+                            }
+                            displayMaxHeight={"none" as const}
+                            displayMaxWidth={"100%" as const}
+                            displayMinHeight={"0" as const}
+                            displayMinWidth={"0" as const}
+                            displayWidth={
+                              hasVariant(globalVariants, "screen", "mediumSize")
+                                ? ("100%" as const)
+                                : ("100%" as const)
+                            }
+                            loading={"lazy" as const}
+                            src={{
+                              src: post.link_immagine,
+                              fullWidth: 962,
+                              fullHeight: 618,
+                              aspectRatio: undefined
+                            }}
+                          />
+
                           <div
                             className={classNames(
                               projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__aryp3
+                              sty.columns__kl5Pg
                             )}
-                          >
-                            {"April 02, 2022"}
-                          </div>
-
-                          <h4
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.h4,
-                              projectcss.__wab_text,
-                              sty.h4__jfi8E
-                            )}
-                          >
-                            {
-                              "Titolo estratto 2"
-                            }
-                          </h4>
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text___2OqfG
-                            )}
-                          >
-                            {
-                              "Sotto Titolo estratto 2"
-                            }
-                          </div>
-
-                          <Button
-                            className={classNames(
-                              "__wab_instance",
-                              sty.button__cFqLx
-                            )}
-                            color={"softBlue" as const}
-                            endIcon={
-                              <ArrowRightsvgIcon
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.svg___4BiHy
-                                )}
-                                role={"img"}
-                              />
-                            }
-                            link={"https://twitter.com/MaviaGame" as const}
-                            shape={"rounded" as const}
-                            showEndIcon={true}
                           >
                             <div
                               className={classNames(
                                 projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__k6A3B
+                                sty.column__fLBtl
                               )}
                             >
-                              {"READ MORE"}
-                            </div>
-                          </Button>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        sty.column__ai7B5
-                      )}
-                    >
-                      <p.PlasmicImg
-                        alt={""}
-                        className={classNames(sty.img__tZqVe)}
-                        displayHeight={
-                          hasVariant(globalVariants, "screen", "mediumSize")
-                            ? ("286px" as const)
-                            : ("230px" as const)
-                        }
-                        displayMaxHeight={"none" as const}
-                        displayMaxWidth={"100%" as const}
-                        displayMinHeight={"0" as const}
-                        displayMinWidth={"0" as const}
-                        displayWidth={
-                          hasVariant(globalVariants, "screen", "mediumSize")
-                            ? ("100%" as const)
-                            : ("100%" as const)
-                        }
-                        loading={"lazy" as const}
-                        src={{
-                          src: "/plasmic/mavia_sun/images/base4Jpg.jpeg", // img estratta 2
-                          fullWidth: 962,
-                          fullHeight: 618,
-                          aspectRatio: undefined
-                        }}
-                      />
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.columns__kl5Pg
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.column__fLBtl
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__aryp3
-                            )}
-                          >
-                            {"April 02, 2022"}
-                          </div>
-
-                          <h4
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.h4,
-                              projectcss.__wab_text,
-                              sty.h4__jfi8E
-                            )}
-                          >
-                            {
-                              "Titolo estratto 2"
-                            }
-                          </h4>
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text___2OqfG
-                            )}
-                          >
-                            {
-                              "Sotto Titolo estratto 2"
-                            }
-                          </div>
-
-                          <Button
-                            className={classNames(
-                              "__wab_instance",
-                              sty.button__cFqLx
-                            )}
-                            color={"softBlue" as const}
-                            endIcon={
-                              <ArrowRightsvgIcon
+                              <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.svg___4BiHy
+                                  projectcss.__wab_text,
+                                  sty.text__aryp3
                                 )}
-                                role={"img"}
-                              />
-                            }
-                            link={"https://twitter.com/MaviaGame" as const}
-                            shape={"rounded" as const}
-                            showEndIcon={true}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__k6A3B
-                              )}
-                            >
-                              {"READ MORE"}
-                            </div>
-                          </Button>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        sty.column__ai7B5
-                      )}
-                    >
-                      <p.PlasmicImg
-                        alt={""}
-                        className={classNames(sty.img__tZqVe)}
-                        displayHeight={
-                          hasVariant(globalVariants, "screen", "mediumSize")
-                            ? ("286px" as const)
-                            : ("230px" as const)
-                        }
-                        displayMaxHeight={"none" as const}
-                        displayMaxWidth={"100%" as const}
-                        displayMinHeight={"0" as const}
-                        displayMinWidth={"0" as const}
-                        displayWidth={
-                          hasVariant(globalVariants, "screen", "mediumSize")
-                            ? ("100%" as const)
-                            : ("100%" as const)
-                        }
-                        loading={"lazy" as const}
-                        src={{
-                          src: "/plasmic/mavia_sun/images/base4Jpg.jpeg", // img estratta 2
-                          fullWidth: 962,
-                          fullHeight: 618,
-                          aspectRatio: undefined
-                        }}
-                      />
+                              >
+                                {post.data.toLocaleDateString()}
+                              </div>
 
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.columns__kl5Pg
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.column__fLBtl
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__aryp3
-                            )}
-                          >
-                            {"April 02, 2022"}
-                          </div>
-
-                          <h4
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.h4,
-                              projectcss.__wab_text,
-                              sty.h4__jfi8E
-                            )}
-                          >
-                            {
-                              "Titolo estratto 2"
-                            }
-                          </h4>
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text___2OqfG
-                            )}
-                          >
-                            {
-                              "Sotto Titolo estratto 2"
-                            }
-                          </div>
-
-                          <Button
-                            className={classNames(
-                              "__wab_instance",
-                              sty.button__cFqLx
-                            )}
-                            color={"softBlue" as const}
-                            endIcon={
-                              <ArrowRightsvgIcon
+                              <h4
                                 className={classNames(
                                   projectcss.all,
-                                  sty.svg___4BiHy
+                                  projectcss.h4,
+                                  projectcss.__wab_text,
+                                  sty.h4__jfi8E
                                 )}
-                                role={"img"}
-                              />
-                            }
-                            link={"https://twitter.com/MaviaGame" as const}
-                            shape={"rounded" as const}
-                            showEndIcon={true}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__k6A3B
-                              )}
-                            >
-                              {"READ MORE"}
+                              >
+                                {
+                                  post.titolo
+                                }
+                              </h4>
+
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text___2OqfG
+                                )}
+                              >
+                                {
+                                  post.descrizione
+                                }
+                              </div>
+
+                              <Button
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.button__cFqLx
+                                )}
+                                color={"softBlue" as const}
+                                endIcon={
+                                  <ArrowRightsvgIcon
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.svg___4BiHy
+                                    )}
+                                    role={"img"}
+                                  />
+                                }
+                                link={post.link_content as const}
+                                shape={"rounded" as const}
+                                showEndIcon={true}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__k6A3B
+                                  )}
+                                >
+                                  {"READ MORE"}
+                                </div>
+                              </Button>
                             </div>
-                          </Button>
+                          </div>
                         </div>
-                      </div>
-                    </div>
+                      ))
+                    }
                   </p.Stack>
                 ) : null}
               </div>
