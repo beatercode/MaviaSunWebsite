@@ -173,6 +173,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                 infiniteLoop={true}
                 showIndicators={true}
                 showThumbs={false}
+                showStatus={false}
               >
                 {
                   postTwitterArray.map((post, index) => (
@@ -318,6 +319,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                 infiniteLoop={true}
                 showIndicators={true}
                 showThumbs={false}
+                showStatus={false}
               >
                 {
                   postArtArray.map((post, index) => (
@@ -496,6 +498,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                 infiniteLoop={true}
                 showIndicators={true}
                 showThumbs={false}
+                showStatus={false}
               >
                 {
                   postMediumArray.map((post, index) => (
@@ -688,6 +691,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                 infiniteLoop={true}
                 showIndicators={true}
                 showThumbs={false}
+                showStatus={false}
               >
                 {
                   postMemeArray.map((post, index) => (
@@ -866,6 +870,7 @@ function PlasmicBlogPost__RenderFunc(props: {
                 infiniteLoop={true}
                 showIndicators={true}
                 showThumbs={false}
+                showStatus={false}
               >
                 {
                   postInstagraArray.map((post, index) => (
