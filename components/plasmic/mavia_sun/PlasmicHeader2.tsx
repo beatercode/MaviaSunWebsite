@@ -143,25 +143,6 @@ function PlasmicHeader2__RenderFunc(props: {
                 role={"img"}
               />
             ) : null}
-
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__sjGw
-              )}
-            >
-              <React.Fragment>
-                <React.Fragment>{""}</React.Fragment>
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ color: "#FFFFFF", fontWeight: 700 }}
-                >
-                  {"Blog"}
-                </span>
-                <React.Fragment>{""}</React.Fragment>
-              </React.Fragment>
-            </div>
           </p.Stack>
 
           <p.Stack
@@ -187,25 +168,6 @@ function PlasmicHeader2__RenderFunc(props: {
                 role={"img"}
               />
             ) : null}
-
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__pygmH
-              )}
-            >
-              <React.Fragment>
-                <React.Fragment>{""}</React.Fragment>
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ color: "#FFFFFF", fontWeight: 700 }}
-                >
-                  {"Team"}
-                </span>
-                <React.Fragment>{""}</React.Fragment>
-              </React.Fragment>
-            </div>
           </p.Stack>
 
           <p.Stack
@@ -226,25 +188,6 @@ function PlasmicHeader2__RenderFunc(props: {
               />
             ) : null}
 
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__ztb3X
-              )}
-            >
-              <React.Fragment>
-                <React.Fragment>{""}</React.Fragment>
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ color: "#FFFFFF", fontWeight: 700 }}
-                >
-                  {"Contact"}
-                </span>
-                <React.Fragment>{""}</React.Fragment>
-              </React.Fragment>
-            </div>
-
             {false ? (
               <IconIcon
                 className={classNames(projectcss.all, sty.svg__sa6Xg)}
@@ -259,6 +202,7 @@ function PlasmicHeader2__RenderFunc(props: {
             className={classNames("__wab_instance", sty.button)}
             color={"blue" as const}
             shape={"rounded" as const}
+            link={"https://www.mavia.com/" as const}
           >
             <div
               className={classNames(
@@ -267,7 +211,7 @@ function PlasmicHeader2__RenderFunc(props: {
                 sty.text__rqPql
               )}
             >
-              {"MAVIA"}
+              {"GO TO MAVIA"}
             </div>
           </Button>
         </p.Stack>

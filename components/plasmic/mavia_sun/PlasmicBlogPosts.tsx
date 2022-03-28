@@ -154,7 +154,7 @@ function PlasmicBlogPosts__RenderFunc(props: {
                 )}
               >
                 {
-                  "Sottotitolo di contesto inerenete agli ultimi 3 articoli estratti da db"
+                  "Sottotitolo di contesto inerente agli ultimi 3 articoli estratti da db"
                 }
               </div>
             </div>

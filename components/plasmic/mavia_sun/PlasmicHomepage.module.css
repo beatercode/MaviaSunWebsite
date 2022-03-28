@@ -246,7 +246,6 @@
   max-width: 100%;
   position: relative;
   align-self: flex-start;
-  width: 11px;
   margin-bottom: 0px;
 }
 .svg__y5Hs {
@@ -1084,16 +1083,13 @@
   width: calc(100% + 0px);
 }
 .wrapTeam > :global(.__wab_flex-container) > :nth-child(4n + 1) {
-  width: calc((100% - 4 * 0px) * 3 / 12);
+  width: calc((100% - 4 * 0px) * 4 / 12);
 }
 .wrapTeam > :global(.__wab_flex-container) > :nth-child(4n + 2) {
-  width: calc((100% - 4 * 0px) * 3 / 12);
+  width: calc((100% - 4 * 0px) * 4 / 12);
 }
 .wrapTeam > :global(.__wab_flex-container) > :nth-child(4n + 3) {
-  width: calc((100% - 4 * 0px) * 3 / 12);
-}
-.wrapTeam > :global(.__wab_flex-container) > :nth-child(4n + 4) {
-  width: calc((100% - 4 * 0px) * 3 / 12);
+  width: calc((100% - 4 * 0px) * 4 / 12);
 }
 .wrapTeam > :global(.__wab_flex-container) > *,
 .wrapTeam > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -1107,22 +1103,17 @@
 }
 @media (max-width: 2400px) {
   .wrapTeam > :global(.__wab_flex-container) > :nth-child(4n + 1) {
-    width: calc((100% - 4 * 0px) * 3 / 12);
+    width: calc((100% - 4 * 0px) * 4 / 12);
   }
 }
 @media (max-width: 2400px) {
   .wrapTeam > :global(.__wab_flex-container) > :nth-child(4n + 2) {
-    width: calc((100% - 4 * 0px) * 3 / 12);
+    width: calc((100% - 4 * 0px) * 4 / 12);
   }
 }
 @media (max-width: 2400px) {
   .wrapTeam > :global(.__wab_flex-container) > :nth-child(4n + 3) {
-    width: calc((100% - 4 * 0px) * 3 / 12);
-  }
-}
-@media (max-width: 2400px) {
-  .wrapTeam > :global(.__wab_flex-container) > :nth-child(4n + 4) {
-    width: calc((100% - 4 * 0px) * 3 / 12);
+    width: calc((100% - 4 * 0px) * 4 / 12);
   }
 }
 @media (min-width: 0px) and (max-width: 1420px) {
@@ -1149,22 +1140,17 @@
 }
 @media (min-width: 0px) and (max-width: 1420px) {
   .wrapTeam > :global(.__wab_flex-container) > :nth-child(4n + 1) {
-    width: calc((100% - 4 * 0px) * 3 / 12);
+    width: calc((100% - 4 * 0px) * 4 / 12);
   }
 }
 @media (min-width: 0px) and (max-width: 1420px) {
   .wrapTeam > :global(.__wab_flex-container) > :nth-child(4n + 2) {
-    width: calc((100% - 4 * 0px) * 3 / 12);
+    width: calc((100% - 4 * 0px) * 4 / 12);
   }
 }
 @media (min-width: 0px) and (max-width: 1420px) {
   .wrapTeam > :global(.__wab_flex-container) > :nth-child(4n + 3) {
-    width: calc((100% - 4 * 0px) * 3 / 12);
-  }
-}
-@media (min-width: 0px) and (max-width: 1420px) {
-  .wrapTeam > :global(.__wab_flex-container) > :nth-child(4n + 4) {
-    width: calc((100% - 4 * 0px) * 3 / 12);
+    width: calc((100% - 4 * 0px) * 4 / 12);
   }
 }
 @media (min-width: 0px) and (max-width: 1420px) {
