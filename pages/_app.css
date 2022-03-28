@@ -22,3 +22,11 @@
 .carousel.carousel-slider {
     border-radius: 45px;
 }
+
+.carousel .slide {
+    text-align: left !important;
+}
+
+.text__geelo {
+    margin-left: 10px !important;
+}
