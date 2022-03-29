@@ -232,6 +232,7 @@
   min-height: 100vh;
   align-items: stretch;
   align-self: start;
+  overflow: scroll;
 }
 .plasmic_page_wrapper > * {
   height: auto !important;
