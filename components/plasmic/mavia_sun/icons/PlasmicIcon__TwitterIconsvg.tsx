@@ -25,7 +25,7 @@ export function TwitterIconsvgIcon(props: TwitterIconsvgIconProps) {
       }}
       {...restProps}
     >
-      {title && <title>{title}</title>}
+      {title && <title>Mavia Sun</title>}
 
       <path
         d={

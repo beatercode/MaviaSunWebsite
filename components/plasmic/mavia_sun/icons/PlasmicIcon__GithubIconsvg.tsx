@@ -25,7 +25,7 @@ export function GithubIconsvgIcon(props: GithubIconsvgIconProps) {
       }}
       {...restProps}
     >
-      {title && <title>{title}</title>}
+      {title && <title>Mavia Sun</title>}
 
       <path
         d={

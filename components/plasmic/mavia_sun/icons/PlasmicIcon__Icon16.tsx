@@ -21,7 +21,7 @@ export function Icon16Icon(props: Icon16IconProps) {
       style={style}
       {...restProps}
     >
-      {title && <title>{title}</title>}
+      {title && <title>Mavia Sun</title>}
 
       <path
         fill={"currentColor"}

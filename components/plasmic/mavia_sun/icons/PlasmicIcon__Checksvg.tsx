@@ -26,7 +26,7 @@ export function ChecksvgIcon(props: ChecksvgIconProps) {
       className={classNames("plasmic-default__svg", className)}
       {...restProps}
     >
-      {title && <title>{title}</title>}
+      {title && <title>Mavia Sun</title>}
 
       <path
         fillRule={"evenodd"}

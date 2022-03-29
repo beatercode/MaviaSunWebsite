@@ -25,7 +25,7 @@ export function ArrowRightsvgIcon(props: ArrowRightsvgIconProps) {
       }}
       {...restProps}
     >
-      {title && <title>{title}</title>}
+      {title && <title>Mavia Sun</title>}
 
       <path
         d={

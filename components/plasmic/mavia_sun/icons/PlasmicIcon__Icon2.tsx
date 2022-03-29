@@ -26,7 +26,7 @@ export function Icon2Icon(props: Icon2IconProps) {
       }}
       {...restProps}
     >
-      {title && <title>{title}</title>}
+      {title && <title>Mavia Sun</title>}
 
       <g
         xmlns={"http://www.w3.org/2000/svg"}

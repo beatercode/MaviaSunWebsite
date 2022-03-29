@@ -22,7 +22,7 @@ export function LogoDarksvgIcon(props: LogoDarksvgIconProps) {
       style={style}
       {...restProps}
     >
-      {title && <title>{title}</title>}
+      {title && <title>Mavia Sun</title>}
 
       <path
         d={

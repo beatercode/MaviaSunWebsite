@@ -22,7 +22,7 @@ export function ChevronDownsvgIcon(props: ChevronDownsvgIconProps) {
       style={style}
       {...restProps}
     >
-      {title && <title>{title}</title>}
+      {title && <title>Mavia Sun</title>}
 
       <path
         stroke={"currentColor"}

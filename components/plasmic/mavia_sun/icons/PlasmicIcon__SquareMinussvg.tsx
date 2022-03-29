@@ -26,7 +26,7 @@ export function SquareMinussvgIcon(props: SquareMinussvgIconProps) {
       className={classNames("plasmic-default__svg", className)}
       {...restProps}
     >
-      {title && <title>{title}</title>}
+      {title && <title>Mavia Sun</title>}
 
       <path
         d={
