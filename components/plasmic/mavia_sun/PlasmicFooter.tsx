@@ -125,38 +125,10 @@ function PlasmicFooter__RenderFunc(props: {
                 )}
               >
                 {
-                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                  "Mavia, developed by Skrice Studios, is a crypto multiplayer combat strategy game that will be released in 2022. We firmly believe that it will be the game that brings the industry of play to earn to the masses"
                 }
               </div>
             </p.Stack>
-
-            <div className={classNames(projectcss.all, sty.column___9PQtA)}>
-              <p.PlasmicLink
-                className={classNames(
-                  projectcss.all,
-                  projectcss.a,
-                  projectcss.__wab_text,
-                  sty.link__nkshl
-                )}
-                component={Link}
-                platform={"nextjs"}
-              >
-                {"Contact"}
-              </p.PlasmicLink>
-
-              <p.PlasmicLink
-                className={classNames(
-                  projectcss.all,
-                  projectcss.a,
-                  projectcss.__wab_text,
-                  sty.link__w4RrN
-                )}
-                component={Link}
-                platform={"nextjs"}
-              >
-                {"Blog"}
-              </p.PlasmicLink>
-            </div>
           </div>
         </div>
       </div>
