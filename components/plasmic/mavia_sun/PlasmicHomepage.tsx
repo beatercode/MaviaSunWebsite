@@ -389,24 +389,12 @@ function PlasmicHomepage__RenderFunc(props: {
                                       : ("400px" as const)
                                   }
                                   loading={"lazy" as const}
-                                  src={
-                                    hasVariant(
-                                      globalVariants,
-                                      "screen",
-                                      "mediumSize"
-                                    )
-                                      ? {
-                                        src: "/plasmic/mavia_sun/images/logo01RemovebgPreviewpng.png",
-                                        fullWidth: 500,
-                                        fullHeight: 500,
-                                        aspectRatio: undefined
-                                      }
-                                      : {
-                                        src: "/plasmic/mavia_sun/images/logoRedpng.png",
-                                        fullWidth: 366,
-                                        fullHeight: 357,
-                                        aspectRatio: undefined
-                                      }
+                                  src={{
+                                    src: "/plasmic/mavia_sun/images/logo01RemovebgPreviewpng.png",
+                                    fullWidth: 366,
+                                    fullHeight: 357,
+                                    aspectRatio: undefined
+                                  }
                                   }
                                 />
                               ) : null}
@@ -588,24 +576,12 @@ function PlasmicHomepage__RenderFunc(props: {
                                   : ("400px" as const)
                               }
                               loading={"lazy" as const}
-                              src={
-                                hasVariant(
-                                  globalVariants,
-                                  "screen",
-                                  "mediumSize"
-                                )
-                                  ? {
-                                    src: "/plasmic/mavia_sun/images/logo01RemovebgPreviewpng.png",
-                                    fullWidth: 500,
-                                    fullHeight: 500,
-                                    aspectRatio: undefined
-                                  }
-                                  : {
-                                    src: "/plasmic/mavia_sun/images/logoRedpng.png",
-                                    fullWidth: 366,
-                                    fullHeight: 357,
-                                    aspectRatio: undefined
-                                  }
+                              src={{
+                                src: "/plasmic/mavia_sun/images/logo01RemovebgPreviewpng.png",
+                                fullWidth: 366,
+                                fullHeight: 357,
+                                aspectRatio: undefined
+                              }
                               }
                             />
                           ) : null}
@@ -757,14 +733,8 @@ function PlasmicHomepage__RenderFunc(props: {
                 data-plasmic-override={overrides.team}
                 className={classNames(projectcss.all, sty.team)}
               >
-                {(
-                  hasVariant(globalVariants, "screen", "mediumSize")
-                    ? true
-                    : true
-                ) ? (
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__fzgmN)}
-                  >
+                {
+                  <div className={classNames(projectcss.all, sty.freeBox__fzgmN)}>
                     <p.Stack
                       as={"section"}
                       data-plasmic-name={"wrapTeam"}
@@ -772,24 +742,206 @@ function PlasmicHomepage__RenderFunc(props: {
                       hasGap={true}
                       className={classNames(projectcss.all, sty.wrapTeam)}
                     >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__wMsG1
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__nKyi
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__fOpl
-                            )}
-                          >
+
+                      <div className={classNames(projectcss.all, sty.column__wMsG1)} >
+                        <div className={classNames(projectcss.all, sty.freeBox__nKyi)}>
+                          <div className={classNames(projectcss.all, sty.freeBox__fOpl)} style={{ overflowX: "scroll" }} >
+                            <p.PlasmicImg
+                              alt={""}
+                              className={classNames(sty.img__iyzRx)}
+                              displayHeight={"171px" as const}
+                              displayMaxHeight={"171px" as const}
+                              displayMaxWidth={"171px" as const}
+                              displayMinHeight={"171px" as const}
+                              displayMinWidth={"171px" as const}
+                              displayWidth={"auto" as const}
+                              loading={"lazy" as const}
+                              src={{
+                                src: "/plasmic/mavia_sun/images/LOGO_yellow.jpeg",
+                                fullWidth: 316,
+                                fullHeight: 376,
+                                aspectRatio: undefined
+                              }}
+                            />
+
+                            <h5 className={classNames(projectcss.all, projectcss.h5, projectcss.__wab_text, sty.h5__gNw8K)} >
+                              {"Meme"}
+                            </h5>
+
+                            <div before={"" as const} className={classNames(projectcss.all, projectcss.__wab_text, sty.text__i5Cyh)} >
+                              {
+                                <React.Fragment>
+                                  <React.Fragment>{""}</React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"Scerif "}
+                                  </span>
+                                  <React.Fragment>
+                                    {" I made memes since 2016. I worked for many Instagram pages, because I genuinely love to make people laugh and that's all for me. \n"}
+                                  </React.Fragment>
+                                </React.Fragment>
+                              }
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className={classNames(projectcss.all, sty.column__wMsG1)} >
+                        <div className={classNames(projectcss.all, sty.freeBox__nKyi)}>
+                          <div className={classNames(projectcss.all, sty.freeBox__fOpl)} style={{ overflowX: "scroll" }} >
+                            <p.PlasmicImg
+                              alt={""}
+                              className={classNames(sty.img__iyzRx)}
+                              displayHeight={"171px" as const}
+                              displayMaxHeight={"171px" as const}
+                              displayMaxWidth={"171px" as const}
+                              displayMinHeight={"171px" as const}
+                              displayMinWidth={"171px" as const}
+                              displayWidth={"auto" as const}
+                              loading={"lazy" as const}
+                              src={{
+                                src: "/plasmic/mavia_sun/images/LOGO_red.jpeg",
+                                fullWidth: 316,
+                                fullHeight: 376,
+                                aspectRatio: undefined
+                              }}
+                            />
+
+                            <h5 className={classNames(projectcss.all, projectcss.h5, projectcss.__wab_text, sty.h5__gNw8K)} >
+                              {"Engagement"}
+                            </h5>
+
+                            <div before={"" as const} className={classNames(projectcss.all, projectcss.__wab_text, sty.text__i5Cyh)} >
+                              {
+                                <React.Fragment>
+                                  <React.Fragment>{""}</React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"Franklin"}
+                                  </span>
+                                  <React.Fragment>
+                                    {" I'm Franklin ,i've 23 years old, I always had passion for this beatiful world wich on that of computer science. MOBA games olayer since 2012 \n"}
+                                  </React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"Alessandro"}
+                                  </span>
+                                  <React.Fragment>
+                                    {" Hi, my name is Alessandro and I'm a determined and very ambitious guy. I believe in my team and in this project \n"}
+                                  </React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"Giuse"}
+                                  </span>
+                                  <React.Fragment>
+                                    {" I consider myself helpful, loyal and friendly. I chose to approach Heroes of Mavia because a strategy game combined with the world of crypto-currencies has never been seen before \n"}
+                                  </React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"Anastasia"}
+                                  </span>
+                                  <React.Fragment>
+                                    {" I'm a friendly, kind and dynamic person, looking for new experiences and situations full of ideas to grow. \n"}
+                                  </React.Fragment>
+                                </React.Fragment>
+                              }
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className={classNames(projectcss.all, sty.column__wMsG1)} >
+                        <div className={classNames(projectcss.all, sty.freeBox__nKyi)}>
+                          <div className={classNames(projectcss.all, sty.freeBox__fOpl)} style={{ overflowX: "scroll" }} >
+                            <p.PlasmicImg
+                              alt={""}
+                              className={classNames(sty.img__iyzRx)}
+                              displayHeight={"171px" as const}
+                              displayMaxHeight={"171px" as const}
+                              displayMaxWidth={"171px" as const}
+                              displayMinHeight={"171px" as const}
+                              displayMinWidth={"171px" as const}
+                              displayWidth={"auto" as const}
+                              loading={"lazy" as const}
+                              src={{
+                                src: "/plasmic/mavia_sun/images/LOGO_orange.jpeg",
+                                fullWidth: 316,
+                                fullHeight: 376,
+                                aspectRatio: undefined
+                              }}
+                            />
+
+                            <h5 className={classNames(projectcss.all, projectcss.h5, projectcss.__wab_text, sty.h5__gNw8K)} >
+                              {"Social"}
+                            </h5>
+
+                            <div before={"" as const} className={classNames(projectcss.all, projectcss.__wab_text, sty.text__i5Cyh)} >
+                              {
+                                <React.Fragment>
+                                  <React.Fragment>{""}</React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"Luca"}
+                                  </span>
+                                  <React.Fragment>
+                                    {" Hi, I’m Luca, Instagram director. Nowadays, borders form real and virtual life and virtual are increasingly blurred. Change your mind today, tomorrow is too late \n"}
+                                  </React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"M.Xehanort"}
+                                  </span>
+                                  <React.Fragment>
+                                    {" The search for detail is the key and the inspiration that generates curiosity; and that's my task, to let Mavia know more deeply so that you can get to the heart of the game.\n"}
+                                  </React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"Francesco"}
+                                  </span>
+                                  <React.Fragment>
+                                    {" I'm a crypto enthusiast social media manager, copywriter and content creator. Very passionate in creating stuff on social media, communication and marketing. \n"}
+                                  </React.Fragment>
+                                </React.Fragment>
+                              }
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className={classNames(projectcss.all, sty.column__wMsG1)} >
+                        <div className={classNames(projectcss.all, sty.freeBox__nKyi)}>
+                          <div className={classNames(projectcss.all, sty.freeBox__fOpl)} style={{ overflowX: "scroll" }} >
                             <p.PlasmicImg
                               alt={""}
                               className={classNames(sty.img__iyzRx)}
@@ -808,32 +960,12 @@ function PlasmicHomepage__RenderFunc(props: {
                               }}
                             />
 
-                            <h5
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h5,
-                                projectcss.__wab_text,
-                                sty.h5__gNw8K
-                              )}
-                            >
-                              {
-                                "Art"
-                              }
+                            <h5 className={classNames(projectcss.all, projectcss.h5, projectcss.__wab_text, sty.h5__gNw8K)} >
+                              {"Art"}
                             </h5>
 
-                            <div
-                              before={"" as const}
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__i5Cyh
-                              )}
-                            >
-                              {hasVariant(
-                                globalVariants,
-                                "screen",
-                                "mediumSize"
-                              ) ? (
+                            <div before={"" as const} className={classNames(projectcss.all, projectcss.__wab_text, sty.text__i5Cyh)} >
+                              {
                                 <React.Fragment>
                                   <React.Fragment>{""}</React.Fragment>
                                   <span
@@ -842,10 +974,10 @@ function PlasmicHomepage__RenderFunc(props: {
                                     }
                                     style={{ fontWeight: 700 }}
                                   >
-                                    {"@tizio1 "}
+                                    {"Riccardo"}
                                   </span>
                                   <React.Fragment>
-                                    {"il fottuto numero uno\n"}
+                                    {" I am a graphic designer and illustrator. I graduated from the Academy of Fine Arts with honors and I am constantly looking for inspiring projects\n"}
                                   </React.Fragment>
                                   <span
                                     className={
@@ -853,561 +985,21 @@ function PlasmicHomepage__RenderFunc(props: {
                                     }
                                     style={{ fontWeight: 700 }}
                                   >
-                                    {"@tizio2"}
+                                    {"Andrea"}
                                   </span>
                                   <React.Fragment>
-                                    {" questo fa un botto di cose\n"}
-                                  </React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio3"}
-                                  </span>
-                                  <React.Fragment>
-                                    {" che cazzo ne so\n"}
-                                  </React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio4"}
-                                  </span>
-                                  <React.Fragment>
-                                    {
-                                      " ho finito le frasi e mancano ancora 3 sezioni"
-                                    }
+                                    {" Everbody calls me Andre, i started drawing since i was like 14 y/o. I've seen in nft new opportunity to develop my art and my style. \n"}
                                   </React.Fragment>
                                 </React.Fragment>
-                              ) : (
-                                <React.Fragment>
-                                  <React.Fragment>{""}</React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio1 "}
-                                  </span>
-                                  <React.Fragment>
-                                    {"il fottuto numero uno\n"}
-                                  </React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio2"}
-                                  </span>
-                                  <React.Fragment>
-                                    {" questo fa un botto di cose\n"}
-                                  </React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio3"}
-                                  </span>
-                                  <React.Fragment>
-                                    {" che cazzo ne so\n"}
-                                  </React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio4"}
-                                  </span>
-                                  <React.Fragment>
-                                    {
-                                      " ho finito le frasi e mancano ancora 3 sezioni"
-                                    }
-                                  </React.Fragment>
-                                </React.Fragment>
-                              )}
+                              }
                             </div>
                           </div>
                         </div>
                       </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__zTnLi
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__dqk8R
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__vhi9T
-                            )}
-                          >
-                            <p.PlasmicImg
-                              alt={""}
-                              className={classNames(sty.img__jg67X)}
-                              displayHeight={"171px" as const}
-                              displayMaxHeight={"171px" as const}
-                              displayMaxWidth={"171px" as const}
-                              displayMinHeight={"171px" as const}
-                              displayMinWidth={"171px" as const}
-                              displayWidth={"171px" as const}
-                              loading={"lazy" as const}
-                              src={{
-                                src: "/plasmic/mavia_sun/images/LOGO_red.jpeg",
-                                fullWidth: 402,
-                                fullHeight: 380,
-                                aspectRatio: undefined
-                              }}
-                            />
-
-                            <h5
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h5,
-                                projectcss.__wab_text,
-                                sty.h5__zgShT
-                              )}
-                            >
-                              {
-                                "Engagement"
-                              }
-                            </h5>
-
-                            <div
-                              before={"" as const}
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__oA1Ww
-                              )}
-                            >
-                              {hasVariant(
-                                globalVariants,
-                                "screen",
-                                "mediumSize"
-                              ) ? (
-                                <React.Fragment>
-                                  <React.Fragment>{""}</React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio1 "}
-                                  </span>
-                                  <React.Fragment>
-                                    {"il fottuto numero uno\n"}
-                                  </React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio2"}
-                                  </span>
-                                  <React.Fragment>
-                                    {" questo fa un botto di cose\n"}
-                                  </React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio3"}
-                                  </span>
-                                  <React.Fragment>
-                                    {" che cazzo ne so\n"}
-                                  </React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio4"}
-                                  </span>
-                                  <React.Fragment>
-                                    {
-                                      " ho finito le frasi e mancano ancora 3 sezioni"
-                                    }
-                                  </React.Fragment>
-                                </React.Fragment>
-                              ) : (
-                                <React.Fragment>
-                                  <React.Fragment>{""}</React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio1 "}
-                                  </span>
-                                  <React.Fragment>
-                                    {"il fottuto numero uno\n"}
-                                  </React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio2"}
-                                  </span>
-                                  <React.Fragment>
-                                    {" questo fa un botto di cose\n"}
-                                  </React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio3"}
-                                  </span>
-                                  <React.Fragment>
-                                    {" si ricopia facile"}
-                                  </React.Fragment>
-                                </React.Fragment>
-                              )}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__lquca
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox___6ZJzc
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox___8JvxR
-                            )}
-                          >
-                            <p.PlasmicImg
-                              alt={""}
-                              className={classNames(sty.img__vgKrs)}
-                              displayHeight={"171px" as const}
-                              displayMaxHeight={"171px" as const}
-                              displayMaxWidth={"171px" as const}
-                              displayMinHeight={"171px" as const}
-                              displayMinWidth={"171px" as const}
-                              displayWidth={"auto" as const}
-                              loading={"lazy" as const}
-                              src={{
-                                src: "/plasmic/mavia_sun/images/LOGO_orange.jpeg",
-                                fullWidth: 300,
-                                fullHeight: 300,
-                                aspectRatio: undefined
-                              }}
-                            />
-
-                            <h5
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h5,
-                                projectcss.__wab_text,
-                                sty.h5__z6M1M
-                              )}
-                            >
-                              {
-                                "Social"
-                              }
-                            </h5>
-
-                            <div
-                              before={"" as const}
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text___1OGw4
-                              )}
-                            >
-                              {hasVariant(
-                                globalVariants,
-                                "screen",
-                                "mediumSize"
-                              ) ? (
-                                <React.Fragment>
-                                  <React.Fragment>{""}</React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio1 "}
-                                  </span>
-                                  <React.Fragment>
-                                    {"il fottuto numero uno\n"}
-                                  </React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio2"}
-                                  </span>
-                                  <React.Fragment>
-                                    {" questo fa un botto di cose\n"}
-                                  </React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio3"}
-                                  </span>
-                                  <React.Fragment>
-                                    {" che cazzo ne so\n"}
-                                  </React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio4"}
-                                  </span>
-                                  <React.Fragment>
-                                    {
-                                      " ho finito le frasi e mancano ancora 3 sezioni"
-                                    }
-                                  </React.Fragment>
-                                </React.Fragment>
-                              ) : (
-                                <React.Fragment>
-                                  <React.Fragment>{""}</React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio1 "}
-                                  </span>
-                                  <React.Fragment>
-                                    {"ho la creatività di una murena \n"}
-                                  </React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"@tizio2"}
-                                  </span>
-                                  <React.Fragment>
-                                    {
-                                      " sto usando le stesse frasi usate al mio orale di maturità "
-                                    }
-                                  </React.Fragment>
-                                </React.Fragment>
-                              )}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.column__wMsG1
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__nKyi
-                            )}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__fOpl
-                              )}
-                            >
-                              <p.PlasmicImg
-                                alt={""}
-                                className={classNames(sty.img__iyzRx)}
-                                displayHeight={"171px" as const}
-                                displayMaxHeight={"171px" as const}
-                                displayMaxWidth={"171px" as const}
-                                displayMinHeight={"171px" as const}
-                                displayMinWidth={"171px" as const}
-                                displayWidth={"auto" as const}
-                                loading={"lazy" as const}
-                                src={{
-                                  src: "/plasmic/mavia_sun/images/LOGO_yellow.jpeg",
-                                  fullWidth: 316,
-                                  fullHeight: 376,
-                                  aspectRatio: undefined
-                                }}
-                              />
-
-                              <h5
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.h5,
-                                  projectcss.__wab_text,
-                                  sty.h5__gNw8K
-                                )}
-                              >
-                                {
-                                  "Meme"
-                                }
-                              </h5>
-
-                              <div
-                                before={"" as const}
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__i5Cyh
-                                )}
-                              >
-                                {hasVariant(
-                                  globalVariants,
-                                  "screen",
-                                  "mediumSize"
-                                ) ? (
-                                  <React.Fragment>
-                                    <React.Fragment>{""}</React.Fragment>
-                                    <span
-                                      className={
-                                        "plasmic_default__all plasmic_default__span"
-                                      }
-                                      style={{ fontWeight: 700 }}
-                                    >
-                                      {"@tizio1 "}
-                                    </span>
-                                    <React.Fragment>
-                                      {"il fottuto numero uno\n"}
-                                    </React.Fragment>
-                                    <span
-                                      className={
-                                        "plasmic_default__all plasmic_default__span"
-                                      }
-                                      style={{ fontWeight: 700 }}
-                                    >
-                                      {"@tizio2"}
-                                    </span>
-                                    <React.Fragment>
-                                      {" questo fa un botto di cose\n"}
-                                    </React.Fragment>
-                                    <span
-                                      className={
-                                        "plasmic_default__all plasmic_default__span"
-                                      }
-                                      style={{ fontWeight: 700 }}
-                                    >
-                                      {"@tizio3"}
-                                    </span>
-                                    <React.Fragment>
-                                      {" che cazzo ne so\n"}
-                                    </React.Fragment>
-                                    <span
-                                      className={
-                                        "plasmic_default__all plasmic_default__span"
-                                      }
-                                      style={{ fontWeight: 700 }}
-                                    >
-                                      {"@tizio4"}
-                                    </span>
-                                    <React.Fragment>
-                                      {
-                                        " ho finito le frasi e mancano ancora 3 sezioni"
-                                      }
-                                    </React.Fragment>
-                                  </React.Fragment>
-                                ) : (
-                                  <React.Fragment>
-                                    <React.Fragment>{""}</React.Fragment>
-                                    <span
-                                      className={
-                                        "plasmic_default__all plasmic_default__span"
-                                      }
-                                      style={{ fontWeight: 700 }}
-                                    >
-                                      {"@tizio1 "}
-                                    </span>
-                                    <React.Fragment>
-                                      {"il fottuto numero uno\n"}
-                                    </React.Fragment>
-                                    <span
-                                      className={
-                                        "plasmic_default__all plasmic_default__span"
-                                      }
-                                      style={{ fontWeight: 700 }}
-                                    >
-                                      {"@tizio2"}
-                                    </span>
-                                    <React.Fragment>
-                                      {" questo fa un botto di cose\n"}
-                                    </React.Fragment>
-                                    <span
-                                      className={
-                                        "plasmic_default__all plasmic_default__span"
-                                      }
-                                      style={{ fontWeight: 700 }}
-                                    >
-                                      {"@tizio3"}
-                                    </span>
-                                    <React.Fragment>
-                                      {" che cazzo ne so\n"}
-                                    </React.Fragment>
-                                    <span
-                                      className={
-                                        "plasmic_default__all plasmic_default__span"
-                                      }
-                                      style={{ fontWeight: 700 }}
-                                    >
-                                      {"@tizio4"}
-                                    </span>
-                                    <React.Fragment>
-                                      {
-                                        " ho finito le frasi e mancano ancora 3 sezioni"
-                                      }
-                                    </React.Fragment>
-                                  </React.Fragment>
-                                )}
-                              </div>
-                            </div>
-                          </div>
-                        </div>
 
                     </p.Stack>
                   </div>
-                ) : null}
+                }
               </div>
             ) : null}
             {(

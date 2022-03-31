@@ -12,6 +12,7 @@
   text-decoration-line: none;
   margin: 0;
   border-width: 0px;
+  height: calc(100% + 20px);
 }
 :where(.img) {
   display: inline-block;
